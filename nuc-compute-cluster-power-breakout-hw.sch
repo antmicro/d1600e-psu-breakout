@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8400 4800 2000 850 
-U 6220DD9B
+S 7250 3950 3000 1050
+U 62220F27
 F0 "FTDI" 50
-F1 "ftdi_module.sch" 50
+F1 "ftdi-module.sch" 50
 $EndSheet
 $EndSCHEMATC
