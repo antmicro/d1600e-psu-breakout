@@ -7,7 +7,7 @@ Sheet 1 2
 Title "NUC Computer Cluster Power Breakout HW"
 Date "2022-03-03"
 Rev "1.0"
-Comp "Atmicro Ltd."
+Comp "Antmicro Ltd."
 Comment1 ""
 Comment2 ""
 Comment3 ""
