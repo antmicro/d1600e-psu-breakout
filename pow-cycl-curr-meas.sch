@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "Power Cycling & Current Measurement Module"
@@ -16,18 +16,477 @@ $EndDescr
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO?
 U 1 1 622F23F4
-P 10600 6050
-F 0 "#LOGO?" H 10600 6550 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 10600 5650 50  0001 C CNN
-F 2 "" H 10600 6050 50  0001 C CNN
-F 3 "~" H 10600 6050 50  0001 C CNN
-	1    10600 6050
+P 15550 9550
+F 0 "#LOGO?" H 15550 10050 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 15550 9150 50  0001 C CNN
+F 2 "" H 15550 9550 50  0001 C CNN
+F 3 "~" H 15550 9550 50  0001 C CNN
+	1    15550 9550
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	550  4350 11150 4350
-Text Notes 650  4750 0    118  ~ 24
+Text Notes 650  5500 0    118  ~ 24
 Power Cycling
 Text Notes 600  850  0    118  ~ 24
 Current Measurement
+Wire Notes Line
+	650  5250 15900 5250
+Text Notes 2650 6500 0    118  ~ 0
+Switching Blocks
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 62306ABA
+P 4250 9650
+F 0 "R?" V 4205 9720 60  0000 L CNN
+F 1 "R_10k_0402" H 4250 9500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4450 9850 60  0001 L CNN
+F 3 "" H 4250 9650 50  0001 C CNN
+F 4 "VISHAY" H 4450 10050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 4450 9950 60  0001 L CNN "MPN"
+F 6 "10k" V 4303 9720 50  0000 L CNN "Val"
+	1    4250 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62306CB4
+P 4250 9850
+F 0 "#PWR?" H 4250 9600 50  0001 C CNN
+F 1 "GND" H 4255 9677 50  0000 C CNN
+F 2 "" H 4250 9850 50  0001 C CNN
+F 3 "" H 4250 9850 50  0001 C CNN
+	1    4250 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+U 1 1 62306CC0
+P 4650 8700
+F 0 "Q?" V 4800 8500 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 4500 7700 60  0000 L CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 4850 8900 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 4850 9000 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 4850 9200 60  0001 L CNN "MPN"
+F 5 "Vishay" H 4850 9800 60  0001 L CNN "Manufacturer"
+	1    4650 8700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3950 8700 0    50   Input ~ 0
+VCC12V0
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 62306CCE
+P 4350 8900
+F 0 "R?" V 4300 8700 60  0000 L CNN
+F 1 "R_4k7_0402" H 4350 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4550 9100 60  0001 L CNN
+F 3 "" H 4350 8900 50  0001 C CNN
+F 4 "VISHAY" H 4550 9300 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 4550 9200 60  0001 L CNN "MPN"
+F 6 "4k7" V 4400 8650 50  0000 L CNN "Val"
+	1    4350 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62306CD8
+P 4750 9850
+F 0 "#PWR?" H 4750 9600 50  0001 C CNN
+F 1 "GND" H 4755 9677 50  0000 C CNN
+F 2 "" H 4750 9850 50  0001 C CNN
+F 3 "" H 4750 9850 50  0001 C CNN
+	1    4750 9850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 9100 4750 9100
+Connection ~ 4750 9100
+Wire Wire Line
+	4750 9100 4750 9000
+Wire Wire Line
+	4750 9150 4750 9100
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+U 1 1 62306CE6
+P 4750 9350
+F 0 "Q?" H 4858 9403 60  0000 L CNN
+F 1 "SSM3K15ACT" H 4858 9297 60  0000 L CNN
+F 2 "antmicro-footprints:SSM3K15ACT" H 4300 9550 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 3600 9850 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 4750 9350 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 4750 9350 50  0001 C CNN "Manufacturer"
+	1    4750 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 9550 4750 9850
+Wire Wire Line
+	4250 9450 4450 9450
+Connection ~ 4250 9450
+Wire Wire Line
+	3950 8700 4350 8700
+Connection ~ 4350 8700
+Wire Wire Line
+	4350 9050 4350 9100
+Wire Wire Line
+	4350 8750 4350 8700
+Wire Wire Line
+	4350 8700 4450 8700
+Wire Wire Line
+	4250 9500 4250 9450
+Wire Wire Line
+	4250 9850 4250 9800
+Wire Wire Line
+	3950 9450 4250 9450
+Wire Wire Line
+	4850 8700 5150 8700
+Text GLabel 5150 8700 2    50   Input ~ 0
+NUC_4
+Text GLabel 3950 9450 0    50   Input ~ 0
+PC_4
+Text GLabel 5150 6850 2    50   Input ~ 0
+NUC_3
+Text GLabel 2850 8700 2    50   Input ~ 0
+NUC_2
+Text GLabel 3950 7600 0    50   Input ~ 0
+PC_3
+Text GLabel 1650 9450 0    50   Input ~ 0
+PC_2
+Wire Wire Line
+	4850 6850 5150 6850
+Connection ~ 4250 7600
+Wire Wire Line
+	3950 7600 4250 7600
+Wire Wire Line
+	4250 8000 4250 7950
+Wire Wire Line
+	4250 7650 4250 7600
+Wire Wire Line
+	4350 6850 4450 6850
+Connection ~ 4350 6850
+Wire Wire Line
+	4350 6900 4350 6850
+Wire Wire Line
+	4350 7200 4350 7250
+Wire Wire Line
+	3950 6850 4350 6850
+Wire Wire Line
+	4250 7600 4450 7600
+Wire Wire Line
+	4750 7700 4750 8000
+Connection ~ 4750 7250
+Wire Wire Line
+	4750 7300 4750 7250
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+U 1 1 622E95A8
+P 4750 7500
+F 0 "Q?" H 4858 7553 60  0000 L CNN
+F 1 "SSM3K15ACT" H 4858 7447 60  0000 L CNN
+F 2 "antmicro-footprints:SSM3K15ACT" H 4300 7700 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 3600 8000 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 4750 7500 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 4750 7500 50  0001 C CNN "Manufacturer"
+	1    4750 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7250 4750 7150
+Wire Wire Line
+	4350 7250 4750 7250
+$Comp
+L power:GND #PWR?
+U 1 1 622E959A
+P 4750 8000
+F 0 "#PWR?" H 4750 7750 50  0001 C CNN
+F 1 "GND" H 4755 7827 50  0000 C CNN
+F 2 "" H 4750 8000 50  0001 C CNN
+F 3 "" H 4750 8000 50  0001 C CNN
+	1    4750 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 622E9590
+P 4350 7050
+F 0 "R?" V 4300 6850 60  0000 L CNN
+F 1 "R_4k7_0402" H 4350 6900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4550 7250 60  0001 L CNN
+F 3 "" H 4350 7050 50  0001 C CNN
+F 4 "VISHAY" H 4550 7450 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 4550 7350 60  0001 L CNN "MPN"
+F 6 "4k7" V 4400 6800 50  0000 L CNN "Val"
+	1    4350 7050
+	0    1    1    0   
+$EndComp
+Text GLabel 3950 6850 0    50   Input ~ 0
+VCC12V0
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+U 1 1 622E9582
+P 4650 6850
+F 0 "Q?" V 4800 6650 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 4500 5850 60  0000 L CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 4850 7050 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 4850 7150 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 4850 7350 60  0001 L CNN "MPN"
+F 5 "Vishay" H 4850 7950 60  0001 L CNN "Manufacturer"
+	1    4650 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622E9576
+P 4250 8000
+F 0 "#PWR?" H 4250 7750 50  0001 C CNN
+F 1 "GND" H 4255 7827 50  0000 C CNN
+F 2 "" H 4250 8000 50  0001 C CNN
+F 3 "" H 4250 8000 50  0001 C CNN
+	1    4250 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 622E941C
+P 4250 7800
+F 0 "R?" V 4205 7870 60  0000 L CNN
+F 1 "R_10k_0402" H 4250 7650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4450 8000 60  0001 L CNN
+F 3 "" H 4250 7800 50  0001 C CNN
+F 4 "VISHAY" H 4450 8200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 4450 8100 60  0001 L CNN "MPN"
+F 6 "10k" V 4303 7870 50  0000 L CNN "Val"
+	1    4250 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 8700 2850 8700
+Connection ~ 1950 9450
+Wire Wire Line
+	1650 9450 1950 9450
+Wire Wire Line
+	1950 9850 1950 9800
+Wire Wire Line
+	1950 9500 1950 9450
+Wire Wire Line
+	2050 8700 2150 8700
+Connection ~ 2050 8700
+Wire Wire Line
+	2050 8750 2050 8700
+Wire Wire Line
+	2050 9050 2050 9100
+Wire Wire Line
+	1650 8700 2050 8700
+Wire Wire Line
+	1950 9450 2150 9450
+Wire Wire Line
+	2450 9550 2450 9850
+Connection ~ 2450 9100
+Wire Wire Line
+	2450 9150 2450 9100
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+U 1 1 622D4C25
+P 2450 9350
+F 0 "Q?" H 2558 9403 60  0000 L CNN
+F 1 "SSM3K15ACT" H 2558 9297 60  0000 L CNN
+F 2 "antmicro-footprints:SSM3K15ACT" H 2000 9550 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 1300 9850 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 2450 9350 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 2450 9350 50  0001 C CNN "Manufacturer"
+	1    2450 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 9100 2450 9000
+Wire Wire Line
+	2050 9100 2450 9100
+$Comp
+L power:GND #PWR?
+U 1 1 622D4C17
+P 2450 9850
+F 0 "#PWR?" H 2450 9600 50  0001 C CNN
+F 1 "GND" H 2455 9677 50  0000 C CNN
+F 2 "" H 2450 9850 50  0001 C CNN
+F 3 "" H 2450 9850 50  0001 C CNN
+	1    2450 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 622D4C0D
+P 2050 8900
+F 0 "R?" V 2000 8700 60  0000 L CNN
+F 1 "R_4k7_0402" H 2050 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2250 9100 60  0001 L CNN
+F 3 "" H 2050 8900 50  0001 C CNN
+F 4 "VISHAY" H 2250 9300 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 2250 9200 60  0001 L CNN "MPN"
+F 6 "4k7" V 2100 8650 50  0000 L CNN "Val"
+	1    2050 8900
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 8700 0    50   Input ~ 0
+VCC12V0
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+U 1 1 622D4BFF
+P 2350 8700
+F 0 "Q?" V 2500 8500 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 2200 7700 60  0000 L CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 2550 8900 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 2550 9000 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 2550 9200 60  0001 L CNN "MPN"
+F 5 "Vishay" H 2550 9800 60  0001 L CNN "Manufacturer"
+	1    2350 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622D4BF3
+P 1950 9850
+F 0 "#PWR?" H 1950 9600 50  0001 C CNN
+F 1 "GND" H 1955 9677 50  0000 C CNN
+F 2 "" H 1950 9850 50  0001 C CNN
+F 3 "" H 1950 9850 50  0001 C CNN
+	1    1950 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 622D4B39
+P 1950 9650
+F 0 "R?" V 1905 9720 60  0000 L CNN
+F 1 "R_10k_0402" H 1950 9500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2150 9850 60  0001 L CNN
+F 3 "" H 1950 9650 50  0001 C CNN
+F 4 "VISHAY" H 2150 10050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2150 9950 60  0001 L CNN "MPN"
+F 6 "10k" V 2003 9720 50  0000 L CNN "Val"
+	1    1950 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6850 2850 6850
+Text GLabel 2850 6850 2    50   Input ~ 0
+NUC_1
+Connection ~ 1950 7600
+Wire Wire Line
+	1650 7600 1950 7600
+Wire Wire Line
+	1950 8000 1950 7950
+Wire Wire Line
+	1950 7650 1950 7600
+Text GLabel 1650 7600 0    50   Input ~ 0
+PC_1
+Wire Wire Line
+	2050 6850 2150 6850
+Connection ~ 2050 6850
+Wire Wire Line
+	2050 6900 2050 6850
+Wire Wire Line
+	2050 7200 2050 7250
+Wire Wire Line
+	1650 6850 2050 6850
+Wire Wire Line
+	1950 7600 2150 7600
+Wire Wire Line
+	2450 7700 2450 8000
+Connection ~ 2450 7250
+Wire Wire Line
+	2450 7300 2450 7250
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+U 1 1 622965C1
+P 2450 7500
+F 0 "Q?" H 2558 7553 60  0000 L CNN
+F 1 "SSM3K15ACT" H 2558 7447 60  0000 L CNN
+F 2 "antmicro-footprints:SSM3K15ACT" H 2000 7700 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 1300 8000 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 2450 7500 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 2450 7500 50  0001 C CNN "Manufacturer"
+	1    2450 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 7250 2450 7150
+Wire Wire Line
+	2050 7250 2450 7250
+$Comp
+L power:GND #PWR?
+U 1 1 622A6837
+P 2450 8000
+F 0 "#PWR?" H 2450 7750 50  0001 C CNN
+F 1 "GND" H 2455 7827 50  0000 C CNN
+F 2 "" H 2450 8000 50  0001 C CNN
+F 3 "" H 2450 8000 50  0001 C CNN
+	1    2450 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 6228D8DD
+P 2050 7050
+F 0 "R?" V 2000 6850 60  0000 L CNN
+F 1 "R_4k7_0402" H 2050 6900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2250 7250 60  0001 L CNN
+F 3 "" H 2050 7050 50  0001 C CNN
+F 4 "VISHAY" H 2250 7450 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 2250 7350 60  0001 L CNN "MPN"
+F 6 "4k7" V 2100 6800 50  0000 L CNN "Val"
+	1    2050 7050
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 6850 0    50   Input ~ 0
+VCC12V0
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+U 1 1 6227AD63
+P 2350 6850
+F 0 "Q?" V 2500 6650 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 2200 5850 60  0000 L CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 2550 7050 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 2550 7150 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 2550 7350 60  0001 L CNN "MPN"
+F 5 "Vishay" H 2550 7950 60  0001 L CNN "Manufacturer"
+	1    2350 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622796FA
+P 1950 8000
+F 0 "#PWR?" H 1950 7750 50  0001 C CNN
+F 1 "GND" H 1955 7827 50  0000 C CNN
+F 2 "" H 1950 8000 50  0001 C CNN
+F 3 "" H 1950 8000 50  0001 C CNN
+	1    1950 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 62271480
+P 1950 7800
+F 0 "R?" V 1905 7870 60  0000 L CNN
+F 1 "R_10k_0402" H 1950 7650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2150 8000 60  0001 L CNN
+F 3 "" H 1950 7800 50  0001 C CNN
+F 4 "VISHAY" H 2150 8200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2150 8100 60  0001 L CNN "MPN"
+F 6 "10k" V 2003 7870 50  0000 L CNN "Val"
+	1    1950 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroInterfaceIOExpanders:TCA9537 U?
+U 1 1 62488616
+P 9300 8100
+F 0 "U?" H 9275 8684 118 0000 C CNN
+F 1 "TCA9537" H 9275 8491 118 0000 C CNN
+F 2 "antmicro-footprints:VSSOP(10)" H 9250 8100 118 0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tca9537.pdf?ts=1646657095321&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCA9537" H 9250 8100 118 0001 C CNN
+F 4 "TCA9537DGSR" H 9300 8100 118 0001 C CNN "MPN"
+F 5 "Texas Instruments" H 9300 8100 118 0001 C CNN "Manufacturer"
+	1    9300 8100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "NUC power breakout board - FTDI"
 Date "2022-03-04"
-Rev "1.1"
+Rev "1.2"
 Comp "Antmicro Ltd."
 Comment1 ""
 Comment2 ""
@@ -684,7 +684,7 @@ Wire Wire Line
 	5350 3750 5700 3750
 Text Notes 3750 7900 0    118  ~ 0
 Power Filtering\n
-Text Label 11050 2650 0    59   ~ 0
+Text Label 11000 2650 0    59   ~ 0
 USB_D+
 Wire Wire Line
 	2900 3650 3350 3650
@@ -824,7 +824,7 @@ Wire Wire Line
 	11250 1700 11250 2450
 Wire Wire Line
 	10750 2200 10750 2350
-Text Label 11050 2550 0    59   ~ 0
+Text Label 11000 2550 0    59   ~ 0
 USB_D-
 $Comp
 L power:GND #PWR026
@@ -859,10 +859,6 @@ F 3 "" H 13650 3400 50  0001 C CNN
 	1    13650 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11050 2550 11500 2550
-Wire Wire Line
-	11050 2650 11400 2650
 Wire Wire Line
 	12200 3400 12200 2850
 Wire Wire Line
@@ -1293,4 +1289,8 @@ F 6 "100n" H 5700 8300 50  0000 L CNN "Val"
 	1    5900 8400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11000 2550 11500 2550
+Wire Wire Line
+	11000 2650 11400 2650
 $EndSCHEMATC
