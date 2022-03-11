@@ -782,7 +782,7 @@ $EndComp
 Text GLabel 13250 1650 0    59   Input ~ 0
 VBUS
 Text GLabel 14050 1650 2    59   Input ~ 0
-VCC5V0
+VCC5V0_USB
 Wire Wire Line
 	14050 1650 13800 1650
 Wire Wire Line
@@ -1009,8 +1009,6 @@ Wire Wire Line
 	12250 5400 11700 5400
 Wire Wire Line
 	11700 5400 11700 5500
-Text GLabel 15000 7500 1    59   Input ~ 0
-VCC5V0
 Text GLabel 7500 3300 1    50   Input ~ 0
 VCC3V3
 Text GLabel 13550 5100 1    50   Input ~ 0
@@ -1115,7 +1113,7 @@ Wire Wire Line
 	12750 7500 12750 7550
 Wire Wire Line
 	12750 7850 12750 7950
-Text Notes 14750 7000 0    118  ~ 0
+Text Notes 14750 6750 0    118  ~ 0
 Probes
 Text GLabel 14800 7500 1    50   Input ~ 0
 VCC3V3
@@ -1293,4 +1291,15 @@ Wire Wire Line
 	11000 2550 11500 2550
 Wire Wire Line
 	11000 2650 11400 2650
+Text GLabel 11700 5100 1    59   Input ~ 0
+VCC5V0_USB
+Text GLabel 5500 2300 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5500 2950 5500 2300
+Connection ~ 5500 2950
+Text Label 2900 3650 0    59   ~ 0
+USB_D+
+Text GLabel 15000 7500 1    59   Input ~ 0
+VCC5V0_USB
 $EndSCHEMATC
