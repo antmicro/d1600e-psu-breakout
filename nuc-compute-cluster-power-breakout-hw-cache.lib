@@ -344,6 +344,28 @@ X VOUT 5 400 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN J 0 40 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN" 0 -150 50 H V C CNN
+F2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" 0 -250 50 H I C CNN
+F3 "" -450 -300 50 H I C CNN
+F4 "BM04B-SRSS-TB(LF)(SN) " -100 -350 50 H I L CNN "MPN"
+F5 "JST" -100 -450 50 H I L CNN "Manufacturer"
+DRAW
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 300 50 -100 1 1 10 f
+X Pin_1 1 -200 250 150 R 50 50 1 1 P
+X Pin_2 2 -200 150 150 R 50 50 1 1 P
+X Pin_3 3 -200 50 150 R 50 50 1 1 P
+X Pin_4 4 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_0R_0402
 #
 DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N

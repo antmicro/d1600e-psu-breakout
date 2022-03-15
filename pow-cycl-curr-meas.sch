@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Power Cycling & Current Measurement Module"
 Date "2022-03-07"
 Rev "1.0"
@@ -4210,4 +4210,6 @@ Text Notes 4350 1200 0    118  ~ 0
 HALL SENSORS
 Text Notes 11150 1050 0    118  ~ 0
 ADC
+Text Notes 3350 4950 0    59   ~ 0
+To perform more accurate measurement, the sensor can be replaced\nwith *A3 part (MPN: TMCS1100A3-Q1). Note that it will result in\n measured currents range reduction (to up to 15.5A unidirect.).
 $EndSCHEMATC
