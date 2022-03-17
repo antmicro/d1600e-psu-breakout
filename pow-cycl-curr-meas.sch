@@ -186,13 +186,15 @@ F 3 "" H 6550 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:TCA9534 U?
+L antmicroInterfaceIOExpanders:TCA9534 U?
 U 1 1 622B2CB2
 P 3300 7300
 F 0 "U?" H 3000 7950 50  0000 C CNN
 F 1 "TCA9534" H 3000 7850 50  0000 C CNN
 F 2 "" H 4250 6750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9534.pdf" H 3400 7200 50  0001 C CNN
+F 4 "TCA9534ADWR" H 3300 7300 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 3300 7300 50  0001 C CNN "Manufaacturer"
 	1    3300 7300
 	1    0    0    -1  
 $EndComp
@@ -2837,13 +2839,15 @@ SDA
 Text GLabel 11350 2250 2    50   Input ~ 0
 SCL
 $Comp
-L Analog_ADC:ADS7828 U?
+L antmicroDataAcquisitionAnalogtoDigitalConvertersADC:ADS7828 U?
 U 1 1 6252165A
 P 10800 2550
 F 0 "U?" H 10500 3300 50  0000 C CNN
 F 1 "ADS7828" H 10500 3200 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 11750 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads7828.pdf" H 10800 2550 50  0001 C CNN
+F 4 "ADS7828E/250 " H 10800 2550 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 10800 2550 50  0001 C CNN "Manufacturer"
 	1    10800 2550
 	1    0    0    -1  
 $EndComp
@@ -3158,10 +3162,6 @@ Wire Wire Line
 	14100 2950 14100 2800
 Wire Wire Line
 	14900 2950 14900 2800
-Wire Wire Line
-	14100 2500 14100 2350
-Wire Wire Line
-	14900 2500 14900 2350
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 626BE7DD
@@ -3216,9 +3216,9 @@ Wire Wire Line
 	5200 8050 5650 8050
 Wire Wire Line
 	5650 8050 5650 8200
-Text Notes 14800 2100 0    79   ~ 0
+Text Notes 14800 1650 0    79   ~ 0
 REF
-Text Notes 13900 2100 0    79   ~ 0
+Text Notes 13950 1650 0    79   ~ 0
 Supply\n
 $Comp
 L antmicroResistors0402:R_10k_0402 R?
@@ -4210,6 +4210,14 @@ Text Notes 4350 1200 0    118  ~ 0
 HALL SENSORS
 Text Notes 11150 1050 0    118  ~ 0
 ADC
-Text Notes 3350 4950 0    59   ~ 0
+Text Notes 2050 4900 0    59   ~ 0
 To perform more accurate measurement, the sensor can be replaced\nwith *A3 part (MPN: TMCS1100A3-Q1). Note that it will result in\n measured currents range reduction (to up to 15.5A unidirect.).
+Text GLabel 14100 2200 1    50   Input ~ 0
+VCC3V3
+Text GLabel 14900 2200 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	14100 2200 14100 2500
+Wire Wire Line
+	14900 2200 14900 2500
 $EndSCHEMATC
