@@ -26,12 +26,12 @@ F0 "Power Cycling & Current Measurement" 50
 F1 "pow-cycl-curr-meas.sch" 50
 $EndSheet
 $Comp
-L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J?
+L antmicroRectangularConnectorsHeadersMalePins:BM04B-SRSS-TB-LF-SN J?
 U 1 1 6231F410
 P 2150 2150
 F 0 "J?" H 2100 2500 50  0000 L CNN
 F 1 "BM04B-SRSS-TB-LF-SN" H 2000 2000 50  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 2150 1900 50  0001 C CNN
+F 2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" H 2150 1900 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1700 1850 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 2050 1800 50  0001 L CNN "MPN"
 F 5 "JST" H 2050 1700 50  0001 L CNN "Manufacturer"
@@ -39,12 +39,12 @@ F 5 "JST" H 2050 1700 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J?
+L antmicroRectangularConnectorsHeadersMalePins:BM04B-SRSS-TB-LF-SN J?
 U 1 1 6231FA57
 P 3900 2150
 F 0 "J?" H 3850 2500 50  0000 L CNN
 F 1 "BM04B-SRSS-TB-LF-SN" H 3750 2000 50  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 3900 1900 50  0001 C CNN
+F 2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" H 3900 1900 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3450 1850 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 3800 1800 50  0001 L CNN "MPN"
 F 5 "JST" H 3800 1700 50  0001 L CNN "Manufacturer"
@@ -52,7 +52,7 @@ F 5 "JST" H 3800 1700 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR?
+L power:GND #PWR?
 U 1 1 6232221D
 P 1800 2300
 F 0 "#PWR?" H 1800 2050 50  0001 C CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2200 1950 2200
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR?
+L power:GND #PWR?
 U 1 1 62322D69
 P 3550 2300
 F 0 "#PWR?" H 3550 2050 50  0001 C CNN
@@ -96,12 +96,12 @@ Wire Wire Line
 Text GLabel 3550 1300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L nuc-compute-cluster-power-breakout:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R?
 U 1 1 62328EB6
 P 1800 1600
 F 0 "R?" V 1755 1670 60  0000 L CNN
 F 1 "R_0R_0402" H 1800 1450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 2000 1800 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 2000 1800 60  0001 L CNN
 F 3 "" H 1800 1600 50  0001 C CNN
 F 4 "PANASONIC" H 2000 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2000 1900 60  0001 L CNN "MPN"
@@ -110,12 +110,12 @@ F 6 "0R" V 1853 1670 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L nuc-compute-cluster-power-breakout:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R?
 U 1 1 62329827
 P 3550 1600
 F 0 "R?" V 3505 1670 60  0000 L CNN
 F 1 "R_0R_0402" H 3550 1450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3750 1800 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 3750 1800 60  0001 L CNN
 F 3 "" H 3550 1600 50  0001 C CNN
 F 4 "PANASONIC" H 3750 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3750 1900 60  0001 L CNN "MPN"
@@ -4024,4 +4024,294 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 U??
+U 1 1 62389198
+P 2100 3300
+F 0 "U??" H 2125 3565 50  0000 C CNN
+F 1 "430450812" H 2125 3474 50  0000 C CNN
+F 2 "" H 1950 3300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 3300 50  0001 C CNN
+F 4 "430450812" H 2100 3300 50  0001 C CNN "MPN"
+F 5 "Molex" H 2100 3300 50  0001 C CNN "Manufacturer"
+	1    2100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 U?
+U 1 1 623895A5
+P 3650 3300
+F 0 "U?" H 3675 3565 50  0000 C CNN
+F 1 "430450812" H 3675 3474 50  0000 C CNN
+F 2 "" H 3500 3300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 3300 50  0001 C CNN
+F 4 "430450812" H 3650 3300 50  0001 C CNN "MPN"
+F 5 "Molex" H 3650 3300 50  0001 C CNN "Manufacturer"
+	1    3650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 U?
+U 1 1 6238989A
+P 2100 4250
+F 0 "U?" H 2125 4515 50  0000 C CNN
+F 1 "430450812" H 2125 4424 50  0000 C CNN
+F 2 "" H 1950 4250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 4250 50  0001 C CNN
+F 4 "430450812" H 2100 4250 50  0001 C CNN "MPN"
+F 5 "Molex" H 2100 4250 50  0001 C CNN "Manufacturer"
+	1    2100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 U?
+U 1 1 62389AA4
+P 3650 4250
+F 0 "U?" H 3675 4515 50  0000 C CNN
+F 1 "430450812" H 3675 4424 50  0000 C CNN
+F 2 "" H 3500 4250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 4250 50  0001 C CNN
+F 4 "430450812" H 3650 4250 50  0001 C CNN "MPN"
+F 5 "Molex" H 3650 4250 50  0001 C CNN "Manufacturer"
+	1    3650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 U?
+U 1 1 62389CDB
+P 2850 5400
+F 0 "U?" H 2875 5665 50  0000 C CNN
+F 1 "430450812" H 2875 5574 50  0000 C CNN
+F 2 "" H 2700 5400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 2700 5400 50  0001 C CNN
+F 4 "430450812" H 2850 5400 50  0001 C CNN "MPN"
+F 5 "Molex" H 2850 5400 50  0001 C CNN "Manufacturer"
+	1    2850 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 3450 0    50   Input ~ 0
+LOAD_1
+Wire Wire Line
+	1850 3600 1750 3600
+Wire Wire Line
+	1750 3600 1750 3500
+Wire Wire Line
+	1750 3300 1850 3300
+Wire Wire Line
+	1850 3400 1750 3400
+Connection ~ 1750 3400
+Wire Wire Line
+	1750 3400 1750 3300
+Wire Wire Line
+	1750 3500 1850 3500
+Connection ~ 1750 3500
+Wire Wire Line
+	1750 3500 1750 3450
+Wire Wire Line
+	1750 3450 1550 3450
+Connection ~ 1750 3450
+Wire Wire Line
+	1750 3450 1750 3400
+$Comp
+L power:GND #PWR?
+U 1 1 62392E27
+P 2400 3750
+F 0 "#PWR?" H 2400 3500 50  0001 C CNN
+F 1 "GND" H 2405 3577 50  0000 C CNN
+F 2 "" H 2400 3750 50  0001 C CNN
+F 3 "" H 2400 3750 50  0001 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3750 2400 3600
+Connection ~ 2400 3400
+Wire Wire Line
+	2400 3400 2400 3300
+Connection ~ 2400 3500
+Wire Wire Line
+	2400 3500 2400 3400
+Connection ~ 2400 3600
+Wire Wire Line
+	2400 3600 2400 3500
+$Comp
+L power:GND #PWR?
+U 1 1 62394589
+P 2400 4800
+F 0 "#PWR?" H 2400 4550 50  0001 C CNN
+F 1 "GND" H 2405 4627 50  0000 C CNN
+F 2 "" H 2400 4800 50  0001 C CNN
+F 3 "" H 2400 4800 50  0001 C CNN
+	1    2400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4800 2400 4550
+Connection ~ 2400 4350
+Wire Wire Line
+	2400 4350 2400 4250
+Connection ~ 2400 4450
+Wire Wire Line
+	2400 4450 2400 4350
+Connection ~ 2400 4550
+Wire Wire Line
+	2400 4550 2400 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6239614B
+P 3950 4800
+F 0 "#PWR?" H 3950 4550 50  0001 C CNN
+F 1 "GND" H 3955 4627 50  0000 C CNN
+F 2 "" H 3950 4800 50  0001 C CNN
+F 3 "" H 3950 4800 50  0001 C CNN
+	1    3950 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4800 3950 4550
+Connection ~ 3950 4350
+Wire Wire Line
+	3950 4350 3950 4250
+Connection ~ 3950 4450
+Wire Wire Line
+	3950 4450 3950 4350
+Connection ~ 3950 4550
+Wire Wire Line
+	3950 4550 3950 4450
+$Comp
+L power:GND #PWR?
+U 1 1 62398F4B
+P 3150 6000
+F 0 "#PWR?" H 3150 5750 50  0001 C CNN
+F 1 "GND" H 3155 5827 50  0000 C CNN
+F 2 "" H 3150 6000 50  0001 C CNN
+F 3 "" H 3150 6000 50  0001 C CNN
+	1    3150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6000 3150 5700
+Connection ~ 3150 5500
+Wire Wire Line
+	3150 5500 3150 5400
+Connection ~ 3150 5600
+Wire Wire Line
+	3150 5600 3150 5500
+Connection ~ 3150 5700
+Wire Wire Line
+	3150 5700 3150 5600
+$Comp
+L power:GND #PWR?
+U 1 1 62399AC9
+P 3950 3750
+F 0 "#PWR?" H 3950 3500 50  0001 C CNN
+F 1 "GND" H 3955 3577 50  0000 C CNN
+F 2 "" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3750 3950 3600
+Connection ~ 3950 3400
+Wire Wire Line
+	3950 3400 3950 3300
+Connection ~ 3950 3500
+Wire Wire Line
+	3950 3500 3950 3400
+Connection ~ 3950 3600
+Wire Wire Line
+	3950 3600 3950 3500
+Text GLabel 1550 4400 0    50   Input ~ 0
+LOAD_3
+Text GLabel 3150 3450 0    50   Input ~ 0
+LOAD_2
+Text GLabel 3200 4400 0    50   Input ~ 0
+LOAD_4
+Text GLabel 2300 5550 0    50   Input ~ 0
+LOAD_5
+Wire Wire Line
+	1850 4550 1750 4550
+Wire Wire Line
+	1750 4550 1750 4450
+Wire Wire Line
+	1750 4250 1850 4250
+Wire Wire Line
+	1850 4350 1750 4350
+Connection ~ 1750 4350
+Wire Wire Line
+	1750 4350 1750 4250
+Wire Wire Line
+	1850 4450 1750 4450
+Connection ~ 1750 4450
+Wire Wire Line
+	1750 4450 1750 4400
+Wire Wire Line
+	1750 4400 1550 4400
+Connection ~ 1750 4400
+Wire Wire Line
+	1750 4400 1750 4350
+Wire Wire Line
+	3400 3600 3300 3600
+Wire Wire Line
+	3300 3600 3300 3500
+Wire Wire Line
+	3300 3300 3400 3300
+Wire Wire Line
+	3400 3400 3300 3400
+Connection ~ 3300 3400
+Wire Wire Line
+	3300 3400 3300 3300
+Wire Wire Line
+	3400 3500 3300 3500
+Connection ~ 3300 3500
+Wire Wire Line
+	3300 3500 3300 3450
+Wire Wire Line
+	3300 3450 3150 3450
+Connection ~ 3300 3450
+Wire Wire Line
+	3300 3450 3300 3400
+Wire Wire Line
+	2450 5400 2450 5500
+Wire Wire Line
+	2450 5700 2600 5700
+Wire Wire Line
+	2450 5400 2600 5400
+Wire Wire Line
+	2450 5600 2600 5600
+Connection ~ 2450 5600
+Wire Wire Line
+	2450 5600 2450 5700
+Wire Wire Line
+	2600 5500 2450 5500
+Connection ~ 2450 5500
+Wire Wire Line
+	2450 5500 2450 5550
+Wire Wire Line
+	2450 5550 2300 5550
+Connection ~ 2450 5550
+Wire Wire Line
+	2450 5550 2450 5600
+Wire Wire Line
+	3400 4250 3300 4250
+Wire Wire Line
+	3300 4250 3300 4350
+Wire Wire Line
+	3300 4550 3400 4550
+Wire Wire Line
+	3400 4450 3300 4450
+Connection ~ 3300 4450
+Wire Wire Line
+	3300 4450 3300 4550
+Wire Wire Line
+	3400 4350 3300 4350
+Connection ~ 3300 4350
+Wire Wire Line
+	3300 4350 3300 4400
+Wire Wire Line
+	3300 4400 3200 4400
+Connection ~ 3300 4400
+Wire Wire Line
+	3300 4400 3300 4450
 $EndSCHEMATC
