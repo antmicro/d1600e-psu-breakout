@@ -1218,28 +1218,6 @@ VCC3V3
 Text GLabel 9900 5000 0    59   Input ~ 0
 VCC12V0
 $Comp
-L Diode:PMEG3005EH D?
-U 1 1 6245583F
-P 10250 5000
-F 0 "D?" H 10250 5100 50  0000 C CNN
-F 1 "PMEG3005EH" H 10200 4900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 10250 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05EH_EJ_SER.pdf" H 10250 5000 50  0001 C CNN
-	1    10250 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:PMEG3005EH D?
-U 1 1 624568EB
-P 10250 5300
-F 0 "D?" H 10250 5200 50  0000 C CNN
-F 1 "PMEG3005EH" H 10200 5400 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 10250 5125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05EH_EJ_SER.pdf" H 10250 5300 50  0001 C CNN
-	1    10250 5300
-	-1   0    0    1   
-$EndComp
-$Comp
 L antmicroDCDCConverters:AP62301WU-7 U?
 U 1 1 62384E64
 P 12050 5350

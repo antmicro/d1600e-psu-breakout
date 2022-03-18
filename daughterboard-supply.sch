@@ -18,19 +18,6 @@ VCC5V0
 Text GLabel 1650 1550 0    59   Input ~ 0
 VCC12V0
 $Comp
-L Diode:PMEG3005EH D?
-U 1 1 6251677E
-P 2000 1550
-AR Path="/62220F27/6251677E" Ref="D?"  Part="1" 
-AR Path="/623923F9/6251677E" Ref="D?"  Part="1" 
-F 0 "D?" H 2000 1450 50  0000 C CNN
-F 1 "PMEG3005EH" H 2000 1650 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 2000 1375 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05EH_EJ_SER.pdf" H 2000 1550 50  0001 C CNN
-	1    2000 1550
-	-1   0    0    1   
-$EndComp
-$Comp
 L antmicroDCDCConverters:AP62301WU-7 U?
 U 1 1 6251678C
 P 3300 1750
@@ -221,12 +208,8 @@ Wire Wire Line
 	5150 2400 5150 2100
 Connection ~ 2350 1550
 Wire Wire Line
-	1650 1550 1850 1550
-Wire Wire Line
 	5900 1550 5500 1550
 Connection ~ 5500 1550
-Wire Wire Line
-	2150 1550 2350 1550
 $Comp
 L antmicroCapacitors0603:C_10u_16V_0603 C?
 U 1 1 6252106D
@@ -4155,4 +4138,6 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	1650 1550 2350 1550
 $EndSCHEMATC
