@@ -26,12 +26,12 @@ F0 "Power Cycling & Current Measurement" 50
 F1 "pow-cycl-curr-meas.sch" 50
 $EndSheet
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:BM04B-SRSS-TB-LF-SN J?
+L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J?
 U 1 1 6231F410
 P 2150 2150
 F 0 "J?" H 2100 2500 50  0000 L CNN
 F 1 "BM04B-SRSS-TB-LF-SN" H 2000 2000 50  0000 L CNN
-F 2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" H 2150 1900 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 2150 1900 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1700 1850 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 2050 1800 50  0001 L CNN "MPN"
 F 5 "JST" H 2050 1700 50  0001 L CNN "Manufacturer"
@@ -39,12 +39,12 @@ F 5 "JST" H 2050 1700 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:BM04B-SRSS-TB-LF-SN J?
+L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J?
 U 1 1 6231FA57
 P 3900 2150
 F 0 "J?" H 3850 2500 50  0000 L CNN
 F 1 "BM04B-SRSS-TB-LF-SN" H 3750 2000 50  0000 L CNN
-F 2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" H 3900 1900 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 3900 1900 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3450 1850 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 3800 1800 50  0001 L CNN "MPN"
 F 5 "JST" H 3800 1700 50  0001 L CNN "Manufacturer"
@@ -52,7 +52,7 @@ F 5 "JST" H 3800 1700 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6232221D
 P 1800 2300
 F 0 "#PWR?" H 1800 2050 50  0001 C CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2200 1950 2200
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62322D69
 P 3550 2300
 F 0 "#PWR?" H 3550 2050 50  0001 C CNN
@@ -96,12 +96,12 @@ Wire Wire Line
 Text GLabel 3550 1300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 62328EB6
 P 1800 1600
 F 0 "R?" V 1755 1670 60  0000 L CNN
 F 1 "R_0R_0402" H 1800 1450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2000 1800 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 2000 1800 60  0001 L CNN
 F 3 "" H 1800 1600 50  0001 C CNN
 F 4 "PANASONIC" H 2000 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2000 1900 60  0001 L CNN "MPN"
@@ -110,12 +110,12 @@ F 6 "0R" V 1853 1670 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 62329827
 P 3550 1600
 F 0 "R?" V 3505 1670 60  0000 L CNN
 F 1 "R_0R_0402" H 3550 1450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3750 1800 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3750 1800 60  0001 L CNN
 F 3 "" H 3550 1600 50  0001 C CNN
 F 4 "PANASONIC" H 3750 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3750 1900 60  0001 L CNN "MPN"

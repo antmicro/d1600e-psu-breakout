@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
+L nuc-compute-cluster-power-breakout:Logo_Open_Hardware_Large #LOGO?
 U 1 1 622F23F4
 P 15550 9550
 F 0 "#LOGO?" H 15550 10050 50  0001 C CNN
@@ -33,12 +33,12 @@ Wire Notes Line
 Text Notes 7250 5600 0    118  ~ 0
 SWITCHING BLOCKS
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q?
 U 1 1 62306CC0
 P 9900 7850
 F 0 "Q?" V 10050 7650 60  0000 L CNN
 F 1 "SQS401EN-T1_BE3" V 9750 6850 60  0000 L CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 10100 8050 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 10100 8050 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 10100 8150 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 10100 8350 60  0001 L CNN "MPN"
 F 5 "Vishay" H 10100 8950 60  0001 L CNN "Manufacturer"
@@ -48,12 +48,12 @@ $EndComp
 Text GLabel 9200 7850 0    50   Input ~ 0
 VCC12V0
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 62306CCE
 P 9600 8050
 F 0 "R?" V 9550 7850 60  0000 L CNN
 F 1 "R_4k7_0402" H 9600 7900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9800 8250 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9800 8250 60  0001 L CNN
 F 3 "" H 9600 8050 50  0001 C CNN
 F 4 "VISHAY" H 9800 8450 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 9800 8350 60  0001 L CNN "MPN"
@@ -62,7 +62,7 @@ F 6 "4k7" V 9650 7800 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62306CD8
 P 10000 9100
 F 0 "#PWR?" H 10000 8850 50  0001 C CNN
@@ -80,12 +80,12 @@ Wire Wire Line
 Wire Wire Line
 	10000 8300 10000 8250
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+L nuc-compute-cluster-power-breakout:SSM3K15ACT Q?
 U 1 1 62306CE6
 P 10000 8500
 F 0 "Q?" H 10108 8553 60  0000 L CNN
 F 1 "SSM3K15ACT" H 10108 8447 60  0000 L CNN
-F 2 "antmicro-footprints:SSM3K15ACT" H 9550 8700 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9550 8700 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8850 9000 60  0001 C CNN
 F 4 "SSM3K15ACT,L3F " H 10000 8500 50  0001 C CNN "MPN"
 F 5 "Toshiba" H 10000 8500 50  0001 C CNN "Manufacturer"
@@ -118,12 +118,12 @@ Connection ~ 10100 6250
 Wire Wire Line
 	10100 6300 10100 6250
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+L nuc-compute-cluster-power-breakout:SSM3K15ACT Q?
 U 1 1 622E95A8
 P 10100 6500
 F 0 "Q?" H 10208 6553 60  0000 L CNN
 F 1 "SSM3K15ACT" H 10208 6447 60  0000 L CNN
-F 2 "antmicro-footprints:SSM3K15ACT" H 9650 6700 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9650 6700 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8950 7000 60  0001 C CNN
 F 4 "SSM3K15ACT,L3F " H 10100 6500 50  0001 C CNN "MPN"
 F 5 "Toshiba" H 10100 6500 50  0001 C CNN "Manufacturer"
@@ -135,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 6250 10100 6250
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 622E959A
 P 10100 7050
 F 0 "#PWR?" H 10100 6800 50  0001 C CNN
@@ -146,12 +146,12 @@ F 3 "" H 10100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 622E9590
 P 9700 6050
 F 0 "R?" V 9650 5850 60  0000 L CNN
 F 1 "R_4k7_0402" H 9700 5900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9900 6250 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9900 6250 60  0001 L CNN
 F 3 "" H 9700 6050 50  0001 C CNN
 F 4 "VISHAY" H 9900 6450 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 9900 6350 60  0001 L CNN "MPN"
@@ -162,12 +162,12 @@ $EndComp
 Text GLabel 9300 5850 0    50   Input ~ 0
 VCC12V0
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q?
 U 1 1 622E9582
 P 10000 5850
 F 0 "Q?" V 10150 5650 60  0000 L CNN
 F 1 "SQS401EN-T1_BE3" V 9850 4850 60  0000 L CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 10200 6050 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 10200 6050 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 10200 6150 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 10200 6350 60  0001 L CNN "MPN"
 F 5 "Vishay" H 10200 6950 60  0001 L CNN "Manufacturer"
@@ -175,7 +175,7 @@ F 5 "Vishay" H 10200 6950 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 622D4C17
 P 6550 9100
 F 0 "#PWR?" H 6550 8850 50  0001 C CNN
@@ -186,7 +186,7 @@ F 3 "" H 6550 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroInterfaceIOExpanders:TCA9534 U?
+L nuc-compute-cluster-power-breakout:TCA9534 U?
 U 1 1 622B2CB2
 P 3300 7300
 F 0 "U?" H 3000 7950 50  0000 C CNN
@@ -201,12 +201,12 @@ $EndComp
 Text GLabel 7500 9650 0    50   Input ~ 0
 VCC12V0
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 622C8CBE
 P 7900 9850
 F 0 "R?" V 7850 9650 60  0000 L CNN
 F 1 "R_4k7_0402" H 7900 9700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8100 10050 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 8100 10050 60  0001 L CNN
 F 3 "" H 7900 9850 50  0001 C CNN
 F 4 "VISHAY" H 8100 10250 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 8100 10150 60  0001 L CNN "MPN"
@@ -215,7 +215,7 @@ F 6 "4k7" V 7950 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 622C8CC8
 P 8300 10850
 F 0 "#PWR?" H 8300 10600 50  0001 C CNN
@@ -233,12 +233,12 @@ Wire Wire Line
 Wire Wire Line
 	8300 10100 8300 10050
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+L nuc-compute-cluster-power-breakout:SSM3K15ACT Q?
 U 1 1 622C8CD8
 P 8300 10300
 F 0 "Q?" H 8408 10353 60  0000 L CNN
 F 1 "SSM3K15ACT" H 8408 10247 60  0000 L CNN
-F 2 "antmicro-footprints:SSM3K15ACT" H 7850 10500 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 7850 10500 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 7150 10800 60  0001 C CNN
 F 4 "SSM3K15ACT,L3F " H 8300 10300 50  0001 C CNN "MPN"
 F 5 "Toshiba" H 8300 10300 50  0001 C CNN "Manufacturer"
@@ -257,12 +257,12 @@ Wire Wire Line
 Wire Wire Line
 	8400 9650 8700 9650
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q?
 U 1 1 622C8CB0
 P 8200 9650
 F 0 "Q?" V 8350 9450 60  0000 L CNN
 F 1 "SQS401EN-T1_BE3" V 8050 8650 60  0000 L CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 8400 9850 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 8400 9850 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 8400 9950 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 8400 10150 60  0001 L CNN "MPN"
 F 5 "Vishay" H 8400 10750 60  0001 L CNN "Manufacturer"
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 7800 1700 7700
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6232F10A
 P 1700 8300
 F 0 "#PWR?" H 1700 8050 50  0001 C CNN
@@ -305,7 +305,7 @@ F 3 "" H 1700 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6232EEF5
 P 1550 8300
 F 0 "#PWR?" H 1550 8050 50  0001 C CNN
@@ -316,7 +316,7 @@ F 3 "" H 1550 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6232DE5C
 P 1400 8300
 F 0 "#PWR?" H 1400 8050 50  0001 C CNN
@@ -327,12 +327,12 @@ F 3 "" H 1400 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232D03D
 P 1700 7950
 F 0 "R?" H 1650 8050 60  0000 L CNN
 F 1 "R_0R_0402" H 1700 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1900 8150 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1900 8150 60  0001 L CNN
 F 3 "" H 1700 7950 50  0001 C CNN
 F 4 "PANASONIC" H 1900 8350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1900 8250 60  0001 L CNN "MPN"
@@ -341,12 +341,12 @@ F 6 "0R" H 1650 7950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232CD86
 P 1550 7950
 F 0 "R?" H 1700 8050 60  0000 L CNN
 F 1 "R_0R_0402" H 1550 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1750 8150 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1750 8150 60  0001 L CNN
 F 3 "" H 1550 7950 50  0001 C CNN
 F 4 "PANASONIC" H 1750 8350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1750 8250 60  0001 L CNN "MPN"
@@ -355,12 +355,12 @@ F 6 "0R" H 1500 7950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232C9DE
 P 1400 7950
 F 0 "R?" H 1350 7850 60  0000 L CNN
 F 1 "R_0R_0402" H 1400 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1600 8150 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1600 8150 60  0001 L CNN
 F 3 "" H 1400 7950 50  0001 C CNN
 F 4 "PANASONIC" H 1600 8350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1600 8250 60  0001 L CNN "MPN"
@@ -369,12 +369,12 @@ F 6 "0R" H 1350 7950 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232C80F
 P 1700 7150
 F 0 "R?" H 1700 7250 60  0000 C CNN
 F 1 "R_0R_0402" H 1700 7000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1900 7350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1900 7350 60  0001 L CNN
 F 3 "" H 1700 7150 50  0001 C CNN
 F 4 "PANASONIC" H 1900 7550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1900 7450 60  0001 L CNN "MPN"
@@ -383,12 +383,12 @@ F 6 "0R" H 1700 7150 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232C5CC
 P 1550 7150
 F 0 "R?" H 1675 7225 39  0000 C CNN
 F 1 "R_0R_0402" H 1550 7000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1750 7350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1750 7350 60  0001 L CNN
 F 3 "" H 1550 7150 50  0001 C CNN
 F 4 "PANASONIC" H 1750 7550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1750 7450 60  0001 L CNN "MPN"
@@ -397,12 +397,12 @@ F 6 "0R" H 1550 7150 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 6232BE03
 P 1400 7150
 F 0 "R?" H 1400 7050 60  0000 C CNN
 F 1 "R_0R_0402" H 1400 7000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1600 7350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1600 7350 60  0001 L CNN
 F 3 "" H 1400 7150 50  0001 C CNN
 F 4 "PANASONIC" H 1600 7550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1600 7450 60  0001 L CNN "MPN"
@@ -430,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 6500 3300 6700
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 623804E5
 P 3300 8300
 F 0 "#PWR?" H 3300 8050 50  0001 C CNN
@@ -2795,12 +2795,12 @@ $EndBitmap
 Text Notes 1150 8750 0    79   ~ 0
 Not used pins PX MUST be configured as outputs!\n
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 624CF550
 P 2100 6850
 F 0 "R?" V 2055 6920 60  0000 L CNN
 F 1 "R_4k7_0402" H 2100 6700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2300 7050 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 2300 7050 60  0001 L CNN
 F 3 "" H 2100 6850 50  0001 C CNN
 F 4 "VISHAY" H 2300 7250 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 2300 7150 60  0001 L CNN "MPN"
@@ -2839,12 +2839,12 @@ SDA
 Text GLabel 11350 2250 2    50   Input ~ 0
 SCL
 $Comp
-L antmicroDataAcquisitionAnalogtoDigitalConvertersADC:ADS7828 U?
+L nuc-compute-cluster-power-breakout:ADS7828 U?
 U 1 1 6252165A
 P 10800 2550
 F 0 "U?" H 10500 3300 50  0000 C CNN
 F 1 "ADS7828" H 10500 3200 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 11750 1850 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:TSSOP-16_4.4x5mm_P0.65mm" H 11750 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads7828.pdf" H 10800 2550 50  0001 C CNN
 F 4 "ADS7828E/250 " H 10800 2550 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10800 2550 50  0001 C CNN "Manufacturer"
@@ -2852,7 +2852,7 @@ F 5 "Texas Instruments" H 10800 2550 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625622EA
 P 10800 3500
 F 0 "#PWR?" H 10800 3250 50  0001 C CNN
@@ -2865,12 +2865,12 @@ $EndComp
 Wire Wire Line
 	10800 3500 10800 3350
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 625689DE
 P 11800 3300
 F 0 "R?" H 11750 3200 60  0000 L CNN
 F 1 "R_0R_0402" H 11800 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12000 3500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 12000 3500 60  0001 L CNN
 F 3 "" H 11800 3300 50  0001 C CNN
 F 4 "PANASONIC" H 12000 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12000 3600 60  0001 L CNN "MPN"
@@ -2879,12 +2879,12 @@ F 6 "0R" H 11750 3300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 62569684
 P 11950 3300
 F 0 "R?" H 11900 3400 60  0000 L CNN
 F 1 "R_0R_0402" H 11950 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12150 3500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 12150 3500 60  0001 L CNN
 F 3 "" H 11950 3300 50  0001 C CNN
 F 4 "PANASONIC" H 12150 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12150 3600 60  0001 L CNN "MPN"
@@ -2893,7 +2893,7 @@ F 6 "0R" H 11900 3300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62570DC4
 P 11800 3500
 F 0 "#PWR?" H 11800 3250 50  0001 C CNN
@@ -2904,7 +2904,7 @@ F 3 "" H 11800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625710C8
 P 11950 3500
 F 0 "#PWR?" H 11950 3250 50  0001 C CNN
@@ -2955,12 +2955,12 @@ PC_2
 Text Label 5200 6650 0    50   ~ 0
 PC_1
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q?
 U 1 1 6227AD63
 P 6400 5900
 F 0 "Q?" V 6550 5700 60  0000 L CNN
 F 1 "SQS401EN-T1_BE3" V 6250 4900 60  0000 L CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 6600 6100 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 6600 6100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 6600 6200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 6600 6400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 6600 7000 60  0001 L CNN "Manufacturer"
@@ -2970,12 +2970,12 @@ $EndComp
 Text GLabel 5700 5900 0    50   Input ~ 0
 VCC12V0
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 6228D8DD
 P 6100 6100
 F 0 "R?" V 6050 5900 60  0000 L CNN
 F 1 "R_4k7_0402" H 6100 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 6300 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 6300 6300 60  0001 L CNN
 F 3 "" H 6100 6100 50  0001 C CNN
 F 4 "VISHAY" H 6300 6500 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 6300 6400 60  0001 L CNN "MPN"
@@ -2984,7 +2984,7 @@ F 6 "4k7" V 6150 5850 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 622A6837
 P 6500 7050
 F 0 "#PWR?" H 6500 6800 50  0001 C CNN
@@ -2999,12 +2999,12 @@ Wire Wire Line
 Wire Wire Line
 	6500 6300 6500 6200
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+L nuc-compute-cluster-power-breakout:SSM3K15ACT Q?
 U 1 1 622965C1
 P 6500 6550
 F 0 "Q?" H 6608 6603 60  0000 L CNN
 F 1 "SSM3K15ACT" H 6608 6497 60  0000 L CNN
-F 2 "antmicro-footprints:SSM3K15ACT" H 6050 6750 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 6050 6750 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5350 7050 60  0001 C CNN
 F 4 "SSM3K15ACT,L3F " H 6500 6550 50  0001 C CNN "MPN"
 F 5 "Toshiba" H 6500 6550 50  0001 C CNN "Manufacturer"
@@ -3028,12 +3028,12 @@ C_MEAS_1
 Wire Wire Line
 	6600 5900 6900 5900
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q?
+L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q?
 U 1 1 622D4BFF
 P 6450 7900
 F 0 "Q?" V 6600 7700 60  0000 L CNN
 F 1 "SQS401EN-T1_BE3" V 6300 6900 60  0000 L CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 6650 8100 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 6650 8100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 6650 8200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 6650 8400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 6650 9000 60  0001 L CNN "Manufacturer"
@@ -3043,12 +3043,12 @@ $EndComp
 Text GLabel 5750 7900 0    50   Input ~ 0
 VCC12V0
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L nuc-compute-cluster-power-breakout:R_4k7_0402 R?
 U 1 1 622D4C0D
 P 6150 8100
 F 0 "R?" V 6100 7900 60  0000 L CNN
 F 1 "R_4k7_0402" H 6150 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6350 8300 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 6350 8300 60  0001 L CNN
 F 3 "" H 6150 8100 50  0001 C CNN
 F 4 "VISHAY" H 6350 8500 60  0001 L CNN "Manufacturer"
 F 5 "MCS04020C4701FE000" H 6350 8400 60  0001 L CNN "MPN"
@@ -3061,12 +3061,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 8300 6550 8200
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SSM3K15ACT Q?
+L nuc-compute-cluster-power-breakout:SSM3K15ACT Q?
 U 1 1 622D4C25
 P 6550 8550
 F 0 "Q?" H 6658 8603 60  0000 L CNN
 F 1 "SSM3K15ACT" H 6658 8497 60  0000 L CNN
-F 2 "antmicro-footprints:SSM3K15ACT" H 6100 8750 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 6100 8750 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5400 9050 60  0001 C CNN
 F 4 "SSM3K15ACT,L3F " H 6550 8550 50  0001 C CNN "MPN"
 F 5 "Toshiba" H 6550 8550 50  0001 C CNN "Manufacturer"
@@ -3088,12 +3088,12 @@ Wire Wire Line
 Wire Wire Line
 	6650 7900 6950 7900
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 62645FAC
 P 7300 10150
 F 0 "R?" V 7255 10220 60  0000 L CNN
 F 1 "R_10k_0402" H 7300 10000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7500 10350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 7500 10350 60  0001 L CNN
 F 3 "" H 7300 10150 50  0001 C CNN
 F 4 "VISHAY" H 7500 10550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7500 10450 60  0001 L CNN "MPN"
@@ -3109,12 +3109,12 @@ Wire Wire Line
 	7300 10300 7300 10400
 Connection ~ 7300 10400
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L nuc-compute-cluster-power-breakout:C_100n_0402 C?
 U 1 1 6269F66B
 P 14900 2650
 F 0 "C?" H 14950 2750 60  0000 L CNN
 F 1 "C_100n_0402" H 14900 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15100 2850 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 15100 2850 60  0001 L CNN
 F 3 "" H 14900 2650 50  0001 C CNN
 F 4 "Murata" H 15100 3050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 15100 2950 60  0001 L CNN "MPN"
@@ -3123,12 +3123,12 @@ F 6 "100n" H 14950 2550 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L nuc-compute-cluster-power-breakout:C_1u_0402 C?
 U 1 1 626A4815
 P 14100 2650
 F 0 "C?" H 13950 2750 60  0000 L CNN
 F 1 "C_1u_0402" H 14100 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14300 2850 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 14300 2850 60  0001 L CNN
 F 3 "" H 14100 2650 50  0001 C CNN
 F 4 "TDK" H 14300 3050 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 14300 2950 60  0001 L CNN "MPN"
@@ -3137,7 +3137,7 @@ F 6 "1u" H 13950 2550 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 626A4C27
 P 14100 2950
 F 0 "#PWR?" H 14100 2700 50  0001 C CNN
@@ -3148,7 +3148,7 @@ F 3 "" H 14100 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 626A4F78
 P 14900 2950
 F 0 "#PWR?" H 14900 2700 50  0001 C CNN
@@ -3163,12 +3163,12 @@ Wire Wire Line
 Wire Wire Line
 	14900 2950 14900 2800
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L nuc-compute-cluster-power-breakout:C_100n_0402 C?
 U 1 1 626BE7DD
 P 13300 7200
 F 0 "C?" H 13350 7300 60  0000 L CNN
 F 1 "C_100n_0402" H 13300 7050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13500 7400 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 13500 7400 60  0001 L CNN
 F 3 "" H 13300 7200 50  0001 C CNN
 F 4 "Murata" H 13500 7600 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 13500 7500 60  0001 L CNN "MPN"
@@ -3179,7 +3179,7 @@ $EndComp
 Text GLabel 13300 6900 1    50   Input ~ 0
 VCC5V0
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 626C3C7D
 P 13300 7500
 F 0 "#PWR?" H 13300 7250 50  0001 C CNN
@@ -3194,12 +3194,12 @@ Wire Wire Line
 Wire Wire Line
 	13300 6900 13300 7050
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 6272A84A
 P 5650 8350
 F 0 "R?" V 5605 8420 60  0000 L CNN
 F 1 "R_10k_0402" H 5650 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5850 8550 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 5850 8550 60  0001 L CNN
 F 3 "" H 5650 8350 50  0001 C CNN
 F 4 "VISHAY" H 5850 8750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5850 8650 60  0001 L CNN "MPN"
@@ -3221,12 +3221,12 @@ REF
 Text Notes 13950 1650 0    79   ~ 0
 Supply\n
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 6274CB8F
 P 5600 6300
 F 0 "R?" V 5555 6370 60  0000 L CNN
 F 1 "R_10k_0402" H 5600 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 6500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 5800 6500 60  0001 L CNN
 F 3 "" H 5600 6300 50  0001 C CNN
 F 4 "VISHAY" H 5800 6700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5800 6600 60  0001 L CNN "MPN"
@@ -3246,12 +3246,12 @@ Wire Wire Line
 Text GLabel 8600 8000 0    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 6277A5B6
 P 9000 8300
 F 0 "R?" V 8955 8370 60  0000 L CNN
 F 1 "R_10k_0402" H 9000 8150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9200 8500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9200 8500 60  0001 L CNN
 F 3 "" H 9000 8300 50  0001 C CNN
 F 4 "VISHAY" H 9200 8700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9200 8600 60  0001 L CNN "MPN"
@@ -3273,12 +3273,12 @@ Wire Wire Line
 Wire Wire Line
 	11200 2550 11650 2550
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 627A6E36
 P 11800 2700
 F 0 "R?" H 11750 2600 60  0000 L CNN
 F 1 "R_0R_0402" H 11800 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12000 2900 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 12000 2900 60  0001 L CNN
 F 3 "" H 11800 2700 50  0001 C CNN
 F 4 "PANASONIC" H 12000 3100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12000 3000 60  0001 L CNN "MPN"
@@ -3287,12 +3287,12 @@ F 6 "0R" H 11750 2700 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L nuc-compute-cluster-power-breakout:R_0R_0402 R?
 U 1 1 627A748C
 P 11950 2700
 F 0 "R?" H 11900 2800 60  0000 L CNN
 F 1 "R_0R_0402" H 11950 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12150 2900 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 12150 2900 60  0001 L CNN
 F 3 "" H 11950 2700 50  0001 C CNN
 F 4 "PANASONIC" H 12150 3100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12150 3000 60  0001 L CNN "MPN"
@@ -3313,12 +3313,12 @@ Connection ~ 11950 2950
 Wire Wire Line
 	8700 6600 9100 6600
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 627D9429
 P 9100 6300
 F 0 "R?" V 9055 6370 60  0000 L CNN
 F 1 "R_10k_0402" H 9100 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9300 6500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9300 6500 60  0001 L CNN
 F 3 "" H 9100 6300 50  0001 C CNN
 F 4 "VISHAY" H 9300 6700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9300 6600 60  0001 L CNN "MPN"
@@ -3872,12 +3872,12 @@ UP TO 15A
 Text Notes 7100 9600 0    50   ~ 0
 UP TO 15A
 $Comp
-L antmicroSensorsTransducersAccessories:TMCS1100A2-Q1 U?
+L nuc-compute-cluster-power-breakout:TMCS1100A2-Q1 U?
 U 1 1 624CC2CB
 P 2350 2150
 F 0 "U?" H 2350 2615 50  0000 C CNN
 F 1 "TMCS1100A2-Q1" H 2350 2524 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 2350 2200 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOIC-8_W3.9mm" H 2350 2200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmcs1100-q1.pdf?ts=1647195769204&ref_url=https%253A%252F%252Fwww.mouser.de%252F" H 2350 2200 50  0001 C CNN
 F 4 "TMCS1100A2QDRQ1" H 2350 2150 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 2350 2150 50  0001 C CNN "Manufacturer"
@@ -3919,7 +3919,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2100 3100 2100
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62510E81
 P 2850 2600
 F 0 "#PWR?" H 2850 2350 50  0001 C CNN
@@ -3939,12 +3939,12 @@ Wire Wire Line
 	2850 2200 2850 2300
 Connection ~ 2850 2300
 $Comp
-L antmicroSensorsTransducersAccessories:TMCS1100A2-Q1 U?
+L nuc-compute-cluster-power-breakout:TMCS1100A2-Q1 U?
 U 1 1 6251F22F
 P 2350 3650
 F 0 "U?" H 2350 4115 50  0000 C CNN
 F 1 "TMCS1100A2-Q1" H 2350 4024 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 2350 3700 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOIC-8_W3.9mm" H 2350 3700 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmcs1100-q1.pdf?ts=1647195769204&ref_url=https%253A%252F%252Fwww.mouser.de%252F" H 2350 3700 50  0001 C CNN
 F 4 "TMCS1100A2QDRQ1" H 2350 3650 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 2350 3650 50  0001 C CNN "Manufacturer"
@@ -3984,7 +3984,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3600 3100 3600
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6251F24B
 P 2850 4100
 F 0 "#PWR?" H 2850 3850 50  0001 C CNN
@@ -4004,12 +4004,12 @@ Wire Wire Line
 	2850 3700 2850 3800
 Connection ~ 2850 3800
 $Comp
-L antmicroSensorsTransducersAccessories:TMCS1100A2-Q1 U?
+L nuc-compute-cluster-power-breakout:TMCS1100A2-Q1 U?
 U 1 1 6254FAF4
 P 5100 2150
 F 0 "U?" H 5100 2615 50  0000 C CNN
 F 1 "TMCS1100A2-Q1" H 5100 2524 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 5100 2200 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOIC-8_W3.9mm" H 5100 2200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmcs1100-q1.pdf?ts=1647195769204&ref_url=https%253A%252F%252Fwww.mouser.de%252F" H 5100 2200 50  0001 C CNN
 F 4 "TMCS1100A2QDRQ1" H 5100 2150 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 5100 2150 50  0001 C CNN "Manufacturer"
@@ -4049,7 +4049,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2100 5850 2100
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6254FDC7
 P 5600 2600
 F 0 "#PWR?" H 5600 2350 50  0001 C CNN
@@ -4069,12 +4069,12 @@ Wire Wire Line
 	5600 2200 5600 2300
 Connection ~ 5600 2300
 $Comp
-L antmicroSensorsTransducersAccessories:TMCS1100A2-Q1 U?
+L nuc-compute-cluster-power-breakout:TMCS1100A2-Q1 U?
 U 1 1 62565E6E
 P 5100 3650
 F 0 "U?" H 5100 4115 50  0000 C CNN
 F 1 "TMCS1100A2-Q1" H 5100 4024 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 5100 3700 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOIC-8_W3.9mm" H 5100 3700 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmcs1100-q1.pdf?ts=1647195769204&ref_url=https%253A%252F%252Fwww.mouser.de%252F" H 5100 3700 50  0001 C CNN
 F 4 "TMCS1100A2QDRQ1" H 5100 3650 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 5100 3650 50  0001 C CNN "Manufacturer"
@@ -4114,7 +4114,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3600 5850 3600
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62566249
 P 5600 4100
 F 0 "#PWR?" H 5600 3850 50  0001 C CNN
@@ -4134,12 +4134,12 @@ Wire Wire Line
 	5600 3700 5600 3800
 Connection ~ 5600 3800
 $Comp
-L antmicroSensorsTransducersAccessories:TMCS1100A2-Q1 U?
+L nuc-compute-cluster-power-breakout:TMCS1100A2-Q1 U?
 U 1 1 6257AEC0
 P 7750 2950
 F 0 "U?" H 7750 3415 50  0000 C CNN
 F 1 "TMCS1100A2-Q1" H 7750 3324 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 7750 3000 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOIC-8_W3.9mm" H 7750 3000 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmcs1100-q1.pdf?ts=1647195769204&ref_url=https%253A%252F%252Fwww.mouser.de%252F" H 7750 3000 50  0001 C CNN
 F 4 "TMCS1100A2QDRQ1" H 7750 2950 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 7750 2950 50  0001 C CNN "Manufacturer"
@@ -4179,7 +4179,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 2900 8500 2900
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 6257B2C3
 P 8250 3400
 F 0 "#PWR?" H 8250 3150 50  0001 C CNN

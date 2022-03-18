@@ -18,14 +18,14 @@ VCC5V0
 Text GLabel 1650 1550 0    59   Input ~ 0
 VCC12V0
 $Comp
-L antmicroDCDCConverters:AP62301WU-7 U?
+L nuc-compute-cluster-power-breakout:AP62301WU-7 U?
 U 1 1 6251678C
 P 3300 1750
 AR Path="/62220F27/6251678C" Ref="U?"  Part="1" 
 AR Path="/623923F9/6251678C" Ref="U?"  Part="1" 
 F 0 "U?" H 3300 2215 50  0000 C CNN
 F 1 "AP62301WU-7" H 3300 2124 50  0000 C CNN
-F 2 "antmicro-footprints:TSOT23-6" H 3250 1100 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:TSOT23-6" H 3250 1100 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 3250 1400 50  0001 C CNN
 F 4 "AP62301WU-7" H 3250 1200 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 3250 1300 50  0001 C CNN "Manufacturer"
@@ -33,14 +33,14 @@ F 5 "Diodes Incorporated" H 3250 1300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:74437336033 L?
+L nuc-compute-cluster-power-breakout:74437336033 L?
 U 1 1 62516797
 P 4450 1550
 AR Path="/62220F27/62516797" Ref="L?"  Part="1" 
 AR Path="/623923F9/62516797" Ref="L?"  Part="1" 
 F 0 "L?" H 4450 1855 60  0000 C CNN
 F 1 "74437336033" H 4450 1749 60  0000 C CNN
-F 2 "antmicro-footprints:WE_74437336033" H 5275 1900 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:WE_74437336033" H 5275 1900 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/74437336033.pdf" H 4505 1580 60  0001 C CNN
 F 4 "Wurth Elektronik" H 4750 2350 50  0001 C CNN "Manufacturer"
 F 5 "74437336033" H 4700 2275 50  0001 C CNN "MPN"
@@ -51,14 +51,14 @@ F 8 "4.1A" H 4525 2200 50  0001 C CNN "MaxCur"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L nuc-compute-cluster-power-breakout:C_100n_0402 C?
 U 1 1 625167A0
 P 3950 1750
 AR Path="/62220F27/625167A0" Ref="C?"  Part="1" 
 AR Path="/623923F9/625167A0" Ref="C?"  Part="1" 
 F 0 "C?" V 3850 1900 60  0000 C CNN
 F 1 "C_100n_0402" H 3950 1600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4150 1950 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 4150 1950 60  0001 L CNN
 F 3 "" H 3950 1750 50  0001 C CNN
 F 4 "Murata" H 4150 2150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 4150 2050 60  0001 L CNN "MPN"
@@ -78,7 +78,7 @@ Connection ~ 4200 1550
 Wire Wire Line
 	3700 1950 4700 1950
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625167B6
 P 4700 2400
 AR Path="/62220F27/625167B6" Ref="#PWR?"  Part="1" 
@@ -100,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2400 4700 2300
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625167CB
 P 2700 2400
 AR Path="/62220F27/625167CB" Ref="#PWR?"  Part="1" 
@@ -117,14 +117,14 @@ Wire Wire Line
 Wire Wire Line
 	2700 1950 2900 1950
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L nuc-compute-cluster-power-breakout:C_22u_0603 C?
 U 1 1 625167DF
 P 5150 1950
 AR Path="/62220F27/625167DF" Ref="C?"  Part="1" 
 AR Path="/623923F9/625167DF" Ref="C?"  Part="1" 
 F 0 "C?" H 5265 1995 60  0000 L CNN
 F 1 "C_22u_0603" H 5150 1800 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5350 2150 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 5350 2150 60  0001 L CNN
 F 3 "" H 5150 1950 50  0001 C CNN
 F 4 "MURATA" H 5350 2350 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 5350 2250 60  0001 L CNN "MPN"
@@ -133,14 +133,14 @@ F 6 "22u" H 5265 1897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L nuc-compute-cluster-power-breakout:C_22u_0603 C?
 U 1 1 625167E8
 P 5500 1950
 AR Path="/62220F27/625167E8" Ref="C?"  Part="1" 
 AR Path="/623923F9/625167E8" Ref="C?"  Part="1" 
 F 0 "C?" H 5615 1995 60  0000 L CNN
 F 1 "C_22u_0603" H 5500 1800 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5700 2150 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 5700 2150 60  0001 L CNN
 F 3 "" H 5500 1950 50  0001 C CNN
 F 4 "MURATA" H 5700 2350 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 5700 2250 60  0001 L CNN "MPN"
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1550 2900 1550
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625167F0
 P 2350 2400
 AR Path="/62220F27/625167F0" Ref="#PWR?"  Part="1" 
@@ -177,7 +177,7 @@ Connection ~ 5150 1550
 Wire Wire Line
 	5150 1550 5500 1550
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 625167FD
 P 5150 2400
 AR Path="/62220F27/625167FD" Ref="#PWR?"  Part="1" 
@@ -190,7 +190,7 @@ F 3 "" H 5150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR?
 U 1 1 62516803
 P 5500 2400
 AR Path="/62220F27/62516803" Ref="#PWR?"  Part="1" 
@@ -211,12 +211,12 @@ Wire Wire Line
 	5900 1550 5500 1550
 Connection ~ 5500 1550
 $Comp
-L antmicroCapacitors0603:C_10u_16V_0603 C?
+L nuc-compute-cluster-power-breakout:C_10u_16V_0603 C?
 U 1 1 6252106D
 P 2350 2000
 F 0 "C?" H 2150 2100 60  0000 L CNN
 F 1 "C_10u_16V_0603" H 2350 1850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2550 2200 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 2550 2200 60  0001 L CNN
 F 3 "" H 2350 2000 50  0001 C CNN
 F 4 "MURATA" H 2550 2400 60  0001 L CNN "Manufacturer"
 F 5 "GRM188C81C106MA73D" H 2550 2300 60  0001 L CNN "MPN"
@@ -225,14 +225,14 @@ F 6 "10u/16V" H 1950 1900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L nuc-compute-cluster-power-breakout:R_10k_0402 R?
 U 1 1 625167BF
 P 4700 2150
 AR Path="/62220F27/625167BF" Ref="R?"  Part="1" 
 AR Path="/623923F9/625167BF" Ref="R?"  Part="1" 
 F 0 "R?" V 4655 2220 60  0000 L CNN
 F 1 "R_10k_0402" H 4700 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4900 2350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 4900 2350 60  0001 L CNN
 F 3 "" H 4700 2150 50  0001 C CNN
 F 4 "VISHAY" H 4900 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4900 2450 60  0001 L CNN "MPN"
@@ -241,12 +241,12 @@ F 6 "10k" V 4753 2220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_52k3_0402 R?
+L nuc-compute-cluster-power-breakout:R_52k3_0402 R?
 U 1 1 6252687B
 P 4700 1750
 F 0 "R?" V 4655 1820 60  0000 L CNN
 F 1 "R_52k3_0402" H 4700 1600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4900 1950 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 4900 1950 60  0001 L CNN
 F 3 "" H 4700 1750 50  0001 C CNN
 F 4 "Panasonic" H 4900 2150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ-2RKF5232X" H 4900 2050 60  0001 L CNN "MPN"
