@@ -147,6 +147,6 @@ $Sheet
 S 7400 4300 3000 950 
 U 623923F9
 F0 "daughterboard-supply" 50
-F1 "Daughterboard supply.sch" 50
+F1 "daughterboard-supply.sch" 50
 $EndSheet
 $EndSCHEMATC
