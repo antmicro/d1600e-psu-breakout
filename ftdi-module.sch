@@ -5331,4 +5331,5 @@ F 5 "Nexperia" H 11750 2500 50  0001 L CNN "Manufacturer"
 	1    11700 2950
 	1    0    0    -1  
 $EndComp
+NoConn ~ 12250 2750
 $EndSCHEMATC

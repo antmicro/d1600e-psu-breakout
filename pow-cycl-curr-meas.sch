@@ -444,15 +444,15 @@ $EndComp
 Wire Wire Line
 	3300 8300 3300 8000
 Text Label 3800 7000 0    50   ~ 0
-PC_1
+PC_5
 Text Label 3800 7100 0    50   ~ 0
-PC_2
+PC_4
 Text Label 3800 7200 0    50   ~ 0
 PC_3
 Text Label 3800 7300 0    50   ~ 0
-PC_4
+PC_2
 Text Label 3800 7400 0    50   ~ 0
-PC_5
+PC_1
 Text Label 8700 6600 0    50   ~ 0
 PC_3
 Text Label 8600 8600 0    50   ~ 0
@@ -2930,15 +2930,15 @@ Wire Wire Line
 Wire Wire Line
 	10800 1850 10800 1700
 Text Label 9800 2150 0    79   ~ 0
-C_ADC1
+C_ADC5
 Text Label 9800 2250 0    79   ~ 0
-C_ADC2
+C_ADC4
 Text Label 9800 2350 0    79   ~ 0
 C_ADC3
 Text Label 9800 2450 0    79   ~ 0
-C_ADC4
+C_ADC2
 Text Label 9800 2550 0    79   ~ 0
-C_ADC5
+C_ADC1
 Wire Wire Line
 	10400 2150 9800 2150
 Wire Wire Line
@@ -8259,4 +8259,19 @@ Wire Wire Line
 	14300 2800 14300 2950
 Text Notes 13650 1650 0    79   ~ 0
 Sensors\n
+$Comp
+L power:GND #PWR0101
+U 1 1 627158BA
+P 10250 3500
+F 0 "#PWR0101" H 10250 3250 50  0001 C CNN
+F 1 "GND" H 10255 3327 50  0000 C CNN
+F 2 "" H 10250 3500 50  0001 C CNN
+F 3 "" H 10250 3500 50  0001 C CNN
+	1    10250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3500 10250 3050
+Wire Wire Line
+	10250 3050 10400 3050
 $EndSCHEMATC
