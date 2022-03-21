@@ -401,7 +401,7 @@ ENDDEF
 DEF antmicroRectangularConnectorsHeadersFemalePins_430450812 U? 0 40 Y Y 1 F N
 F0 "U?" -150 300 50 H V C CNN
 F1 "antmicroRectangularConnectorsHeadersFemalePins_430450812" 0 200 50 H V C CNN
-F2 "" -150 0 50 H I C CNN
+F2 "antmicro-footprints:Molex-43045-0812" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 F4 "430450812" 0 0 50 H I C CNN "MPN"
 F5 "Molex" 0 0 50 H I C CNN "Manufacturer"
@@ -415,6 +415,43 @@ X 5 5 300 0 100 L 50 50 1 1 I
 X 6 6 300 -100 100 L 50 50 1 1 I
 X 7 7 300 -200 100 L 50 50 1 1 I
 X 8 8 300 -300 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# antmicroRectangularConnectorsHeadersMalePins_43045-1013
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_43045-1013 J 0 40 Y N 1 F N
+F0 "J" 0 550 50 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_43045-1013" 0 -600 50 H V C CNN
+F2 "antmicro-footprints:43045-1013" 0 -800 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+F4 "Molex" 0 -700 50 H I C CNN "Manufacturer"
+F5 "43045-1013" 0 -600 50 H I C CNN "MPN"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -445 0 -455 1 1 6 N
+S -50 -345 0 -355 1 1 6 N
+S -50 -245 0 -255 1 1 6 N
+S -50 -145 0 -155 1 1 6 N
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 355 0 345 1 1 6 N
+S -50 455 0 445 1 1 6 N
+S -50 500 50 -500 1 1 10 f
+X Pin_10 10 -200 -450 150 R 50 50 0 0 P
+X Pin_5 5 -200 50 150 R 50 50 0 0 P
+X Pin_6 6 -200 -50 150 R 50 50 0 0 P
+X Pin_7 7 -200 -150 150 R 50 50 0 0 P
+X Pin_8 8 -200 -250 150 R 50 50 0 0 P
+X Pin_9 9 -200 -350 150 R 50 50 0 0 P
+X Pin_1 1 -200 450 150 R 50 50 1 1 P
+X Pin_2 2 -200 350 150 R 50 50 1 1 P
+X Pin_3 3 -200 250 150 R 50 50 1 1 P
+X Pin_4 4 -200 150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

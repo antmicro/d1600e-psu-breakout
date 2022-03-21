@@ -4140,4 +4140,79 @@ EndData
 $EndBitmap
 Wire Wire Line
 	1650 1550 2350 1550
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:43045-1013 J?
+U 1 1 62388DA3
+P 9650 1750
+F 0 "J?" H 9730 1792 50  0000 L CNN
+F 1 "43045-1013" H 9730 1701 50  0000 L CNN
+F 2 "antmicro-footprints:43045-1013" H 9650 950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451013_sd.pdf" H 9650 2100 50  0001 C CNN
+F 4 "Molex" H 9650 1050 50  0001 C CNN "Manufacturer"
+F 5 "43045-1013" H 9650 1150 50  0001 C CNN "MPN"
+	1    9650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62389B5C
+P 8700 2450
+AR Path="/62220F27/62389B5C" Ref="#PWR?"  Part="1" 
+AR Path="/623923F9/62389B5C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 2200 50  0001 C CNN
+F 1 "GND" H 8705 2277 50  0000 C CNN
+F 2 "" H 8700 2450 50  0001 C CNN
+F 3 "" H 8700 2450 50  0001 C CNN
+	1    8700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1600 8700 1600
+Wire Wire Line
+	8700 1600 8700 2100
+Wire Wire Line
+	9450 1500 8700 1500
+Wire Wire Line
+	8700 1500 8700 1600
+Connection ~ 8700 1600
+Wire Wire Line
+	9450 1400 8700 1400
+Connection ~ 8700 1500
+Wire Wire Line
+	9450 1300 8700 1300
+Wire Wire Line
+	8700 1300 8700 1400
+Connection ~ 8700 1400
+Wire Wire Line
+	8700 1400 8700 1500
+Wire Wire Line
+	9450 2100 8700 2100
+Connection ~ 8700 2100
+Wire Wire Line
+	8700 2100 8700 2450
+Text GLabel 9200 2000 0    50   Input ~ 0
+VCC5V0
+Text GLabel 9200 1850 0    50   Input ~ 0
+VCC12V0
+Wire Wire Line
+	9200 1850 9350 1850
+Wire Wire Line
+	9350 1850 9350 1800
+Wire Wire Line
+	9350 1800 9450 1800
+Wire Wire Line
+	9450 1900 9350 1900
+Wire Wire Line
+	9350 1900 9350 1850
+Connection ~ 9350 1850
+Wire Wire Line
+	9200 2000 9450 2000
+Text GLabel 9200 1700 0    50   Input ~ 0
+VCC3V3
+Text GLabel 9200 2200 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	9200 2200 9450 2200
+Wire Wire Line
+	9200 1700 9450 1700
 $EndSCHEMATC
