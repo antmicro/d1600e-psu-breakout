@@ -4141,19 +4141,6 @@ $EndBitmap
 Wire Wire Line
 	1650 1800 2350 1800
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:43045-1013 J4
-U 1 1 62388DA3
-P 9650 2000
-F 0 "J4" H 9730 2042 50  0000 L CNN
-F 1 "43045-1013" H 9730 1951 50  0000 L CNN
-F 2 "antmicro-footprints:43045-1013" H 9650 1200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430451013_sd.pdf" H 9650 2350 50  0001 C CNN
-F 4 "Molex" H 9650 1300 50  0001 C CNN "Manufacturer"
-F 5 "43045-1013" H 9650 1400 50  0001 C CNN "MPN"
-	1    9650 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 62389B5C
 P 8700 2700
@@ -4209,11 +4196,24 @@ Wire Wire Line
 	9200 2250 9450 2250
 Text GLabel 9200 1950 0    50   Input ~ 0
 VCC3V3
-Text GLabel 9200 2450 0    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	9200 2450 9450 2450
 Wire Wire Line
 	9200 1950 9450 1950
 NoConn ~ 2900 2000
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:43045-1013 J4
+U 1 1 62388DA3
+P 9650 2000
+F 0 "J4" H 9730 2042 50  0000 L CNN
+F 1 "43045-1013" H 9730 1951 50  0000 L CNN
+F 2 "antmicro-footprints:43045-1013" H 9650 1200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451013_sd.pdf" H 9650 2350 50  0001 C CNN
+F 4 "Molex" H 9650 1300 50  0001 C CNN "Manufacturer"
+F 5 "43045-1013" H 9650 1400 50  0001 C CNN "MPN"
+	1    9650 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 2450 0    50   Input ~ 0
+VCC3V3
 $EndSCHEMATC

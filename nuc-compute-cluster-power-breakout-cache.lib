@@ -373,7 +373,7 @@ ENDDEF
 DEF antmicroInterfaceIOExpanders_TCA9534 U 0 20 Y Y 1 F N
 F0 "U" -250 500 50 H V L CNN
 F1 "antmicroInterfaceIOExpanders_TCA9534" 100 500 50 H V L CNN
-F2 "" 950 -550 50 H I C CNN
+F2 "antmicro-footprints:TSSOP-16" 950 -550 50 H I C CNN
 F3 "" 100 -100 50 H I C CNN
 F4 "TCA9534ADWR" 0 0 50 H I C CNN "MPN"
 F5 "Texas Instruments" 0 0 50 H I C CNN "Manufaacturer"

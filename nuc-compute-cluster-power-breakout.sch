@@ -4025,10 +4025,10 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:430450812 U2
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 J5
 U 1 1 62389198
 P 2100 3300
-F 0 "U2" H 2125 3565 50  0000 C CNN
+F 0 "J5" H 2125 3565 50  0000 C CNN
 F 1 "430450812" H 2125 3474 50  0000 C CNN
 F 2 "antmicro-footprints:Molex-43045-0812" H 1950 3300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 3300 50  0001 C CNN
@@ -4038,10 +4038,10 @@ F 5 "Molex" H 2100 3300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:430450812 U5
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 J6
 U 1 1 623895A5
 P 3650 3300
-F 0 "U5" H 3675 3565 50  0000 C CNN
+F 0 "J6" H 3675 3565 50  0000 C CNN
 F 1 "430450812" H 3675 3474 50  0000 C CNN
 F 2 "antmicro-footprints:Molex-43045-0812" H 3500 3300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 3300 50  0001 C CNN
@@ -4051,10 +4051,10 @@ F 5 "Molex" H 3650 3300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:430450812 U3
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 J7
 U 1 1 6238989A
 P 2100 4250
-F 0 "U3" H 2125 4515 50  0000 C CNN
+F 0 "J7" H 2125 4515 50  0000 C CNN
 F 1 "430450812" H 2125 4424 50  0000 C CNN
 F 2 "antmicro-footprints:Molex-43045-0812" H 1950 4250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 4250 50  0001 C CNN
@@ -4064,10 +4064,10 @@ F 5 "Molex" H 2100 4250 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:430450812 U6
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 J8
 U 1 1 62389AA4
 P 3650 4250
-F 0 "U6" H 3675 4515 50  0000 C CNN
+F 0 "J8" H 3675 4515 50  0000 C CNN
 F 1 "430450812" H 3675 4424 50  0000 C CNN
 F 2 "antmicro-footprints:Molex-43045-0812" H 3500 4250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 4250 50  0001 C CNN
@@ -4077,10 +4077,10 @@ F 5 "Molex" H 3650 4250 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:430450812 U4
+L antmicroRectangularConnectorsHeadersFemalePins:430450812 J9
 U 1 1 62389CDB
 P 2850 5400
-F 0 "U4" H 2875 5665 50  0000 C CNN
+F 0 "J9" H 2875 5665 50  0000 C CNN
 F 1 "430450812" H 2875 5574 50  0000 C CNN
 F 2 "antmicro-footprints:Molex-43045-0812" H 2700 5400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 2700 5400 50  0001 C CNN
