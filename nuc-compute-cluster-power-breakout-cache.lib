@@ -215,6 +215,33 @@ X GND 9 0 -800 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# antmicroDiodesRectifiersSingle_MBRS330T3G
+#
+DEF antmicroDiodesRectifiersSingle_MBRS330T3G D 0 40 N N 1 F N
+F0 "D" -200 100 50 H V L BNN
+F1 "antmicroDiodesRectifiersSingle_MBRS330T3G" -200 -150 50 H V L BNN
+F2 "antmicro-footprints:MBRS340T3" -50 150 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "MBRS330T3G" 200 150 50 H I C CNN "MPN"
+F5 "ON Semiconductor" 50 100 50 H I L BNN "Manufacturer"
+DRAW
+P 2 0 0 6 -100 0 -50 0 N
+P 2 0 0 10 -50 -50 50 0 N
+P 2 0 0 10 -50 0 -50 -50 N
+P 2 0 0 10 -50 50 -50 0 N
+P 2 0 0 10 25 -40 25 -50 N
+P 2 0 0 10 50 -50 25 -50 N
+P 2 0 0 10 50 0 -50 50 N
+P 2 0 0 10 50 0 50 -50 N
+P 2 0 0 10 50 50 50 0 N
+P 2 0 0 10 75 50 50 50 N
+P 2 0 0 10 75 50 75 40 N
+P 2 0 0 6 100 0 50 0 N
+X ~ A -200 0 100 R 40 40 0 0 P
+X ~ C 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # antmicroFerriteBeadsandChips_BLM18AG601SN1D
 #
 DEF antmicroFerriteBeadsandChips_BLM18AG601SN1D FB 0 40 Y Y 1 F N
@@ -649,26 +676,6 @@ X GND 5 350 -150 100 L 50 50 1 1 W
 X Vref 6 350 -50 100 L 50 50 1 1 I
 X Vout 7 350 50 100 L 50 50 1 1 O
 X Vcc 8 350 150 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# antmicroSlideSwitches_MSS3-V-T_R
-#
-DEF antmicroSlideSwitches_MSS3-V-T_R S 0 0 Y Y 1 F N
-F0 "S" -150 90 50 H V C CNN
-F1 "antmicroSlideSwitches_MSS3-V-T_R" 0 -210 50 H V C CNN
-F2 "antmicro-footprints:Switch_Slide_MSS3" 200 200 50 H I L CNN
-F3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" 200 300 60 H I L CNN
-F4 "MSS3-V-T/R" 200 500 60 H I L CNN "MPN"
-F5 "Diptronics" 200 620 60 H I L CNN "Manufacturer"
-DRAW
-C -90 0 14 0 1 0 F
-C 90 -100 14 0 1 0 F
-C 100 100 14 0 1 0 F
-P 2 0 1 0 -80 0 120 90 N
-X ~ 1 200 100 100 L 50 50 1 1 P
-X ~ 2 -200 0 100 R 50 50 1 1 P
-X ~ 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
