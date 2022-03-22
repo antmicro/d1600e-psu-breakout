@@ -753,19 +753,6 @@ NoConn ~ 5400 5250
 NoConn ~ 3400 3250
 NoConn ~ 3400 3150
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_629105150521 J1
-U 1 1 62332491
-P 12550 2650
-F 0 "J1" H 12336 2674 60  0000 R CNN
-F 1 "WE_629105150521" H 12336 2568 60  0000 R CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_629105150521" H 12750 2850 60  0001 L CNN
-F 3 "" H 12750 2950 60  0001 L CNN
-F 4 "629105150521" H 12750 3150 60  0001 L CNN "MPN"
-F 5 "Wurth_Elektronik" H 12750 3750 60  0001 L CNN "Manufacturer"
-	1    12550 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L antmicroResistors0603:R_0R_0603 R8
 U 1 1 62334395
 P 13650 1650
@@ -958,34 +945,21 @@ Wire Wire Line
 	10900 7800 10900 7900
 Text Notes 13450 6950 0    118  ~ 0
 Probes
-Text GLabel 13300 7800 1    50   Input ~ 0
+Text GLabel 13550 7800 1    50   Input ~ 0
 VCC3V3
 $Comp
 L antmicroTestPoints:TP_SMD1MM 3V3
 U 1 1 6248DEA2
-P 13300 8250
-F 0 "3V3" H 13250 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 13300 8150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13500 8450 60  0001 L CNN
-F 3 "" H 13500 8550 60  0001 L CNN
-	1    13300 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM 5V0
-U 1 1 6248E47B
-P 13500 8250
-F 0 "5V0" H 13450 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 13500 8150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13700 8450 60  0001 L CNN
-F 3 "" H 13700 8550 60  0001 L CNN
-	1    13500 8250
+P 13550 8250
+F 0 "3V3" H 13500 8150 50  0000 L CNN
+F 1 "TP_SMD1MM" H 13550 8150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13750 8450 60  0001 L CNN
+F 3 "" H 13750 8550 60  0001 L CNN
+	1    13550 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13300 8150 13300 7800
-Wire Wire Line
-	13500 8150 13500 7800
+	13550 8150 13550 7800
 Text GLabel 5150 7350 0    50   Input ~ 0
 1V8_FT
 Wire Wire Line
@@ -1126,38 +1100,36 @@ Wire Wire Line
 Connection ~ 5550 2150
 Text Label 2950 2850 0    59   ~ 0
 USB_D+
-Text GLabel 13500 7800 1    59   Input ~ 0
-VCC5V0
 $Comp
 L antmicroTestPoints:TP_SMD1MM SCL1
 U 1 1 628ECDC0
-P 14000 8250
-F 0 "SCL1" H 13950 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 14000 8150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14200 8450 60  0001 L CNN
-F 3 "" H 14200 8550 60  0001 L CNN
-	1    14000 8250
+P 14100 8250
+F 0 "SCL1" H 14050 8150 50  0000 L CNN
+F 1 "TP_SMD1MM" H 14100 8150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14300 8450 60  0001 L CNN
+F 3 "" H 14300 8550 60  0001 L CNN
+	1    14100 8250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14000 7800 1    50   Input ~ 0
+Text GLabel 14100 7800 1    50   Input ~ 0
 SCL
-Text GLabel 14200 7800 1    50   Input ~ 0
+Text GLabel 14350 7800 1    50   Input ~ 0
 SDA
 $Comp
 L antmicroTestPoints:TP_SMD1MM SDA1
 U 1 1 6295A452
-P 14200 8250
-F 0 "SDA1" H 14150 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 14200 8150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14400 8450 60  0001 L CNN
-F 3 "" H 14400 8550 60  0001 L CNN
-	1    14200 8250
+P 14350 8250
+F 0 "SDA1" H 14300 8150 50  0000 L CNN
+F 1 "TP_SMD1MM" H 14350 8150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14550 8450 60  0001 L CNN
+F 3 "" H 14550 8550 60  0001 L CNN
+	1    14350 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14000 7800 14000 8150
+	14100 7800 14100 8150
 Wire Wire Line
-	14200 7800 14200 8150
+	14350 7800 14350 8150
 Text Notes 11400 4500 0    118  ~ 0
 3V3 DC/DC Converter
 Text GLabel 14650 5150 2    50   Input ~ 0
@@ -5332,4 +5304,17 @@ F 5 "Nexperia" H 11750 2500 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 12250 2750
+$Comp
+L antmicroUSBDVIHDMIConnectors:USB3106-30-0230-A J1
+U 1 1 624C6E54
+P 12550 2650
+F 0 "J1" H 12335 2667 50  0000 R CNN
+F 1 "USB3106-30-0230-A" H 12335 2576 50  0000 R CNN
+F 2 "antmicro-footprints:usb3106-30-0230" H 12750 2850 60  0001 L CNN
+F 3 "https://gct.co/files/drawings/usb3106.pdf" H 12750 2950 60  0001 L CNN
+F 4 "USB3106-30-0230-A" H 12750 3150 60  0001 L CNN "MPN"
+F 5 "Molex" H 12750 3750 60  0001 L CNN "Manufacturer"
+	1    12550 2650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

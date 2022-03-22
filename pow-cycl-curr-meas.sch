@@ -3178,7 +3178,7 @@ F 6 "100n" H 13350 7100 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 13300 6900 1    50   Input ~ 0
-VCC5V0
+VCC3V3
 $Comp
 L power:GND #PWR058
 U 1 1 626C3C7D
