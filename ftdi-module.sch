@@ -5317,4 +5317,54 @@ F 5 "Molex" H 12750 3750 60  0001 L CNN "Manufacturer"
 	1    12550 2650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R36
+U 1 1 6251E28E
+P 7900 5450
+F 0 "R36" V 7855 5520 60  0000 L CNN
+F 1 "R_4k7_0402" H 7900 5300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8100 5650 60  0001 L CNN
+F 3 "" H 7900 5450 50  0001 C CNN
+F 4 "VISHAY" H 8100 5850 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 8100 5750 60  0001 L CNN "MPN"
+F 6 "4k7" V 7953 5520 50  0000 L CNN "Val"
+	1    7900 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R37
+U 1 1 6251FE62
+P 8200 5450
+F 0 "R37" V 8155 5520 60  0000 L CNN
+F 1 "R_4k7_0402" H 8200 5300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8400 5650 60  0001 L CNN
+F 3 "" H 8200 5450 50  0001 C CNN
+F 4 "VISHAY" H 8400 5850 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 8400 5750 60  0001 L CNN "MPN"
+F 6 "4k7" V 8253 5520 50  0000 L CNN "Val"
+	1    8200 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 7900 5050 1    50   Input ~ 0
+VCC3V3
+Text GLabel 8200 5050 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7900 5300 7900 5050
+Wire Wire Line
+	8200 5300 8200 5050
+Text GLabel 7700 5800 0    50   Input ~ 0
+SCL
+Text GLabel 7700 6000 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	7700 5800 7900 5800
+Wire Wire Line
+	7900 5800 7900 5600
+Wire Wire Line
+	7700 6000 8200 6000
+Wire Wire Line
+	8200 6000 8200 5600
+Text Notes 7700 4600 0    79   ~ 0
+I2C Pull-Ups
 $EndSCHEMATC
