@@ -22,7 +22,7 @@
   (pad 1 smd rect (at -0.52 -0.35) (size 0.46 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.52 0.35) (size 0.46 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.52 0) (size 0.46 0.2) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/TPD2E009DRTR.step
+  (model ${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -39,7 +39,7 @@
          (xy 1.3725 1.195) (xy 1.3725 0.7875) (xy 0.8625 0.7875) (xy 0.8625 0.5325) (xy 1.3725 0.5325)
          (xy 1.3725 0.1275)) (width 0))
     ))
-  (model ${ANT3DMDL}/Vishay_PowerPAK_1212-8_Single.step
+  (model ${KIPRJMOD}/lib/3d-models/Vishay_PowerPAK_1212-8_Single.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))

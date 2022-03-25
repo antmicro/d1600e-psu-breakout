@@ -26,7 +26,7 @@
   (pad 4 smd rect (at 1.5 1.325) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -2.8 -1.2) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.8 -1.2) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/BM04B-SRSS-TB-LF-SN.step
+  (model ${KIPRJMOD}/lib/3d-models/BM04B-SRSS-TB-LF-SN.step
     (offset (xyz 0 0.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
