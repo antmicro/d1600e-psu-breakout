@@ -51,7 +51,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R28
 U 1 1 62306CCE
 P 9600 8050
-F 0 "R28" V 9550 7850 60  0000 L CNN
+F 0 "R28" V 9550 7800 60  0000 L CNN
 F 1 "R_4k7_0402" H 9600 7900 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9800 8250 60  0001 L CNN
 F 3 "" H 9600 8050 50  0001 C CNN
@@ -149,7 +149,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R29
 U 1 1 622E9590
 P 9700 6050
-F 0 "R29" V 9650 5850 60  0000 L CNN
+F 0 "R29" V 9650 5800 60  0000 L CNN
 F 1 "R_4k7_0402" H 9700 5900 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 9900 6250 60  0001 L CNN
 F 3 "" H 9700 6050 50  0001 C CNN
@@ -205,7 +205,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R25
 U 1 1 622C8CBE
 P 7900 9850
-F 0 "R25" V 7850 9650 60  0000 L CNN
+F 0 "R25" V 7850 9600 60  0000 L CNN
 F 1 "R_4k7_0402" H 7900 9700 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 8100 10050 60  0001 L CNN
 F 3 "" H 7900 9850 50  0001 C CNN
@@ -2974,7 +2974,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R22
 U 1 1 6228D8DD
 P 6100 6100
-F 0 "R22" V 6050 5900 60  0000 L CNN
+F 0 "R22" V 6050 5850 60  0000 L CNN
 F 1 "R_4k7_0402" H 6100 5950 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 6300 6300 60  0001 L CNN
 F 3 "" H 6100 6100 50  0001 C CNN
@@ -3047,7 +3047,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R23
 U 1 1 622D4C0D
 P 6150 8100
-F 0 "R23" V 6100 7900 60  0000 L CNN
+F 0 "R23" V 6100 7850 60  0000 L CNN
 F 1 "R_4k7_0402" H 6150 7950 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 6350 8300 60  0001 L CNN
 F 3 "" H 6150 8100 50  0001 C CNN
@@ -8274,4 +8274,10 @@ Wire Wire Line
 	10250 3500 10250 3050
 Wire Wire Line
 	10250 3050 10400 3050
+Text Notes 575  7675 0    79   ~ 0
+TODO: Add \nDNP fields\nto proper \nresistors
+Text Notes 14400 9150 0    79   ~ 0
+REMARK: Missing symbol
+Text Notes 12150 3225 0    79   ~ 0
+TODO: Add \nDNP fields\nto proper \nresistors
 $EndSCHEMATC

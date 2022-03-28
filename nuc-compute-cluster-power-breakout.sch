@@ -4314,4 +4314,10 @@ Wire Wire Line
 Connection ~ 3300 4400
 Wire Wire Line
 	3300 4400 3300 4450
+Text Notes 1250 1675 0    50   ~ 0
+TODO: Add \nDNP field
+Text Notes 3075 1675 0    50   ~ 0
+TODO: Add \nDNP field
+Text Notes 1875 2625 0    50   ~ 0
+Q: Why do we need these two I2C connectors?
 $EndSCHEMATC

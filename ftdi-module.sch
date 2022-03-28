@@ -1257,7 +1257,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:C_22u_0603 C19
 U 1 1 624435BD
 P 13900 5550
-F 0 "C19" H 14015 5595 60  0000 L CNN
+F 0 "C19" H 13925 5650 60  0000 L CNN
 F 1 "C_22u_0603" H 13900 5400 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 14100 5750 60  0001 L CNN
 F 3 "" H 13900 5550 50  0001 C CNN
@@ -1271,7 +1271,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:C_22u_0603 C20
 U 1 1 6244466C
 P 14250 5550
-F 0 "C20" H 14365 5595 60  0000 L CNN
+F 0 "C20" H 14300 5650 60  0000 L CNN
 F 1 "C_22u_0603" H 14250 5400 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 14450 5750 60  0001 L CNN
 F 3 "" H 14250 5550 50  0001 C CNN
@@ -5367,4 +5367,8 @@ Wire Wire Line
 	8200 6000 8200 5600
 Text Notes 7700 4600 0    79   ~ 0
 I2C Pull-Ups
+Text Notes 14250 9175 0    79   ~ 0
+REMARK: Missing symbol
+Text Notes 9000 4650 0    79   ~ 0
+TODO: What is the scenario for 5V0 \npower supply without the 12V? \nAdd 0R in the same place as D3 \nand mark D3 and D4 as DNP.
 $EndSCHEMATC
