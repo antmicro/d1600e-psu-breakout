@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7400 1400 3000 1050
+S 7850 925  3000 1050
 U 62220F27
 F0 "FTDI" 50
 F1 "ftdi-module.sch" 50
 $EndSheet
 $Sheet
-S 7400 2900 3000 950 
+S 7850 2425 3000 950 
 U 622E8AAF
 F0 "Power Cycling & Current Measurement" 50
 F1 "pow-cycl-curr-meas.sch" 50
@@ -28,125 +28,125 @@ $EndSheet
 $Comp
 L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J2
 U 1 1 6231F410
-P 2150 2150
-F 0 "J2" H 2100 2500 50  0000 L CNN
-F 1 "BM04B-SRSS-TB-LF-SN" H 2000 2000 50  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 2150 1900 50  0001 C CNN
-F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1700 1850 50  0001 C CNN
-F 4 "BM04B-SRSS-TB(LF)(SN) " H 2050 1800 50  0001 L CNN "MPN"
-F 5 "JST" H 2050 1700 50  0001 L CNN "Manufacturer"
-	1    2150 2150
+P 1775 2275
+F 0 "J2" H 1725 2625 50  0000 L CNN
+F 1 "BM04B-SRSS-TB-LF-SN" H 1450 2125 50  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 1775 2025 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1325 1975 50  0001 C CNN
+F 4 "BM04B-SRSS-TB(LF)(SN) " H 1675 1925 50  0001 L CNN "MPN"
+F 5 "JST" H 1675 1825 50  0001 L CNN "Manufacturer"
+	1    1775 2275
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:BM04B-SRSS-TB-LF-SN J3
 U 1 1 6231FA57
-P 3900 2150
-F 0 "J3" H 3850 2500 50  0000 L CNN
-F 1 "BM04B-SRSS-TB-LF-SN" H 3750 2000 50  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 3900 1900 50  0001 C CNN
-F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3450 1850 50  0001 C CNN
-F 4 "BM04B-SRSS-TB(LF)(SN) " H 3800 1800 50  0001 L CNN "MPN"
-F 5 "JST" H 3800 1700 50  0001 L CNN "Manufacturer"
-	1    3900 2150
+P 3525 2275
+F 0 "J3" H 3475 2625 50  0000 L CNN
+F 1 "BM04B-SRSS-TB-LF-SN" H 3200 2125 50  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 3525 2025 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3075 1975 50  0001 C CNN
+F 4 "BM04B-SRSS-TB(LF)(SN) " H 3425 1925 50  0001 L CNN "MPN"
+F 5 "JST" H 3425 1825 50  0001 L CNN "Manufacturer"
+	1    3525 2275
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR023
 U 1 1 6232221D
-P 1800 2300
-F 0 "#PWR023" H 1800 2050 50  0001 C CNN
-F 1 "GND" H 1805 2127 50  0000 C CNN
-F 2 "" H 1800 2300 50  0001 C CNN
-F 3 "" H 1800 2300 50  0001 C CNN
-	1    1800 2300
+P 1425 2425
+F 0 "#PWR023" H 1425 2175 50  0001 C CNN
+F 1 "GND" H 1430 2252 50  0000 C CNN
+F 2 "" H 1425 2425 50  0001 C CNN
+F 3 "" H 1425 2425 50  0001 C CNN
+	1    1425 2425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 2300 1800 2200
+	1425 2425 1425 2325
 Wire Wire Line
-	1800 2200 1950 2200
+	1425 2325 1575 2325
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR033
 U 1 1 62322D69
-P 3550 2300
-F 0 "#PWR033" H 3550 2050 50  0001 C CNN
-F 1 "GND" H 3555 2127 50  0000 C CNN
-F 2 "" H 3550 2300 50  0001 C CNN
-F 3 "" H 3550 2300 50  0001 C CNN
-	1    3550 2300
+P 3175 2425
+F 0 "#PWR033" H 3175 2175 50  0001 C CNN
+F 1 "GND" H 3180 2252 50  0000 C CNN
+F 2 "" H 3175 2425 50  0001 C CNN
+F 3 "" H 3175 2425 50  0001 C CNN
+	1    3175 2425
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 1300 1    50   Input ~ 0
+Text GLabel 1425 1425 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	3700 2200 3550 2200
-Text GLabel 1800 2100 0    50   Input ~ 0
+	3325 2325 3175 2325
+Text GLabel 1425 2225 0    50   Input ~ 0
 SCL
-Text GLabel 1800 2000 0    50   Input ~ 0
+Text GLabel 1425 2125 0    50   Input ~ 0
 SDA
-Text GLabel 3550 2000 0    50   Input ~ 0
+Text GLabel 3175 2125 0    50   Input ~ 0
 SDA
-Text GLabel 3550 2100 0    50   Input ~ 0
+Text GLabel 3175 2225 0    50   Input ~ 0
 SCL
 Wire Wire Line
-	1800 2100 1950 2100
+	1425 2225 1575 2225
 Wire Wire Line
-	1800 2000 1950 2000
-Text GLabel 3550 1300 1    50   Input ~ 0
+	1425 2125 1575 2125
+Text GLabel 3175 1425 1    50   Input ~ 0
 VCC3V3
 $Comp
 L nuc-compute-cluster-power-breakout:R_0R_0402 R9
 U 1 1 62328EB6
-P 1800 1600
-F 0 "R9" V 1755 1670 60  0000 L CNN
-F 1 "R_0R_0402" H 1800 1450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 2000 1800 60  0001 L CNN
-F 3 "" H 1800 1600 50  0001 C CNN
-F 4 "PANASONIC" H 2000 2000 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2000 1900 60  0001 L CNN "MPN"
-F 6 "0R" V 1853 1670 50  0000 L CNN "Val"
-F 7 "DNP" H 1800 1600 50  0000 C CNN "DNP"
-	1    1800 1600
+P 1425 1725
+F 0 "R9" V 1380 1795 60  0000 L CNN
+F 1 "R_0R_0402" H 1425 1575 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 1625 1925 60  0001 L CNN
+F 3 "" H 1425 1725 50  0001 C CNN
+F 4 "PANASONIC" H 1625 2125 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1625 2025 60  0001 L CNN "MPN"
+F 6 "0R" V 1478 1795 50  0000 L CNN "Val"
+F 7 "DNP" H 1425 1725 50  0000 C CNN "DNP"
+	1    1425 1725
 	0    1    1    0   
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:R_0R_0402 R10
 U 1 1 62329827
-P 3550 1600
-F 0 "R10" V 3505 1670 60  0000 L CNN
-F 1 "R_0R_0402" H 3550 1450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3750 1800 60  0001 L CNN
-F 3 "" H 3550 1600 50  0001 C CNN
-F 4 "PANASONIC" H 3750 2000 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 3750 1900 60  0001 L CNN "MPN"
-F 6 "0R" V 3603 1670 50  0000 L CNN "Val"
-F 7 "DNP" H 3550 1600 50  0000 C CNN "DNP"
-	1    3550 1600
+P 3175 1725
+F 0 "R10" V 3130 1795 60  0000 L CNN
+F 1 "R_0R_0402" H 3175 1575 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3375 1925 60  0001 L CNN
+F 3 "" H 3175 1725 50  0001 C CNN
+F 4 "PANASONIC" H 3375 2125 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3375 2025 60  0001 L CNN "MPN"
+F 6 "0R" V 3228 1795 50  0000 L CNN "Val"
+F 7 "DNP" H 3175 1725 50  0000 C CNN "DNP"
+	1    3175 1725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 1450 1800 1300
+	1425 1575 1425 1425
 Wire Wire Line
-	1800 1750 1800 1900
+	1425 1875 1425 2025
 Wire Wire Line
-	1800 1900 1950 1900
+	1425 2025 1575 2025
 Wire Wire Line
-	3550 1750 3550 1900
+	3175 1875 3175 2025
 Wire Wire Line
-	3550 1900 3700 1900
+	3175 2025 3325 2025
 Wire Wire Line
-	3550 1450 3550 1300
+	3175 1575 3175 1425
 Wire Wire Line
-	3550 2300 3550 2200
+	3175 2425 3175 2325
 Wire Wire Line
-	3700 2100 3550 2100
+	3325 2225 3175 2225
 Wire Wire Line
-	3550 2000 3700 2000
-Text Notes 1500 750  0    118  ~ 0
+	3175 2125 3325 2125
+Text Notes 1125 875  0    118  ~ 0
 BOARD TO BOARD CONNECTION
 $Sheet
-S 7400 4300 3000 950 
+S 7850 3825 3000 950 
 U 623923F9
 F0 "daughterboard-supply" 50
 F1 "daughterboard-supply.sch" 50
@@ -4029,293 +4029,328 @@ $EndBitmap
 $Comp
 L nuc-compute-cluster-power-breakout:430450812 J5
 U 1 1 62389198
-P 2100 3300
-F 0 "J5" H 2125 3565 50  0000 C CNN
-F 1 "430450812" H 2125 3474 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 1950 3300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 3300 50  0001 C CNN
-F 4 "430450812" H 2100 3300 50  0001 C CNN "MPN"
-F 5 "Molex" H 2100 3300 50  0001 C CNN "Manufacturer"
-	1    2100 3300
+P 1975 3725
+F 0 "J5" H 2000 3990 50  0000 C CNN
+F 1 "430450812" H 2000 3899 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 1825 3725 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1825 3725 50  0001 C CNN
+F 4 "430450812" H 1975 3725 50  0001 C CNN "MPN"
+F 5 "Molex" H 1975 3725 50  0001 C CNN "Manufacturer"
+	1    1975 3725
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:430450812 J6
 U 1 1 623895A5
-P 3650 3300
-F 0 "J6" H 3675 3565 50  0000 C CNN
-F 1 "430450812" H 3675 3474 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 3500 3300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 3300 50  0001 C CNN
-F 4 "430450812" H 3650 3300 50  0001 C CNN "MPN"
-F 5 "Molex" H 3650 3300 50  0001 C CNN "Manufacturer"
-	1    3650 3300
+P 3525 3725
+F 0 "J6" H 3550 3990 50  0000 C CNN
+F 1 "430450812" H 3550 3899 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 3375 3725 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3375 3725 50  0001 C CNN
+F 4 "430450812" H 3525 3725 50  0001 C CNN "MPN"
+F 5 "Molex" H 3525 3725 50  0001 C CNN "Manufacturer"
+	1    3525 3725
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:430450812 J7
 U 1 1 6238989A
-P 2100 4250
-F 0 "J7" H 2125 4515 50  0000 C CNN
-F 1 "430450812" H 2125 4424 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 1950 4250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1950 4250 50  0001 C CNN
-F 4 "430450812" H 2100 4250 50  0001 C CNN "MPN"
-F 5 "Molex" H 2100 4250 50  0001 C CNN "Manufacturer"
-	1    2100 4250
+P 1975 4675
+F 0 "J7" H 2000 4940 50  0000 C CNN
+F 1 "430450812" H 2000 4849 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 1825 4675 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 1825 4675 50  0001 C CNN
+F 4 "430450812" H 1975 4675 50  0001 C CNN "MPN"
+F 5 "Molex" H 1975 4675 50  0001 C CNN "Manufacturer"
+	1    1975 4675
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:430450812 J8
 U 1 1 62389AA4
-P 3650 4250
-F 0 "J8" H 3675 4515 50  0000 C CNN
-F 1 "430450812" H 3675 4424 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 3500 4250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3500 4250 50  0001 C CNN
-F 4 "430450812" H 3650 4250 50  0001 C CNN "MPN"
-F 5 "Molex" H 3650 4250 50  0001 C CNN "Manufacturer"
-	1    3650 4250
+P 3525 4675
+F 0 "J8" H 3550 4940 50  0000 C CNN
+F 1 "430450812" H 3550 4849 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 3375 4675 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 3375 4675 50  0001 C CNN
+F 4 "430450812" H 3525 4675 50  0001 C CNN "MPN"
+F 5 "Molex" H 3525 4675 50  0001 C CNN "Manufacturer"
+	1    3525 4675
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:430450812 J9
 U 1 1 62389CDB
-P 2850 5400
-F 0 "J9" H 2875 5665 50  0000 C CNN
-F 1 "430450812" H 2875 5574 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 2700 5400 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 2700 5400 50  0001 C CNN
-F 4 "430450812" H 2850 5400 50  0001 C CNN "MPN"
-F 5 "Molex" H 2850 5400 50  0001 C CNN "Manufacturer"
-	1    2850 5400
+P 2725 5825
+F 0 "J9" H 2750 6090 50  0000 C CNN
+F 1 "430450812" H 2750 5999 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Molex-43045-0812" H 2575 5825 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450812_sd.pdf" H 2575 5825 50  0001 C CNN
+F 4 "430450812" H 2725 5825 50  0001 C CNN "MPN"
+F 5 "Molex" H 2725 5825 50  0001 C CNN "Manufacturer"
+	1    2725 5825
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 3450 0    50   Input ~ 0
+Text GLabel 1425 3875 0    50   Input ~ 0
 LOAD_1
 Wire Wire Line
-	1850 3600 1750 3600
+	1725 4025 1625 4025
 Wire Wire Line
-	1750 3600 1750 3500
+	1625 4025 1625 3925
 Wire Wire Line
-	1750 3300 1850 3300
+	1625 3725 1725 3725
 Wire Wire Line
-	1850 3400 1750 3400
-Connection ~ 1750 3400
+	1725 3825 1625 3825
+Connection ~ 1625 3825
 Wire Wire Line
-	1750 3400 1750 3300
+	1625 3825 1625 3725
 Wire Wire Line
-	1750 3500 1850 3500
-Connection ~ 1750 3500
+	1625 3925 1725 3925
+Connection ~ 1625 3925
 Wire Wire Line
-	1750 3500 1750 3450
+	1625 3925 1625 3875
 Wire Wire Line
-	1750 3450 1550 3450
-Connection ~ 1750 3450
+	1625 3875 1425 3875
+Connection ~ 1625 3875
 Wire Wire Line
-	1750 3450 1750 3400
+	1625 3875 1625 3825
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR027
 U 1 1 62392E27
-P 2400 3750
-F 0 "#PWR027" H 2400 3500 50  0001 C CNN
-F 1 "GND" H 2405 3577 50  0000 C CNN
-F 2 "" H 2400 3750 50  0001 C CNN
-F 3 "" H 2400 3750 50  0001 C CNN
-	1    2400 3750
+P 2275 4175
+F 0 "#PWR027" H 2275 3925 50  0001 C CNN
+F 1 "GND" H 2280 4002 50  0000 C CNN
+F 2 "" H 2275 4175 50  0001 C CNN
+F 3 "" H 2275 4175 50  0001 C CNN
+	1    2275 4175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3750 2400 3600
-Connection ~ 2400 3400
+	2275 4175 2275 4025
+Connection ~ 2275 3825
 Wire Wire Line
-	2400 3400 2400 3300
-Connection ~ 2400 3500
+	2275 3825 2275 3725
+Connection ~ 2275 3925
 Wire Wire Line
-	2400 3500 2400 3400
-Connection ~ 2400 3600
+	2275 3925 2275 3825
+Connection ~ 2275 4025
 Wire Wire Line
-	2400 3600 2400 3500
+	2275 4025 2275 3925
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR030
 U 1 1 62394589
-P 2400 4800
-F 0 "#PWR030" H 2400 4550 50  0001 C CNN
-F 1 "GND" H 2405 4627 50  0000 C CNN
-F 2 "" H 2400 4800 50  0001 C CNN
-F 3 "" H 2400 4800 50  0001 C CNN
-	1    2400 4800
+P 2275 5225
+F 0 "#PWR030" H 2275 4975 50  0001 C CNN
+F 1 "GND" H 2280 5052 50  0000 C CNN
+F 2 "" H 2275 5225 50  0001 C CNN
+F 3 "" H 2275 5225 50  0001 C CNN
+	1    2275 5225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 4800 2400 4550
-Connection ~ 2400 4350
+	2275 5225 2275 4975
+Connection ~ 2275 4775
 Wire Wire Line
-	2400 4350 2400 4250
-Connection ~ 2400 4450
+	2275 4775 2275 4675
+Connection ~ 2275 4875
 Wire Wire Line
-	2400 4450 2400 4350
-Connection ~ 2400 4550
+	2275 4875 2275 4775
+Connection ~ 2275 4975
 Wire Wire Line
-	2400 4550 2400 4450
+	2275 4975 2275 4875
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR035
 U 1 1 6239614B
-P 3950 4800
-F 0 "#PWR035" H 3950 4550 50  0001 C CNN
-F 1 "GND" H 3955 4627 50  0000 C CNN
-F 2 "" H 3950 4800 50  0001 C CNN
-F 3 "" H 3950 4800 50  0001 C CNN
-	1    3950 4800
+P 3825 5225
+F 0 "#PWR035" H 3825 4975 50  0001 C CNN
+F 1 "GND" H 3830 5052 50  0000 C CNN
+F 2 "" H 3825 5225 50  0001 C CNN
+F 3 "" H 3825 5225 50  0001 C CNN
+	1    3825 5225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 4800 3950 4550
-Connection ~ 3950 4350
+	3825 5225 3825 4975
+Connection ~ 3825 4775
 Wire Wire Line
-	3950 4350 3950 4250
-Connection ~ 3950 4450
+	3825 4775 3825 4675
+Connection ~ 3825 4875
 Wire Wire Line
-	3950 4450 3950 4350
-Connection ~ 3950 4550
+	3825 4875 3825 4775
+Connection ~ 3825 4975
 Wire Wire Line
-	3950 4550 3950 4450
+	3825 4975 3825 4875
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR031
 U 1 1 62398F4B
-P 3150 6000
-F 0 "#PWR031" H 3150 5750 50  0001 C CNN
-F 1 "GND" H 3155 5827 50  0000 C CNN
-F 2 "" H 3150 6000 50  0001 C CNN
-F 3 "" H 3150 6000 50  0001 C CNN
-	1    3150 6000
+P 3025 6425
+F 0 "#PWR031" H 3025 6175 50  0001 C CNN
+F 1 "GND" H 3030 6252 50  0000 C CNN
+F 2 "" H 3025 6425 50  0001 C CNN
+F 3 "" H 3025 6425 50  0001 C CNN
+	1    3025 6425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 6000 3150 5700
-Connection ~ 3150 5500
+	3025 6425 3025 6125
+Connection ~ 3025 5925
 Wire Wire Line
-	3150 5500 3150 5400
-Connection ~ 3150 5600
+	3025 5925 3025 5825
+Connection ~ 3025 6025
 Wire Wire Line
-	3150 5600 3150 5500
-Connection ~ 3150 5700
+	3025 6025 3025 5925
+Connection ~ 3025 6125
 Wire Wire Line
-	3150 5700 3150 5600
+	3025 6125 3025 6025
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR034
 U 1 1 62399AC9
-P 3950 3750
-F 0 "#PWR034" H 3950 3500 50  0001 C CNN
-F 1 "GND" H 3955 3577 50  0000 C CNN
-F 2 "" H 3950 3750 50  0001 C CNN
-F 3 "" H 3950 3750 50  0001 C CNN
-	1    3950 3750
+P 3825 4175
+F 0 "#PWR034" H 3825 3925 50  0001 C CNN
+F 1 "GND" H 3830 4002 50  0000 C CNN
+F 2 "" H 3825 4175 50  0001 C CNN
+F 3 "" H 3825 4175 50  0001 C CNN
+	1    3825 4175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3750 3950 3600
-Connection ~ 3950 3400
+	3825 4175 3825 4025
+Connection ~ 3825 3825
 Wire Wire Line
-	3950 3400 3950 3300
-Connection ~ 3950 3500
+	3825 3825 3825 3725
+Connection ~ 3825 3925
 Wire Wire Line
-	3950 3500 3950 3400
-Connection ~ 3950 3600
+	3825 3925 3825 3825
+Connection ~ 3825 4025
 Wire Wire Line
-	3950 3600 3950 3500
-Text GLabel 1550 4400 0    50   Input ~ 0
+	3825 4025 3825 3925
+Text GLabel 1425 4825 0    50   Input ~ 0
 LOAD_3
-Text GLabel 3150 3450 0    50   Input ~ 0
+Text GLabel 3025 3875 0    50   Input ~ 0
 LOAD_2
-Text GLabel 3200 4400 0    50   Input ~ 0
+Text GLabel 3075 4825 0    50   Input ~ 0
 LOAD_4
-Text GLabel 2300 5550 0    50   Input ~ 0
+Text GLabel 2175 5975 0    50   Input ~ 0
 LOAD_5
 Wire Wire Line
-	1850 4550 1750 4550
+	1725 4975 1625 4975
 Wire Wire Line
-	1750 4550 1750 4450
+	1625 4975 1625 4875
 Wire Wire Line
-	1750 4250 1850 4250
+	1625 4675 1725 4675
 Wire Wire Line
-	1850 4350 1750 4350
-Connection ~ 1750 4350
+	1725 4775 1625 4775
+Connection ~ 1625 4775
 Wire Wire Line
-	1750 4350 1750 4250
+	1625 4775 1625 4675
 Wire Wire Line
-	1850 4450 1750 4450
-Connection ~ 1750 4450
+	1725 4875 1625 4875
+Connection ~ 1625 4875
 Wire Wire Line
-	1750 4450 1750 4400
+	1625 4875 1625 4825
 Wire Wire Line
-	1750 4400 1550 4400
-Connection ~ 1750 4400
+	1625 4825 1425 4825
+Connection ~ 1625 4825
 Wire Wire Line
-	1750 4400 1750 4350
+	1625 4825 1625 4775
 Wire Wire Line
-	3400 3600 3300 3600
+	3275 4025 3175 4025
 Wire Wire Line
-	3300 3600 3300 3500
+	3175 4025 3175 3925
 Wire Wire Line
-	3300 3300 3400 3300
+	3175 3725 3275 3725
 Wire Wire Line
-	3400 3400 3300 3400
-Connection ~ 3300 3400
+	3275 3825 3175 3825
+Connection ~ 3175 3825
 Wire Wire Line
-	3300 3400 3300 3300
+	3175 3825 3175 3725
 Wire Wire Line
-	3400 3500 3300 3500
-Connection ~ 3300 3500
+	3275 3925 3175 3925
+Connection ~ 3175 3925
 Wire Wire Line
-	3300 3500 3300 3450
+	3175 3925 3175 3875
 Wire Wire Line
-	3300 3450 3150 3450
-Connection ~ 3300 3450
+	3175 3875 3025 3875
+Connection ~ 3175 3875
 Wire Wire Line
-	3300 3450 3300 3400
+	3175 3875 3175 3825
 Wire Wire Line
-	2450 5400 2450 5500
+	2325 5825 2325 5925
 Wire Wire Line
-	2450 5700 2600 5700
+	2325 6125 2475 6125
 Wire Wire Line
-	2450 5400 2600 5400
+	2325 5825 2475 5825
 Wire Wire Line
-	2450 5600 2600 5600
-Connection ~ 2450 5600
+	2325 6025 2475 6025
+Connection ~ 2325 6025
 Wire Wire Line
-	2450 5600 2450 5700
+	2325 6025 2325 6125
 Wire Wire Line
-	2600 5500 2450 5500
-Connection ~ 2450 5500
+	2475 5925 2325 5925
+Connection ~ 2325 5925
 Wire Wire Line
-	2450 5500 2450 5550
+	2325 5925 2325 5975
 Wire Wire Line
-	2450 5550 2300 5550
-Connection ~ 2450 5550
+	2325 5975 2175 5975
+Connection ~ 2325 5975
 Wire Wire Line
-	2450 5550 2450 5600
+	2325 5975 2325 6025
 Wire Wire Line
-	3400 4250 3300 4250
+	3275 4675 3175 4675
 Wire Wire Line
-	3300 4250 3300 4350
+	3175 4675 3175 4775
 Wire Wire Line
-	3300 4550 3400 4550
+	3175 4975 3275 4975
 Wire Wire Line
-	3400 4450 3300 4450
-Connection ~ 3300 4450
+	3275 4875 3175 4875
+Connection ~ 3175 4875
 Wire Wire Line
-	3300 4450 3300 4550
+	3175 4875 3175 4975
 Wire Wire Line
-	3400 4350 3300 4350
-Connection ~ 3300 4350
+	3275 4775 3175 4775
+Connection ~ 3175 4775
 Wire Wire Line
-	3300 4350 3300 4400
+	3175 4775 3175 4825
 Wire Wire Line
-	3300 4400 3200 4400
-Connection ~ 3300 4400
+	3175 4825 3075 4825
+Connection ~ 3175 4825
 Wire Wire Line
-	3300 4400 3300 4450
-Text Notes 1875 2625 0    50   ~ 0
+	3175 4825 3175 4875
+Text Notes 1500 2750 0    50   ~ 0
 Q: Why do we need these two I2C connectors?
+Text Notes 1275 3250 0    118  ~ 0
+Load's (NUCs) connectors
+Text GLabel 8825 5625 0    50   Input ~ 0
+PSU_ON
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR?
+U 1 1 62727538
+P 9650 5875
+F 0 "#PWR?" H 9650 5625 50  0001 C CNN
+F 1 "GND" H 9655 5702 50  0000 C CNN
+F 2 "" H 9650 5875 50  0001 C CNN
+F 3 "" H 9650 5875 50  0001 C CNN
+	1    9650 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5875 9650 5725
+Wire Wire Line
+	9650 5725 9575 5725
+$Comp
+L antmicroSlideSwitches:MSS3-V-T_R S?
+U 1 1 6270AED7
+P 9375 5625
+F 0 "S?" H 9300 5500 50  0000 C CNN
+F 1 "MSS3-V-T_R" H 9125 5400 50  0000 C CNN
+F 2 "antmicro-footprints:Switch_Slide_MSS3" H 9575 5825 50  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 9575 5925 60  0001 L CNN
+F 4 "MSS3-V-T/R" H 9575 6125 60  0001 L CNN "MPN"
+F 5 "Diptronics" H 9575 6245 60  0001 L CNN "Manufacturer"
+	1    9375 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 5625 9175 5625
+NoConn ~ 9575 5525
 $EndSCHEMATC

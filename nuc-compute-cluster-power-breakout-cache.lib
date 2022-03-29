@@ -18,6 +18,26 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroSlideSwitches_MSS3-V-T_R
+#
+DEF antmicroSlideSwitches_MSS3-V-T_R S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "antmicroSlideSwitches_MSS3-V-T_R" 0 -210 50 H V C CNN
+F2 "antmicro-footprints:Switch_Slide_MSS3" 200 200 50 H I L CNN
+F3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" 200 300 60 H I L CNN
+F4 "MSS3-V-T/R" 200 500 60 H I L CNN "MPN"
+F5 "Diptronics" 200 620 60 H I L CNN "Manufacturer"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTestPoints_TP_SMD1MM
 #
 DEF antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
