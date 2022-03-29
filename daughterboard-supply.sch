@@ -4195,7 +4195,7 @@ Connection ~ 9350 2100
 Wire Wire Line
 	9200 2250 9450 2250
 Text GLabel 9200 1950 0    50   Input ~ 0
-VCC3V3
+DB_3V3
 Wire Wire Line
 	9200 2450 9450 2450
 Wire Wire Line
@@ -4215,5 +4215,101 @@ F 5 "43045-1013" H 9650 1400 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 9200 2450 0    50   Input ~ 0
+DB_3V3
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:DMN4010LFG-7 Q??
+U 1 1 626C5C42
+P 3525 3950
+F 0 "Q??" V 3861 3950 79  0000 C CNN
+F 1 "DMN4010LFG-7" V 3726 3950 79  0000 C CNN
+F 2 "antmicro-footprints:POWERVDFN-8" H 3525 3950 79  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN4010LFG.pdf" H 3525 3950 79  0001 C CNN
+F 4 "DMN4010LFG-7" H 3525 3950 79  0001 C CNN "MPN"
+F 5 "Diodes Inc." H 3525 3950 79  0001 C CNN "Manufacturer"
+	1    3525 3950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3150 3925 0    50   Input ~ 0
 VCC3V3
+Wire Wire Line
+	3150 3925 3325 3925
+Text GLabel 4050 3925 2    50   Output ~ 0
+DB_3V3
+Wire Wire Line
+	3725 3925 3875 3925
+Text GLabel 3425 4300 0    59   Input ~ 0
+VCC12V0
+Wire Wire Line
+	3425 4300 3625 4300
+Wire Wire Line
+	3625 4300 3625 4225
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR?
+U 1 1 626D67BF
+P 3625 4700
+AR Path="/62220F27/626D67BF" Ref="#PWR?"  Part="1" 
+AR Path="/623923F9/626D67BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3625 4450 50  0001 C CNN
+F 1 "GND" H 3630 4527 50  0000 C CNN
+F 2 "" H 3625 4700 50  0001 C CNN
+F 3 "" H 3625 4700 50  0001 C CNN
+	1    3625 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 626D757A
+P 3625 4500
+F 0 "R?" V 3575 4325 60  0000 L CNN
+F 1 "R_10k_0402" H 3625 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3825 4700 60  0001 L CNN
+F 3 "" H 3625 4500 50  0001 C CNN
+F 4 "VISHAY" H 3825 4900 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 3825 4800 60  0001 L CNN "MPN"
+F 6 "10k" V 3675 4300 50  0000 L CNN "Val"
+	1    3625 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 4700 3625 4650
+Wire Wire Line
+	3625 4350 3625 4300
+Connection ~ 3625 4300
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR?
+U 1 1 626DA518
+P 3875 4700
+AR Path="/62220F27/626DA518" Ref="#PWR?"  Part="1" 
+AR Path="/623923F9/626DA518" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3875 4450 50  0001 C CNN
+F 1 "GND" H 3880 4527 50  0000 C CNN
+F 2 "" H 3875 4700 50  0001 C CNN
+F 3 "" H 3875 4700 50  0001 C CNN
+	1    3875 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 4650 3875 4700
+Wire Wire Line
+	3875 4350 3875 3925
+Connection ~ 3875 3925
+Wire Wire Line
+	3875 3925 4050 3925
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 626D93ED
+P 3875 4500
+F 0 "R?" V 3825 4575 60  0000 L CNN
+F 1 "R_10k_0402" H 3875 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4075 4700 60  0001 L CNN
+F 3 "" H 3875 4500 50  0001 C CNN
+F 4 "VISHAY" H 4075 4900 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 4075 4800 60  0001 L CNN "MPN"
+F 6 "10k" V 3925 4575 50  0000 L CNN "Val"
+F 7 "DNP" H 3875 4500 50  0000 C CNN "DNP"
+	1    3875 4500
+	0    1    1    0   
+$EndComp
+Text Notes 1850 5150 0    79   ~ 0
+Switch that prevents daughterboard's supply without NUCs supply
 $EndSCHEMATC
