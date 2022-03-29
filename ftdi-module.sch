@@ -736,17 +736,6 @@ Wire Wire Line
 	2750 1950 2750 2250
 Wire Wire Line
 	2450 2200 2450 2250
-$Comp
-L nuc-compute-cluster-power-breakout:Logo_Open_Hardware_Large #LOGO1
-U 1 1 622C2468
-P 15350 9550
-F 0 "#LOGO1" H 15350 10050 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 15350 9150 50  0001 C CNN
-F 2 "" H 15350 9550 50  0001 C CNN
-F 3 "~" H 15350 9550 50  0001 C CNN
-	1    15350 9550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5400 5450
 NoConn ~ 5400 5350
 NoConn ~ 5400 5250
@@ -5367,8 +5356,6 @@ Wire Wire Line
 	8200 6000 8200 5600
 Text Notes 7700 4600 0    79   ~ 0
 I2C Pull-Ups
-Text Notes 14250 9175 0    79   ~ 0
-REMARK: Missing symbol
-Text Notes 9000 4650 0    79   ~ 0
+Text Notes 13650 4800 0    79   ~ 0
 TODO: What is the scenario for 5V0 \npower supply without the 12V? \nAdd 0R in the same place as D3 \nand mark D3 and D4 as DNP.
 $EndSCHEMATC

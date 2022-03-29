@@ -106,6 +106,7 @@ F 3 "" H 1800 1600 50  0001 C CNN
 F 4 "PANASONIC" H 2000 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2000 1900 60  0001 L CNN "MPN"
 F 6 "0R" V 1853 1670 50  0000 L CNN "Val"
+F 7 "DNP" H 1800 1600 50  0000 C CNN "DNP"
 	1    1800 1600
 	0    1    1    0   
 $EndComp
@@ -120,6 +121,7 @@ F 3 "" H 3550 1600 50  0001 C CNN
 F 4 "PANASONIC" H 3750 2000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3750 1900 60  0001 L CNN "MPN"
 F 6 "0R" V 3603 1670 50  0000 L CNN "Val"
+F 7 "DNP" H 3550 1600 50  0000 C CNN "DNP"
 	1    3550 1600
 	0    1    1    0   
 $EndComp
@@ -4314,10 +4316,6 @@ Wire Wire Line
 Connection ~ 3300 4400
 Wire Wire Line
 	3300 4400 3300 4450
-Text Notes 1250 1675 0    50   ~ 0
-TODO: Add \nDNP field
-Text Notes 3075 1675 0    50   ~ 0
-TODO: Add \nDNP field
 Text Notes 1875 2625 0    50   ~ 0
 Q: Why do we need these two I2C connectors?
 $EndSCHEMATC
