@@ -4323,10 +4323,10 @@ Load's (NUCs) connectors
 Text GLabel 8825 5625 0    50   Input ~ 0
 PSU_ON
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR0102
 U 1 1 62727538
 P 9650 5875
-F 0 "#PWR?" H 9650 5625 50  0001 C CNN
+F 0 "#PWR0102" H 9650 5625 50  0001 C CNN
 F 1 "GND" H 9655 5702 50  0000 C CNN
 F 2 "" H 9650 5875 50  0001 C CNN
 F 3 "" H 9650 5875 50  0001 C CNN
@@ -4338,10 +4338,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 5725 9575 5725
 $Comp
-L antmicroSlideSwitches:MSS3-V-T_R S?
+L antmicroSlideSwitches:MSS3-V-T_R S1
 U 1 1 6270AED7
 P 9375 5625
-F 0 "S?" H 9300 5500 50  0000 C CNN
+F 0 "S1" H 9300 5500 50  0000 C CNN
 F 1 "MSS3-V-T_R" H 9125 5400 50  0000 C CNN
 F 2 "antmicro-footprints:Switch_Slide_MSS3" H 9575 5825 50  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 9575 5925 60  0001 L CNN
