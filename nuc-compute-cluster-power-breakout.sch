@@ -69,12 +69,12 @@ Wire Wire Line
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR033
 U 1 1 62322D69
-P 3175 2425
-F 0 "#PWR033" H 3175 2175 50  0001 C CNN
-F 1 "GND" H 3180 2252 50  0000 C CNN
-F 2 "" H 3175 2425 50  0001 C CNN
-F 3 "" H 3175 2425 50  0001 C CNN
-	1    3175 2425
+P 4825 4250
+F 0 "#PWR033" H 4825 4000 50  0001 C CNN
+F 1 "GND" H 4830 4077 50  0000 C CNN
+F 2 "" H 4825 4250 50  0001 C CNN
+F 3 "" H 4825 4250 50  0001 C CNN
+	1    4825 4250
 	1    0    0    -1  
 $EndComp
 Text GLabel 1425 1425 1    50   Input ~ 0
@@ -4320,37 +4320,238 @@ Text Notes 1500 2750 0    50   ~ 0
 Q: Why do we need these two I2C connectors?
 Text Notes 1275 3250 0    118  ~ 0
 Load's (NUCs) connectors
-Text GLabel 8825 5625 0    50   Input ~ 0
+Text GLabel 5000 1750 0    50   Input ~ 0
 PSU_ON
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR0102
 U 1 1 62727538
-P 9650 5875
-F 0 "#PWR0102" H 9650 5625 50  0001 C CNN
-F 1 "GND" H 9655 5702 50  0000 C CNN
-F 2 "" H 9650 5875 50  0001 C CNN
-F 3 "" H 9650 5875 50  0001 C CNN
-	1    9650 5875
+P 5675 2350
+F 0 "#PWR0102" H 5675 2100 50  0001 C CNN
+F 1 "GND" H 5680 2177 50  0000 C CNN
+F 2 "" H 5675 2350 50  0001 C CNN
+F 3 "" H 5675 2350 50  0001 C CNN
+	1    5675 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 5875 9650 5725
-Wire Wire Line
-	9650 5725 9575 5725
 $Comp
 L antmicroSlideSwitches:MSS3-V-T_R S1
 U 1 1 6270AED7
-P 9375 5625
-F 0 "S1" H 9300 5500 50  0000 C CNN
-F 1 "MSS3-V-T_R" H 9125 5400 50  0000 C CNN
-F 2 "antmicro-footprints:Switch_Slide_MSS3" H 9575 5825 50  0001 L CNN
-F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 9575 5925 60  0001 L CNN
-F 4 "MSS3-V-T/R" H 9575 6125 60  0001 L CNN "MPN"
-F 5 "Diptronics" H 9575 6245 60  0001 L CNN "Manufacturer"
-	1    9375 5625
+P 5400 1750
+F 0 "S1" H 5150 1600 50  0000 C CNN
+F 1 "MSS3-V-T_R" H 5125 1500 50  0000 C CNN
+F 2 "antmicro-footprints:Switch_Slide_MSS3" H 5600 1950 50  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 5600 2050 60  0001 L CNN
+F 4 "MSS3-V-T/R" H 5600 2250 60  0001 L CNN "MPN"
+F 5 "Diptronics" H 5600 2370 60  0001 L CNN "Manufacturer"
+	1    5400 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 5000
+NoConn ~ 5300 4900
+NoConn ~ 5300 4800
+NoConn ~ 5300 4700
+NoConn ~ 5300 4600
+NoConn ~ 6450 4600
+NoConn ~ 6450 4700
+NoConn ~ 6450 4800
+NoConn ~ 6450 4900
+NoConn ~ 6450 5000
+NoConn ~ 6450 5100
+NoConn ~ 5300 5100
+Text GLabel 6575 5300 2    50   Input ~ 0
+PSU_ON
+Wire Wire Line
+	6450 5200 6500 5200
+Wire Wire Line
+	6500 5200 6500 5300
+Wire Wire Line
+	6500 5400 6450 5400
+Wire Wire Line
+	6450 5300 6500 5300
+Connection ~ 6500 5300
+Wire Wire Line
+	6500 5300 6500 5400
+Wire Wire Line
+	6500 5300 6575 5300
+NoConn ~ 6450 4500
+NoConn ~ 6450 4400
+NoConn ~ 6450 4300
+NoConn ~ 5300 4300
+NoConn ~ 5300 4400
+NoConn ~ 5300 4500
+Text Notes 6275 4200 0    50   ~ 0
+ALWAYS_ON 12V0\n
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:10107844-002LF J?1
+U 1 1 624B9442
+P 5875 3475
+F 0 "J?1" H 5863 3515 50  0000 C CNN
+F 1 "10107844-002LF" H 5863 3424 50  0000 C CNN
+F 2 "antmicro-footprints:10107844-002LF" H 5875 3550 50  0001 C CNN
+F 3 "https://www.farnell.com/cad/2569863.pdf" H 5875 3550 50  0001 C CNN
+F 4 "10107844-002LF" H 5900 3550 50  0001 C CNN "MPN"
+F 5 "Amphenol" H 5875 3650 50  0001 C CNN "Manufacturer"
+	1    5875 3475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8825 5625 9175 5625
-NoConn ~ 9575 5525
+	5200 3800 5150 3800
+Wire Wire Line
+	5150 3800 5150 3750
+Wire Wire Line
+	5150 3700 5200 3700
+Text GLabel 5025 3750 0    50   Output ~ 0
+VCC12V0
+Wire Wire Line
+	5025 3750 5150 3750
+Connection ~ 5150 3750
+Wire Wire Line
+	5150 3750 5150 3700
+Wire Wire Line
+	4825 4100 4825 4000
+Wire Wire Line
+	4825 3900 5200 3900
+Wire Wire Line
+	4825 4100 5200 4100
+Wire Wire Line
+	4825 4000 5200 4000
+Connection ~ 4825 4000
+Wire Wire Line
+	4825 4000 4825 3900
+Wire Wire Line
+	4825 4250 4825 4100
+Connection ~ 4825 4100
+Text GLabel 6725 3750 2    50   Output ~ 0
+VCC12V0
+Wire Wire Line
+	6550 3800 6600 3800
+Wire Wire Line
+	6600 3800 6600 3750
+Wire Wire Line
+	6600 3700 6550 3700
+Wire Wire Line
+	6725 3750 6600 3750
+Connection ~ 6600 3750
+Wire Wire Line
+	6600 3750 6600 3700
+Text Notes 4950 3225 0    118  ~ 0
+Board edge connector\n
+NoConn ~ 6550 4100
+Wire Wire Line
+	6550 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 3950
+Wire Wire Line
+	6600 4000 6550 4000
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR0105
+U 1 1 625406DF
+P 6925 4000
+F 0 "#PWR0105" H 6925 3750 50  0001 C CNN
+F 1 "GND" H 7050 3900 50  0000 C CNN
+F 2 "" H 6925 4000 50  0001 C CNN
+F 3 "" H 6925 4000 50  0001 C CNN
+	1    6925 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3950 6925 3950
+Wire Wire Line
+	6925 3950 6925 4000
+Connection ~ 6600 3950
+Wire Wire Line
+	6600 3950 6600 4000
+NoConn ~ 5300 5400
+NoConn ~ 5300 5300
+NoConn ~ 5300 5200
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D5
+U 1 1 62565FEC
+P 6200 1850
+F 0 "D5" V 6097 2028 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 6203 2028 60  0000 L CNN
+F 2 "antmicro-footprints:LED_0603" H 6400 2050 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6400 2150 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 6400 2350 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 6400 2950 60  0001 L CNN "Manufacturer"
+	1    6200 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 1750 5125 1750
+Wire Wire Line
+	5675 1850 5600 1850
+Wire Wire Line
+	5125 1750 5125 1400
+Connection ~ 5125 1750
+Wire Wire Line
+	5125 1750 5200 1750
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR071
+U 1 1 625A3A14
+P 6200 2350
+F 0 "#PWR071" H 6200 2100 50  0001 C CNN
+F 1 "GND" H 6205 2177 50  0000 C CNN
+F 2 "" H 6200 2350 50  0001 C CNN
+F 3 "" H 6200 2350 50  0001 C CNN
+	1    6200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2350 6200 2300
+Wire Wire Line
+	6200 2000 6200 1950
+Text GLabel 6200 975  1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	6200 1650 6200 1600
+$Comp
+L antmicroResistors0402:R_10k_0402 R40
+U 1 1 625AFF56
+P 5550 1400
+F 0 "R40" H 5550 1187 60  0000 C CNN
+F 1 "R_10k_0402" H 5550 1250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5750 1600 60  0001 L CNN
+F 3 "" H 5550 1400 50  0001 C CNN
+F 4 "VISHAY" H 5750 1800 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 5750 1700 60  0001 L CNN "MPN"
+F 6 "10k" H 5550 1285 50  0000 C CNN "Val"
+	1    5550 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5125 1400 5400 1400
+Wire Wire Line
+	5700 1400 5900 1400
+$Comp
+L antmicroResistors0402:R_680R_0402 R41
+U 1 1 625B75CB
+P 6200 2150
+F 0 "R41" V 6155 2220 60  0000 L CNN
+F 1 "R_680R_0402" H 6200 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6400 2350 60  0001 L CNN
+F 3 "" H 6200 2150 50  0001 C CNN
+F 4 "ROYAL_OHM" H 6400 2550 60  0001 L CNN "Manufacturer"
+F 5 "0402WGJ0681TCE" H 6400 2450 60  0001 L CNN "MPN"
+F 6 "680R" V 6253 2220 50  0000 L CNN "Val"
+	1    6200 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5675 1850 5675 2350
+$Comp
+L antmicroTransistorsBipolarSingle:BC856,215 Q11
+U 1 1 625D60DF
+P 6100 1400
+F 0 "Q11" H 6290 1446 50  0000 L CNN
+F 1 "BC856,215" H 6290 1355 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-3" H 6900 1100 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/490737.pdf" H 6100 1350 50  0001 C CNN
+F 4 "BC856,215" H 6550 1200 50  0001 C CNN "MPN"
+F 5 "NEXPERIA" H 6550 1300 50  0001 C CNN "Manufacturer"
+	1    6100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 975  6200 1200
 $EndSCHEMATC
