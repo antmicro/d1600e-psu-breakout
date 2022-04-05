@@ -22,6 +22,20 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_PCB_Mount_Hole_3mm_6mm_pad
+#
+DEF antmicroMechanicalParts_PCB_Mount_Hole_3mm_6mm_pad MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "antmicroMechanicalParts_PCB_Mount_Hole_3mm_6mm_pad" 0 -250 50 H V C CNN
+F2 "antmicro-footprints:mounting-hole-3.2mm" 800 700 50 H I C CNN
+F3 "" 950 800 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+X P 1 300 0 118 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroRectangularConnectorsHeadersFemalePins_10107844-002LF
 #
 DEF antmicroRectangularConnectorsHeadersFemalePins_10107844-002LF J? 0 40 Y Y 1 F N

@@ -4382,10 +4382,10 @@ NoConn ~ 5300 4500
 Text Notes 6275 4200 0    50   ~ 0
 ALWAYS_ON 12V0\n
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:10107844-002LF J?1
+L antmicroRectangularConnectorsHeadersFemalePins:10107844-002LF J10
 U 1 1 624B9442
 P 5875 3475
-F 0 "J?1" H 5863 3515 50  0000 C CNN
+F 0 "J10" H 5863 3515 50  0000 C CNN
 F 1 "10107844-002LF" H 5863 3424 50  0000 C CNN
 F 2 "antmicro-footprints:10107844-002LF" H 5875 3550 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2569863.pdf" H 5875 3550 50  0001 C CNN
@@ -4554,4 +4554,124 @@ F 5 "NEXPERIA" H 6550 1300 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	6200 975  6200 1200
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP1
+U 1 1 624D5C25
+P 8575 5375
+F 0 "MP1" H 8643 5720 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 5629 50  0000 C CNN
+F 2 "antmicro-footprints:mounting-hole-3.2mm" H 9375 6075 50  0001 C CNN
+F 3 "" H 9525 6175 50  0001 C CNN
+	1    8575 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP3
+U 1 1 624DA217
+P 9925 5375
+F 0 "MP3" H 9993 5720 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 5629 50  0000 C CNN
+F 2 "antmicro-footprints:mounting-hole-3.2mm" H 10725 6075 50  0001 C CNN
+F 3 "" H 10875 6175 50  0001 C CNN
+	1    9925 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP2
+U 1 1 624E49B1
+P 8575 6125
+F 0 "MP2" H 8643 6470 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 6379 50  0000 C CNN
+F 2 "antmicro-footprints:mounting-hole-3.2mm" H 9375 6825 50  0001 C CNN
+F 3 "" H 9525 6925 50  0001 C CNN
+	1    8575 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP4
+U 1 1 624E49B7
+P 9925 6125
+F 0 "MP4" H 9993 6470 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 6379 50  0000 C CNN
+F 2 "antmicro-footprints:mounting-hole-3.2mm" H 10725 6825 50  0001 C CNN
+F 3 "" H 10875 6925 50  0001 C CNN
+	1    9925 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR073
+U 1 1 624E955A
+P 8875 6300
+F 0 "#PWR073" H 8875 6050 50  0001 C CNN
+F 1 "GND" H 8880 6127 50  0000 C CNN
+F 2 "" H 8875 6300 50  0001 C CNN
+F 3 "" H 8875 6300 50  0001 C CNN
+	1    8875 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR075
+U 1 1 624EA9FD
+P 10225 6300
+F 0 "#PWR075" H 10225 6050 50  0001 C CNN
+F 1 "GND" H 10230 6127 50  0000 C CNN
+F 2 "" H 10225 6300 50  0001 C CNN
+F 3 "" H 10225 6300 50  0001 C CNN
+	1    10225 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR072
+U 1 1 624EAD7E
+P 8875 5575
+F 0 "#PWR072" H 8875 5325 50  0001 C CNN
+F 1 "GND" H 8880 5402 50  0000 C CNN
+F 2 "" H 8875 5575 50  0001 C CNN
+F 3 "" H 8875 5575 50  0001 C CNN
+	1    8875 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR074
+U 1 1 624EB150
+P 10225 5575
+F 0 "#PWR074" H 10225 5325 50  0001 C CNN
+F 1 "GND" H 10230 5402 50  0000 C CNN
+F 2 "" H 10225 5575 50  0001 C CNN
+F 3 "" H 10225 5575 50  0001 C CNN
+	1    10225 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10225 5375 10225 5575
+Wire Wire Line
+	8875 5575 8875 5375
+Wire Wire Line
+	10225 6125 10225 6300
+Wire Wire Line
+	8875 6125 8875 6300
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP5
+U 1 1 62504F51
+P 7500 5775
+F 0 "MP5" H 7568 6120 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 7568 6029 50  0000 C CNN
+F 2 "antmicro-footprints:mounting-hole-3.2mm" H 8300 6475 50  0001 C CNN
+F 3 "" H 8450 6575 50  0001 C CNN
+	1    7500 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR0106
+U 1 1 6250AA38
+P 7800 6000
+F 0 "#PWR0106" H 7800 5750 50  0001 C CNN
+F 1 "GND" H 7805 5827 50  0000 C CNN
+F 2 "" H 7800 6000 50  0001 C CNN
+F 3 "" H 7800 6000 50  0001 C CNN
+	1    7800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6000 7800 5775
 $EndSCHEMATC
