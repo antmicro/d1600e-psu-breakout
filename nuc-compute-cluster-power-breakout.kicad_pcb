@@ -389,7 +389,7 @@
     (add_net /FTDI/USB_D-)
   )
 
-  (module antmicro-footprints:POWERVDFN-8 (layer F.Cu) (tedit 624C0722) (tstamp 6245B89F)
+  (module nuc-compute-cluster-power-breakout-footprints:POWERVDFN-8 (layer F.Cu) (tedit 624C0722) (tstamp 6245B89F)
     (at 138.3 106.5)
     (path /623923F9/626C5C42)
     (fp_text reference Q15 (at -1.05 -2.5) (layer F.SilkS)
@@ -445,7 +445,7 @@
       (net 14 VCC12V0))
   )
 
-  (module antmicro-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CF0AB)
+  (module nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CF0AB)
     (at 108.25 53.5)
     (path /62504F51)
     (fp_text reference MP5 (at -0.1778 4.0259) (layer F.SilkS) hide
@@ -458,7 +458,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC10A)
+  (module nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC10A)
     (at 185 145)
     (path /624E49B7)
     (fp_text reference MP4 (at -0.1778 4.0259) (layer F.SilkS) hide
@@ -471,7 +471,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC105)
+  (module nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC105)
     (at 172.5 53.5)
     (path /624DA217)
     (fp_text reference MP3 (at -0.1778 4.0259) (layer F.SilkS) hide
@@ -484,7 +484,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC100)
+  (module nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC100)
     (at 95 145)
     (path /624E49B1)
     (fp_text reference MP2 (at -0.1778 4.0259) (layer F.SilkS) hide
@@ -497,7 +497,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC0FB)
+  (module nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm (layer F.Cu) (tedit 5D763C14) (tstamp 624CC0FB)
     (at 95 100)
     (path /624D5C25)
     (fp_text reference MP1 (at -0.1778 4.0259) (layer F.SilkS) hide
@@ -510,7 +510,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:10107844-002LF (layer F.Cu) (tedit 624BFB46) (tstamp 624C000B)
+  (module nuc-compute-cluster-power-breakout-footprints:10107844-002LF (layer F.Cu) (tedit 624BFB46) (tstamp 624C000B)
     (at 139.45 150)
     (path /624B9442)
     (fp_text reference J10 (at -35.45 -9) (layer F.SilkS)
@@ -730,14 +730,14 @@
       (net 14 VCC12V0))
     (pad P29/30 smd rect (at 14.0375 -9.08 90) (size 10 4.495) (layers B.Cu)
       (net 14 VCC12V0))
-    (model ${ANT3DMDL}/10107844-002lf.stp
+    (model ${KIPRJMOD}/lib/3d-models/10107844-002lf.stp
       (offset (xyz 0 3.6 3.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -0 -180))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 624CA8BA)
+  (module nuc-compute-cluster-power-breakout-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 624CA8BA)
     (at 96.4 133.8 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -764,14 +764,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 110 "Net-(D5-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 624CA7FD)
+  (module nuc-compute-cluster-power-breakout-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 624CA7FD)
     (at 103.8 136 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -798,14 +798,14 @@
       (net 66 PSU_ON))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 111 "Net-(Q11-Pad1)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 624CB659)
+  (module nuc-compute-cluster-power-breakout-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 624CB659)
     (at 101 134.6 180)
     (path /625D60DF)
     (attr smd)
@@ -844,14 +844,14 @@
       (net 1 VCC3V3) (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0 180) (size 1.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 109 "Net-(D5-Pad1)") (solder_mask_margin 0.07))
-    (model ${ANT3DMDL}/sot23-3.step
+    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module antmicro-footprints:LED_0603 (layer F.Cu) (tedit 60C2DD7B) (tstamp 624CA880)
+  (module nuc-compute-cluster-power-breakout-footprints:LED_0603 (layer F.Cu) (tedit 60C2DD7B) (tstamp 624CA880)
     (at 98 133.8 270)
     (path /62565FEC)
     (attr smd)
@@ -882,7 +882,7 @@
       (net 109 "Net-(D5-Pad1)"))
     (pad 2 smd rect (at -0.75 0 270) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 110 "Net-(D5-Pad2)"))
-    (model ${ANT3DMDL}/LED0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1153,7 +1153,7 @@
     )
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3D6)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3D6)
     (at 175.25 83.25)
     (path /622E8AAF/624CCCA3)
     (attr virtual)
@@ -1167,7 +1167,7 @@
       (net 33 "/Power Cycling & Current Measurement/PC_5"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3D1)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3D1)
     (at 160.4 92.2)
     (path /622E8AAF/624CCB06)
     (attr virtual)
@@ -1181,7 +1181,7 @@
       (net 38 "/Power Cycling & Current Measurement/PC_4"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3CC)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3CC)
     (at 153.5 93.2508)
     (path /622E8AAF/624CC9BA)
     (attr virtual)
@@ -1195,7 +1195,7 @@
       (net 39 "/Power Cycling & Current Measurement/PC_3"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 62460920)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 62460920)
     (at 146.65 96.5)
     (path /622E8AAF/624CC7E9)
     (attr virtual)
@@ -1209,7 +1209,7 @@
       (net 30 "/Power Cycling & Current Measurement/PC_2"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 62461636)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 62461636)
     (at 141 98.8)
     (path /622E8AAF/624C9924)
     (attr virtual)
@@ -1223,7 +1223,7 @@
       (net 29 "/Power Cycling & Current Measurement/PC_1"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3BD)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3BD)
     (at 174.55 76.6)
     (path /622E8AAF/625E7646)
     (attr virtual)
@@ -1237,7 +1237,7 @@
       (net 62 "/Power Cycling & Current Measurement/C_ADC5"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3B8)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3B8)
     (at 159.45 76.4508)
     (path /622E8AAF/625E7421)
     (attr virtual)
@@ -1251,7 +1251,7 @@
       (net 61 "/Power Cycling & Current Measurement/C_ADC4"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3B3)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3B3)
     (at 144.25 76.45)
     (path /622E8AAF/625E7235)
     (attr virtual)
@@ -1265,7 +1265,7 @@
       (net 60 "/Power Cycling & Current Measurement/C_ADC3"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3AE)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245B3AE)
     (at 130.05 76.4)
     (path /622E8AAF/625E6F51)
     (attr virtual)
@@ -1279,7 +1279,7 @@
       (net 59 "/Power Cycling & Current Measurement/C_ADC2"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245F7F3)
+  (module nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 6245F7F3)
     (at 115.45 76.45)
     (path /622E8AAF/625E59A0)
     (attr virtual)
@@ -1293,7 +1293,7 @@
       (net 58 "/Power Cycling & Current Measurement/C_ADC1"))
   )
 
-  (module antmicro-footprints:Switch_Slide_MSS3 (layer F.Cu) (tedit 5DF8EBF3) (tstamp 624C544D)
+  (module nuc-compute-cluster-power-breakout-footprints:Switch_Slide_MSS3 (layer F.Cu) (tedit 5DF8EBF3) (tstamp 624C544D)
     (at 91.75 135.75 270)
     (path /6270AED7)
     (attr smd)
@@ -1336,14 +1336,14 @@
     (pad 0 smd rect (at -3.65 -1 270) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
     (pad 0 smd rect (at 3.65 -1 270) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
     (pad 0 smd rect (at 3.65 1.1 270) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
-    (model ${ANT3DMDL}/MSS3_slide_switch.step
+    (model ${KIPRJMOD}/lib/3d-models/MSS3_slide_switch.step
       (offset (xyz 0.55 -0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6245B376)
+  (module nuc-compute-cluster-power-breakout-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6245B376)
     (at 133.45 105.25 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1370,14 +1370,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 64 DB_3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6245F721)
+  (module nuc-compute-cluster-power-breakout-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6245F721)
     (at 137.3 109.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1404,7 +1404,7 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 14 VCC12V0))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2032,7 +2032,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${ANT3DMDL}/FT2232HL-REEL.step
+    (model ${KIPRJMOD}/lib/3d-models/FT2232HL-REEL.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))

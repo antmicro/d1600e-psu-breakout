@@ -4334,12 +4334,12 @@ F 3 "" H 5675 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroSlideSwitches:MSS3-V-T_R S1
+L nuc-compute-cluster-power-breakout:MSS3-V-T_R S1
 U 1 1 6270AED7
 P 5400 1750
 F 0 "S1" H 5150 1600 50  0000 C CNN
 F 1 "MSS3-V-T_R" H 5125 1500 50  0000 C CNN
-F 2 "antmicro-footprints:Switch_Slide_MSS3" H 5600 1950 50  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Switch_Slide_MSS3" H 5600 1950 50  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 5600 2050 60  0001 L CNN
 F 4 "MSS3-V-T/R" H 5600 2250 60  0001 L CNN "MPN"
 F 5 "Diptronics" H 5600 2370 60  0001 L CNN "Manufacturer"
@@ -4382,12 +4382,12 @@ NoConn ~ 5300 4500
 Text Notes 6275 4200 0    50   ~ 0
 ALWAYS_ON 12V0\n
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:10107844-002LF J10
+L nuc-compute-cluster-power-breakout:10107844-002LF J10
 U 1 1 624B9442
 P 5875 3475
 F 0 "J10" H 5863 3515 50  0000 C CNN
 F 1 "10107844-002LF" H 5863 3424 50  0000 C CNN
-F 2 "antmicro-footprints:10107844-002LF" H 5875 3550 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:10107844-002LF" H 5875 3550 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2569863.pdf" H 5875 3550 50  0001 C CNN
 F 4 "10107844-002LF" H 5900 3550 50  0001 C CNN "MPN"
 F 5 "Amphenol" H 5875 3650 50  0001 C CNN "Manufacturer"
@@ -4465,12 +4465,12 @@ NoConn ~ 5300 5400
 NoConn ~ 5300 5300
 NoConn ~ 5300 5200
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D5
+L nuc-compute-cluster-power-breakout:LG_L29K-G2J1-24-Z D5
 U 1 1 62565FEC
 P 6200 1850
 F 0 "D5" V 6097 2028 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 6203 2028 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 6400 2050 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:LED_0603" H 6400 2050 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6400 2150 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 6400 2350 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 6400 2950 60  0001 L CNN "Manufacturer"
@@ -4506,12 +4506,12 @@ VCC3V3
 Wire Wire Line
 	6200 1650 6200 1600
 $Comp
-L antmicroResistors0402:R_10k_0402 R40
+L nuc-compute-cluster-power-breakout:R_10k_0402 R40
 U 1 1 625AFF56
 P 5550 1400
 F 0 "R40" H 5550 1187 60  0000 C CNN
 F 1 "R_10k_0402" H 5550 1250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5750 1600 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 5750 1600 60  0001 L CNN
 F 3 "" H 5550 1400 50  0001 C CNN
 F 4 "VISHAY" H 5750 1800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5750 1700 60  0001 L CNN "MPN"
@@ -4524,12 +4524,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 1400 5900 1400
 $Comp
-L antmicroResistors0402:R_680R_0402 R41
+L nuc-compute-cluster-power-breakout:R_680R_0402 R41
 U 1 1 625B75CB
 P 6200 2150
 F 0 "R41" V 6155 2220 60  0000 L CNN
 F 1 "R_680R_0402" H 6200 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 2350 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 6400 2350 60  0001 L CNN
 F 3 "" H 6200 2150 50  0001 C CNN
 F 4 "ROYAL_OHM" H 6400 2550 60  0001 L CNN "Manufacturer"
 F 5 "0402WGJ0681TCE" H 6400 2450 60  0001 L CNN "MPN"
@@ -4540,12 +4540,12 @@ $EndComp
 Wire Wire Line
 	5675 1850 5675 2350
 $Comp
-L antmicroTransistorsBipolarSingle:BC856,215 Q11
+L nuc-compute-cluster-power-breakout:BC856,215 Q11
 U 1 1 625D60DF
 P 6100 1400
 F 0 "Q11" H 6290 1446 50  0000 L CNN
 F 1 "BC856,215" H 6290 1355 50  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 6900 1100 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SOT-23-3" H 6900 1100 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/490737.pdf" H 6100 1350 50  0001 C CNN
 F 4 "BC856,215" H 6550 1200 50  0001 C CNN "MPN"
 F 5 "NEXPERIA" H 6550 1300 50  0001 C CNN "Manufacturer"
@@ -4555,45 +4555,45 @@ $EndComp
 Wire Wire Line
 	6200 975  6200 1200
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP1
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP1
 U 1 1 624D5C25
 P 8575 5375
 F 0 "MP1" H 8643 5720 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 5629 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 9375 6075 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 9375 6075 50  0001 C CNN
 F 3 "" H 9525 6175 50  0001 C CNN
 	1    8575 5375
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP3
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP3
 U 1 1 624DA217
 P 9925 5375
 F 0 "MP3" H 9993 5720 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 5629 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 10725 6075 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 10725 6075 50  0001 C CNN
 F 3 "" H 10875 6175 50  0001 C CNN
 	1    9925 5375
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP2
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP2
 U 1 1 624E49B1
 P 8575 6125
 F 0 "MP2" H 8643 6470 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 6379 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 9375 6825 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 9375 6825 50  0001 C CNN
 F 3 "" H 9525 6925 50  0001 C CNN
 	1    8575 6125
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP4
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP4
 U 1 1 624E49B7
 P 9925 6125
 F 0 "MP4" H 9993 6470 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 6379 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 10725 6825 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 10725 6825 50  0001 C CNN
 F 3 "" H 10875 6925 50  0001 C CNN
 	1    9925 6125
 	1    0    0    -1  
@@ -4651,12 +4651,12 @@ Wire Wire Line
 Wire Wire Line
 	8875 6125 8875 6300
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP5
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP5
 U 1 1 62504F51
 P 7500 5775
 F 0 "MP5" H 7568 6120 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 7568 6029 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 8300 6475 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 8300 6475 50  0001 C CNN
 F 3 "" H 8450 6575 50  0001 C CNN
 	1    7500 5775
 	1    0    0    -1  

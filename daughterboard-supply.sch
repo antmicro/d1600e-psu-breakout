@@ -4217,12 +4217,12 @@ $EndComp
 Text GLabel 9200 2450 0    50   Input ~ 0
 DB_3V3
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:DMN4010LFG-7 Q15
+L nuc-compute-cluster-power-breakout:DMN4010LFG-7 Q15
 U 1 1 626C5C42
 P 3525 3950
 F 0 "Q15" V 3861 3950 79  0000 C CNN
 F 1 "DMN4010LFG-7" V 3726 3950 79  0000 C CNN
-F 2 "antmicro-footprints:POWERVDFN-8" H 3525 3950 79  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:POWERVDFN-8" H 3525 3950 79  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN4010LFG.pdf" H 3525 3950 79  0001 C CNN
 F 4 "DMN4010LFG-7" H 3525 3950 79  0001 C CNN "MPN"
 F 5 "Diodes Inc." H 3525 3950 79  0001 C CNN "Manufacturer"
@@ -4257,12 +4257,12 @@ F 3 "" H 3625 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R38
+L nuc-compute-cluster-power-breakout:R_10k_0402 R38
 U 1 1 626D757A
 P 3625 4500
 F 0 "R38" V 3575 4325 60  0000 L CNN
 F 1 "R_10k_0402" H 3625 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3825 4700 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3825 4700 60  0001 L CNN
 F 3 "" H 3625 4500 50  0001 C CNN
 F 4 "VISHAY" H 3825 4900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3825 4800 60  0001 L CNN "MPN"
@@ -4296,12 +4296,12 @@ Connection ~ 3875 3925
 Wire Wire Line
 	3875 3925 4050 3925
 $Comp
-L antmicroResistors0402:R_10k_0402 R39
+L nuc-compute-cluster-power-breakout:R_10k_0402 R39
 U 1 1 626D93ED
 P 3875 4500
 F 0 "R39" V 3825 4575 60  0000 L CNN
 F 1 "R_10k_0402" H 3875 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4075 4700 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 4075 4700 60  0001 L CNN
 F 3 "" H 3875 4500 50  0001 C CNN
 F 4 "VISHAY" H 4075 4900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4075 4800 60  0001 L CNN "MPN"
