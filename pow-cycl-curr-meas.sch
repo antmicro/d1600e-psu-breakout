@@ -2837,7 +2837,7 @@ U 1 1 6252165A
 P 10400 2600
 F 0 "U14" H 10100 3350 50  0000 C CNN
 F 1 "ADS7828" H 10100 3250 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:TSSOP-16_4.4x5mm_P0.65mm" H 11350 1900 50  0001 C CNN
+F 2 "antmicro-footprints:TSSOP-16_4.4x5mm_P0.65mm" H 11350 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads7828.pdf" H 10400 2600 50  0001 C CNN
 F 4 "ADS7828E/250 " H 10400 2600 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10400 2600 50  0001 C CNN "Manufacturer"

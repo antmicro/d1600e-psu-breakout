@@ -35,6 +35,7 @@ F 2 "nuc-compute-cluster-power-breakout-footprints:BM04B-SRSS-TB-LF-SN" H 1775 2
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1325 1975 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 1675 1925 50  0001 L CNN "MPN"
 F 5 "JST" H 1675 1825 50  0001 L CNN "Manufacturer"
+F 6 "DNP" V 1875 2375 50  0000 C CNN "DNP"
 	1    1775 2275
 	1    0    0    -1  
 $EndComp
@@ -4516,28 +4517,6 @@ $EndComp
 Wire Wire Line
 	6200 975  6200 1200
 $Comp
-L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP1
-U 1 1 624D5C25
-P 8575 5375
-F 0 "MP1" H 8643 5720 50  0000 C CNN
-F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 5629 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 9375 6075 50  0001 C CNN
-F 3 "" H 9525 6175 50  0001 C CNN
-	1    8575 5375
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP3
-U 1 1 624DA217
-P 9925 5375
-F 0 "MP3" H 9993 5720 50  0000 C CNN
-F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 5629 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 10725 6075 50  0001 C CNN
-F 3 "" H 10875 6175 50  0001 C CNN
-	1    9925 5375
-	1    0    0    -1  
-$EndComp
-$Comp
 L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP2
 U 1 1 624E49B1
 P 8575 6125
@@ -4582,17 +4561,6 @@ F 3 "" H 10225 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR072
-U 1 1 624EAD7E
-P 8875 5575
-F 0 "#PWR072" H 8875 5325 50  0001 C CNN
-F 1 "GND" H 8880 5402 50  0000 C CNN
-F 2 "" H 8875 5575 50  0001 C CNN
-F 3 "" H 8875 5575 50  0001 C CNN
-	1    8875 5575
-	1    0    0    -1  
-$EndComp
-$Comp
 L nuc-compute-cluster-power-breakout:GND #PWR074
 U 1 1 624EB150
 P 10225 5575
@@ -4606,40 +4574,36 @@ $EndComp
 Wire Wire Line
 	10225 5375 10225 5575
 Wire Wire Line
-	8875 5575 8875 5375
-Wire Wire Line
 	10225 6125 10225 6300
 Wire Wire Line
 	8875 6125 8875 6300
 $Comp
-L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP5
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP1
 U 1 1 62504F51
-P 7500 5775
-F 0 "MP5" H 7568 6120 50  0000 C CNN
-F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 7568 6029 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 8300 6475 50  0001 C CNN
-F 3 "" H 8450 6575 50  0001 C CNN
-	1    7500 5775
+P 8575 5375
+F 0 "MP1" H 8643 5720 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8643 5629 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 9375 6075 50  0001 C CNN
+F 3 "" H 9525 6175 50  0001 C CNN
+	1    8575 5375
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR0106
 U 1 1 6250AA38
-P 7800 6000
-F 0 "#PWR0106" H 7800 5750 50  0001 C CNN
-F 1 "GND" H 7805 5827 50  0000 C CNN
-F 2 "" H 7800 6000 50  0001 C CNN
-F 3 "" H 7800 6000 50  0001 C CNN
-	1    7800 6000
+P 8875 5575
+F 0 "#PWR0106" H 8875 5325 50  0001 C CNN
+F 1 "GND" H 8880 5402 50  0000 C CNN
+F 2 "" H 8875 5575 50  0001 C CNN
+F 3 "" H 8875 5575 50  0001 C CNN
+	1    8875 5575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 6000 7800 5775
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR?
+L nuc-compute-cluster-power-breakout:GND #PWR0107
 U 1 1 624F066D
 P 3175 2425
-F 0 "#PWR?" H 3175 2175 50  0001 C CNN
+F 0 "#PWR0107" H 3175 2175 50  0001 C CNN
 F 1 "GND" H 3180 2252 50  0000 C CNN
 F 2 "" H 3175 2425 50  0001 C CNN
 F 3 "" H 3175 2425 50  0001 C CNN
@@ -4934,19 +4898,32 @@ Wire Wire Line
 Wire Wire Line
 	5175 5400 5300 5400
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S_ON
+L antmicroTestPoints:TP_SMD1MM TP_S_ON1
 U 1 1 625B2FF0
 P 6725 5400
-F 0 "TP_S_ON" H 6775 5400 50  0000 L CNN
+F 0 "TP_S_ON1" H 6775 5400 50  0000 L CNN
 F 1 "TP_SMD1MM" H 6725 5300 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6925 5600 60  0001 L CNN
 F 3 "" H 6925 5700 60  0001 L CNN
 	1    6725 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6725 5300 6525 5300
 Connection ~ 6725 5300
 Wire Wire Line
 	6725 5300 6900 5300
+Wire Wire Line
+	6500 5300 6725 5300
+$Comp
+L nuc-compute-cluster-power-breakout:PCB_Mount_Hole_3mm_6mm_pad MP3
+U 1 1 624DA217
+P 9925 5375
+F 0 "MP3" H 9993 5720 50  0000 C CNN
+F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9993 5629 50  0000 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:mounting-hole-3.2mm" H 10725 6075 50  0001 C CNN
+F 3 "" H 10875 6175 50  0001 C CNN
+	1    9925 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 5575 8875 5375
 $EndSCHEMATC
