@@ -4674,10 +4674,6 @@ F 3 "" H 7800 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 6000 7800 5775
-Text Notes 3350 2600 0    50   ~ 0
-Missing GND
-Text Notes 4525 850  0    50   ~ 0
-How we get 3V3 if it is made out of 12V?
 Text Notes 5275 5700 0    50   ~ 0
 Add tespads for the signall pins 
 Wire Notes Line
@@ -4686,22 +4682,6 @@ Wire Notes Line
 	3425 2775 1575 2775
 Wire Notes Line
 	1575 2775 1575 2625
-Wire Notes Line
-	3350 2500 3850 2500
-Wire Notes Line
-	3850 2500 3850 2625
-Wire Notes Line
-	3350 2500 3350 2625
-Wire Notes Line
-	1575 2625 3850 2625
-Wire Notes Line
-	4525 725  4525 875 
-Wire Notes Line
-	4525 875  6150 875 
-Wire Notes Line
-	6150 875  6150 725 
-Wire Notes Line
-	6150 725  4525 725 
 Wire Notes Line
 	5250 5600 5250 5750
 Wire Notes Line
@@ -4721,4 +4701,6 @@ F 3 "" H 3175 2425 50  0001 C CNN
 	1    3175 2425
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	1575 2625 3425 2625
 $EndSCHEMATC
