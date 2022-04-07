@@ -4710,4 +4710,15 @@ Wire Notes Line
 	6525 5750 6525 5600
 Wire Notes Line
 	6525 5600 5250 5600
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR?
+U 1 1 624F066D
+P 3175 2425
+F 0 "#PWR?" H 3175 2175 50  0001 C CNN
+F 1 "GND" H 3180 2252 50  0000 C CNN
+F 2 "" H 3175 2425 50  0001 C CNN
+F 3 "" H 3175 2425 50  0001 C CNN
+	1    3175 2425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
