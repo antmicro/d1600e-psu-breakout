@@ -5356,6 +5356,4 @@ Wire Wire Line
 	8200 6000 8200 5600
 Text Notes 7700 4600 0    79   ~ 0
 I2C Pull-Ups
-Text Notes 13650 4800 0    79   ~ 0
-TODO: What is the scenario for 5V0 \npower supply without the 12V? \nAdd 0R in the same place as D3 \nand mark D3 and D4 as DNP.
 $EndSCHEMATC

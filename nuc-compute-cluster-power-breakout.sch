@@ -4316,7 +4316,7 @@ Wire Wire Line
 Connection ~ 3175 4825
 Wire Wire Line
 	3175 4825 3175 4875
-Text Notes 1500 2750 0    50   ~ 0
+Text Notes 1600 2750 0    50   ~ 0
 Q: Why do we need these two I2C connectors?
 Text Notes 1275 3250 0    118  ~ 0
 Load's (NUCs) connectors
@@ -4674,4 +4674,40 @@ F 3 "" H 7800 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 6000 7800 5775
+Text Notes 3350 2600 0    50   ~ 0
+Missing GND
+Text Notes 4525 850  0    50   ~ 0
+How we get 3V3 if it is made out of 12V?
+Text Notes 5275 5700 0    50   ~ 0
+Add tespads for the signall pins 
+Wire Notes Line
+	3425 2625 3425 2775
+Wire Notes Line
+	3425 2775 1575 2775
+Wire Notes Line
+	1575 2775 1575 2625
+Wire Notes Line
+	3350 2500 3850 2500
+Wire Notes Line
+	3850 2500 3850 2625
+Wire Notes Line
+	3350 2500 3350 2625
+Wire Notes Line
+	1575 2625 3850 2625
+Wire Notes Line
+	4525 725  4525 875 
+Wire Notes Line
+	4525 875  6150 875 
+Wire Notes Line
+	6150 875  6150 725 
+Wire Notes Line
+	6150 725  4525 725 
+Wire Notes Line
+	5250 5600 5250 5750
+Wire Notes Line
+	5250 5750 6525 5750
+Wire Notes Line
+	6525 5750 6525 5600
+Wire Notes Line
+	6525 5600 5250 5600
 $EndSCHEMATC
