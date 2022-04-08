@@ -4926,4 +4926,26 @@ F 3 "" H 10875 6175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8875 5575 8875 5375
+$Comp
+L antmicroMechanicalParts:antmicro_logo N2
+U 1 1 62508F0C
+P 6075 7100
+F 0 "N2" H 6289 7193 50  0000 L CNN
+F 1 "antmicro_logo" H 6289 7102 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_20mm_mask" H 5975 7350 50  0001 C CNN
+F 3 "" H 6075 7450 50  0001 C CNN
+	1    6075 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:oshw_logo N1
+U 1 1 6250A4B1
+P 6075 7250
+F 0 "N1" H 6269 7253 50  0000 L CNN
+F 1 "oshw_logo" H 6269 7162 50  0000 L CNN
+F 2 "antmicro-footprints:OSHW-Logo_7.5x8mm_Mask" H 6095 7010 50  0001 C CNN
+F 3 "" H 6075 7250 50  0001 C CNN
+	1    6075 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
