@@ -1,6 +1,42 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroCapacitors0402_C_100n_0402
+#
+DEF antmicroCapacitors0402_C_100n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_100n_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM155R61H104KE14D" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_1u_0402
+#
+DEF antmicroCapacitors0402_C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_1u_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_antmicro_logo
 #
 DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
@@ -22,6 +58,63 @@ F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# antmicroOptoisolatorsLogicOutput_ISO1641
+#
+DEF antmicroOptoisolatorsLogicOutput_ISO1641 U 0 40 Y Y 1 F N
+F0 "U" -250 325 50 H V C CNN
+F1 "antmicroOptoisolatorsLogicOutput_ISO1641" 25 325 50 H V C CNN
+F2 "antmicro-footprints:SOIC-8_W3.9mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ISO1641BDR" 0 0 50 H I C CNN "MPN"
+F5 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+S -300 275 300 -275 0 1 0 f
+X VCC1 1 -400 200 100 R 50 50 1 1 W
+X SDA1 2 -400 50 100 R 50 50 1 1 B
+X SCL1 3 -400 -50 100 R 50 50 1 1 B
+X GND1 4 -400 -200 100 R 50 50 1 1 W
+X GND2 5 400 -200 100 L 50 50 1 1 W
+X SCL2 6 400 -50 100 L 50 50 1 1 B
+X SDA2 7 400 50 100 L 50 50 1 1 B
+X VCC2 8 400 200 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# antmicroPMICVoltageRegulatorsLinear_NCP163ASN330T1G
+#
+DEF antmicroPMICVoltageRegulatorsLinear_NCP163ASN330T1G U 0 40 Y Y 1 F N
+F0 "U" -250 200 50 H V C CNN
+F1 "antmicroPMICVoltageRegulatorsLinear_NCP163ASN330T1G" -74 -190 39 H V C CNN
+F2 "antmicro-footprints:SOT-23-5" 0 -250 50 H I C CNN
+F3 "" 100 350 50 H I C CNN
+F4 "NCP163ASN330T1G" -150 300 50 H I C CNN "MPN"
+F5 "Onsemi" -50 400 50 H I C CNN "Manufacturer"
+DRAW
+S -300 150 300 -150 0 1 0 f
+X VIN 1 -400 50 100 R 50 50 1 1 P
+X GND 2 400 -50 100 L 50 50 1 1 P
+X EN 3 -400 -50 100 R 50 50 1 1 P
+X VOUT 5 400 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1k5_0402
+#
+DEF antmicroResistors0402_R_1k5_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1k5_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Multicomp Pro" 200 400 60 H I L CNN "Manufacturer"
+F5 "MP000515" 200 300 60 H I L CNN "MPN"
+F6 "1k5" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -427,44 +520,6 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# nuc-compute-cluster-power-breakout_DMN4010LFG-7
-#
-DEF nuc-compute-cluster-power-breakout_DMN4010LFG-7 Q? 0 40 Y Y 1 F N
-F0 "Q?" -175 200 79 H V C CNN
-F1 "nuc-compute-cluster-power-breakout_DMN4010LFG-7" -500 350 79 H V C CNN
-F2 "nuc-compute-cluster-power-breakout-footprints:POWERVDFN-8" 0 0 79 H I C CNN
-F3 "" 0 0 79 H I C CNN
-F4 "DMN4010LFG-7" 0 0 79 H I C CNN "MPN"
-F5 "Diodes Inc." 0 0 79 H I C CNN "Manufacturer"
-DRAW
-C -25 0 130 1 1 0 f
-C 25 -75 5 1 1 0 N
-C 25 -55 5 1 1 0 N
-C 25 75 5 1 1 0 N
-P 2 1 1 0 -75 -55 -75 -75 N
-P 2 1 1 0 -75 -55 -75 -35 N
-P 2 1 1 0 -75 0 -75 -20 N
-P 2 1 1 0 -75 0 -75 20 N
-P 2 1 1 0 -75 75 -75 35 N
-P 2 1 1 0 25 -55 -75 -55 N
-P 2 1 1 0 85 20 45 20 N
-P 3 1 1 0 -175 -100 -95 -100 -95 55 N
-P 3 1 1 0 25 -100 25 0 -75 0 N
-P 3 1 1 0 25 100 25 55 -75 55 N
-P 4 1 1 0 -75 0 -45 20 -45 -20 -75 0 F
-P 4 1 1 0 65 20 45 -10 85 -10 65 20 F
-P 5 1 1 0 20 -75 65 -75 65 55 65 75 20 75 N
-X S 2 25 -200 100 U 50 50 0 0 B N
-X S 3 25 -200 100 U 50 50 0 0 B N
-X D 6 25 200 100 D 50 50 0 0 B N
-X D 7 25 200 100 D 50 50 0 0 B N
-X D 8 25 200 100 D 50 50 0 0 B N
-X S 1 25 -200 100 U 50 50 1 1 B
-X G 4 -275 -100 100 R 50 50 1 1 B
-X D 5 25 200 100 D 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # nuc-compute-cluster-power-breakout_FT2232HL-REEL
 #
 DEF nuc-compute-cluster-power-breakout_FT2232HL-REEL U 0 40 Y Y 1 F N
@@ -617,33 +672,6 @@ P 3 0 1 0 0 125 25 125 25 100 N
 P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
 X ~ 1 -200 0 100 R 50 50 1 1 P
 X ~ 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# nuc-compute-cluster-power-breakout_MBRS330T3G
-#
-DEF nuc-compute-cluster-power-breakout_MBRS330T3G D 0 40 N N 1 F N
-F0 "D" -200 100 50 H V L BNN
-F1 "nuc-compute-cluster-power-breakout_MBRS330T3G" -200 -150 50 H V L BNN
-F2 "nuc-compute-cluster-power-breakout-footprints:MBRS340T3" -50 150 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "MBRS330T3G" 200 150 50 H I C CNN "MPN"
-F5 "ON Semiconductor" 50 100 50 H I L BNN "Manufacturer"
-DRAW
-P 2 0 0 6 -100 0 -50 0 N
-P 2 0 0 10 -50 -50 50 0 N
-P 2 0 0 10 -50 0 -50 -50 N
-P 2 0 0 10 -50 50 -50 0 N
-P 2 0 0 10 25 -40 25 -50 N
-P 2 0 0 10 50 -50 25 -50 N
-P 2 0 0 10 50 0 -50 50 N
-P 2 0 0 10 50 0 50 -50 N
-P 2 0 0 10 50 50 50 0 N
-P 2 0 0 10 75 50 50 50 N
-P 2 0 0 10 75 50 75 40 N
-P 2 0 0 6 100 0 50 0 N
-X ~ A -200 0 100 R 40 40 0 0 P
-X ~ C 200 0 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -1044,6 +1072,20 @@ X ~ 3 300 0 110 L 50 50 1 1 P
 X ~ 4 300 -100 110 L 50 50 1 1 P
 X ~ 5 300 -200 110 L 50 50 1 1 P
 X ~ SH -100 -600 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GNDD
+#
+DEF power_GNDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDD" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

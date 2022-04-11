@@ -75,56 +75,12 @@ Wire Wire Line
 	2400 4150 2550 4150
 Wire Wire Line
 	2550 4150 2550 4450
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR02
-U 1 1 622309CE
-P 1950 4950
-F 0 "#PWR02" H 1950 4700 50  0001 C CNN
-F 1 "GND" H 1955 4777 50  0000 C CNN
-F 2 "" H 1950 4950 50  0001 C CNN
-F 3 "" H 1950 4950 50  0001 C CNN
-	1    1950 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR05
-U 1 1 622310BA
-P 2550 4950
-F 0 "#PWR05" H 2550 4700 50  0001 C CNN
-F 1 "GND" H 2555 4777 50  0000 C CNN
-F 2 "" H 2550 4950 50  0001 C CNN
-F 3 "" H 2550 4950 50  0001 C CNN
-	1    2550 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR03
-U 1 1 62231594
-P 2250 4950
-F 0 "#PWR03" H 2250 4700 50  0001 C CNN
-F 1 "GND" H 2255 4777 50  0000 C CNN
-F 2 "" H 2250 4950 50  0001 C CNN
-F 3 "" H 2250 4950 50  0001 C CNN
-	1    2250 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 4950 1950 4750
 Wire Wire Line
 	2250 4950 2250 4350
 Wire Wire Line
 	2550 4950 2550 4750
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR01
-U 1 1 622320DE
-P 1950 3900
-F 0 "#PWR01" H 1950 3650 50  0001 C CNN
-F 1 "GND" H 1955 3727 50  0000 C CNN
-F 2 "" H 1950 3900 50  0001 C CNN
-F 3 "" H 1950 3900 50  0001 C CNN
-	1    1950 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 3950 2250 3750
 Wire Wire Line
@@ -233,52 +189,6 @@ F 6 "100n" H 6200 2900 50  0000 L CNN "Val"
 	1    6200 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR017
-U 1 1 6224DBE8
-P 6000 3250
-F 0 "#PWR017" H 6000 3000 50  0001 C CNN
-F 1 "GND" H 6005 3077 50  0000 C CNN
-F 2 "" H 6000 3250 50  0001 C CNN
-F 3 "" H 6000 3250 50  0001 C CNN
-	1    6000 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR018
-U 1 1 6224DFAD
-P 6200 3250
-F 0 "#PWR018" H 6200 3000 50  0001 C CNN
-F 1 "GND" H 6205 3077 50  0000 C CNN
-F 2 "" H 6200 3250 50  0001 C CNN
-F 3 "" H 6200 3250 50  0001 C CNN
-	1    6200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR020
-U 1 1 6224E20C
-P 6400 3250
-F 0 "#PWR020" H 6400 3000 50  0001 C CNN
-F 1 "GND" H 6405 3077 50  0000 C CNN
-F 2 "" H 6400 3250 50  0001 C CNN
-F 3 "" H 6400 3250 50  0001 C CNN
-	1    6400 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR022
-U 1 1 6224E49F
-P 6600 3250
-F 0 "#PWR022" H 6600 3000 50  0001 C CNN
-F 1 "GND" H 6605 3077 50  0000 C CNN
-F 2 "" H 6600 3250 50  0001 C CNN
-F 3 "" H 6600 3250 50  0001 C CNN
-	1    6600 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 3150 6000 3250
 Wire Wire Line
 	6200 3150 6200 3250
 Wire Wire Line
@@ -341,17 +251,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 2850 5550 2450
 Connection ~ 5550 2450
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR014
-U 1 1 6225C758
-P 5550 6050
-F 0 "#PWR014" H 5550 5800 50  0001 C CNN
-F 1 "GND" H 5555 5877 50  0000 C CNN
-F 2 "" H 5550 6050 50  0001 C CNN
-F 3 "" H 5550 6050 50  0001 C CNN
-	1    5550 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 5850 5550 5850
 Wire Wire Line
@@ -359,10 +258,8 @@ Wire Wire Line
 Wire Wire Line
 	5400 5950 5550 5950
 Connection ~ 5550 5950
-Wire Wire Line
-	5550 5950 5550 6050
 Text GLabel 1850 1350 1    50   Input ~ 0
-VCC3V3
+VCC3V3_USB
 $Comp
 L nuc-compute-cluster-power-breakout:R_4k7_0402 R1
 U 1 1 62260822
@@ -387,7 +284,7 @@ F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 2650 2250 60  000
 F 3 "" H 2450 2050 50  0001 C CNN
 F 4 "VISHAY" H 2650 2450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2650 2350 60  0001 L CNN "MPN"
-F 6 "10k" V 2500 1800 50  0000 L CNN "Val"
+F 6 "10k" V 2500 1850 50  0000 L CNN "Val"
 	1    2450 2050
 	0    1    1    0   
 $EndComp
@@ -403,27 +300,16 @@ Connection ~ 2450 1750
 Wire Wire Line
 	2450 1750 3400 1750
 $Comp
-L nuc-compute-cluster-power-breakout:GND #PWR04
-U 1 1 62266F6D
-P 2450 2250
-F 0 "#PWR04" H 2450 2000 50  0001 C CNN
-F 1 "GND" H 2455 2077 50  0000 C CNN
-F 2 "" H 2450 2250 50  0001 C CNN
-F 3 "" H 2450 2250 50  0001 C CNN
-	1    2450 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L nuc-compute-cluster-power-breakout:R_12k_0402 R3
 U 1 1 6226AF00
 P 3100 1950
-F 0 "R3" H 3250 2050 60  0000 C CNN
+F 0 "R3" H 3100 2050 60  0000 C CNN
 F 1 "R_12k_0402" H 3100 1800 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 3300 2150 60  0001 L CNN
 F 3 "" H 3100 1950 50  0001 C CNN
 F 4 "VISHAY" H 3300 2350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 3300 2250 60  0001 L CNN "MPN"
-F 6 "12k" H 3250 1850 50  0000 C CNN "Val"
+F 6 "12k" H 3100 1850 50  0000 C CNN "Val"
 	1    3100 1950
 	1    0    0    -1  
 $EndComp
@@ -449,7 +335,7 @@ $Comp
 L nuc-compute-cluster-power-breakout:R_0R_0603 R5
 U 1 1 62272361
 P 6050 4450
-F 0 "R5" H 6000 4350 60  0000 C CNN
+F 0 "R5" H 6050 4350 60  0000 C CNN
 F 1 "R_0R_0603" H 6050 4300 60  0001 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:0603-res" H 6250 4650 60  0001 L CNN
 F 3 "" H 6050 4450 50  0001 C CNN
@@ -473,19 +359,6 @@ F 6 "220R" V 6453 4720 50  0000 L CNN "Val"
 	1    6400 4650
 	0    1    1    0   
 $EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR021
-U 1 1 6227A601
-P 6400 4900
-F 0 "#PWR021" H 6400 4650 50  0001 C CNN
-F 1 "GND" H 6405 4727 50  0000 C CNN
-F 2 "" H 6400 4900 50  0001 C CNN
-F 3 "" H 6400 4900 50  0001 C CNN
-	1    6400 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 4900 6400 4800
 Wire Wire Line
 	6400 4500 6400 4450
 Wire Wire Line
@@ -517,164 +390,99 @@ Wire Wire Line
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C3
 U 1 1 62291E98
-P 2850 7600
-F 0 "C3" H 2850 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 2850 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3050 7800 60  0001 L CNN
-F 3 "" H 2850 7600 50  0001 C CNN
-F 4 "Murata" H 3050 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 3050 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 2850 7500 50  0000 L CNN "Val"
-	1    2850 7600
+P 2800 7150
+F 0 "C3" H 2800 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 2800 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3000 7350 60  0001 L CNN
+F 3 "" H 2800 7150 50  0001 C CNN
+F 4 "Murata" H 3000 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 3000 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 2800 7050 50  0000 L CNN "Val"
+	1    2800 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C4
 U 1 1 622924B1
-P 3150 7600
-F 0 "C4" H 3150 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 3150 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3350 7800 60  0001 L CNN
-F 3 "" H 3150 7600 50  0001 C CNN
-F 4 "Murata" H 3350 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 3350 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 3150 7500 50  0000 L CNN "Val"
-	1    3150 7600
+P 3100 7150
+F 0 "C4" H 3100 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 3100 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3300 7350 60  0001 L CNN
+F 3 "" H 3100 7150 50  0001 C CNN
+F 4 "Murata" H 3300 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 3300 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 3100 7050 50  0000 L CNN "Val"
+	1    3100 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C5
 U 1 1 62292856
-P 3450 7600
-F 0 "C5" H 3450 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 3450 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3650 7800 60  0001 L CNN
-F 3 "" H 3450 7600 50  0001 C CNN
-F 4 "Murata" H 3650 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 3650 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 3450 7500 50  0000 L CNN "Val"
-	1    3450 7600
+P 3400 7150
+F 0 "C5" H 3400 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 3400 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3600 7350 60  0001 L CNN
+F 3 "" H 3400 7150 50  0001 C CNN
+F 4 "Murata" H 3600 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 3600 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 3400 7050 50  0000 L CNN "Val"
+	1    3400 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C6
 U 1 1 62292E47
-P 3750 7600
-F 0 "C6" H 3750 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 3750 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3950 7800 60  0001 L CNN
-F 3 "" H 3750 7600 50  0001 C CNN
-F 4 "Murata" H 3950 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 3950 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 3750 7500 50  0000 L CNN "Val"
-	1    3750 7600
+P 3700 7150
+F 0 "C6" H 3700 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 3700 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 3900 7350 60  0001 L CNN
+F 3 "" H 3700 7150 50  0001 C CNN
+F 4 "Murata" H 3900 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 3900 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 3700 7050 50  0000 L CNN "Val"
+	1    3700 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C7
 U 1 1 622931CC
-P 4050 7600
-F 0 "C7" H 4050 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 4050 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 4250 7800 60  0001 L CNN
-F 3 "" H 4050 7600 50  0001 C CNN
-F 4 "Murata" H 4250 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 4250 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 4050 7500 50  0000 L CNN "Val"
-	1    4050 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR07
-U 1 1 62293632
-P 2850 7900
-F 0 "#PWR07" H 2850 7650 50  0001 C CNN
-F 1 "GND" H 2855 7727 50  0000 C CNN
-F 2 "" H 2850 7900 50  0001 C CNN
-F 3 "" H 2850 7900 50  0001 C CNN
-	1    2850 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR09
-U 1 1 62293A53
-P 3150 7900
-F 0 "#PWR09" H 3150 7650 50  0001 C CNN
-F 1 "GND" H 3155 7727 50  0000 C CNN
-F 2 "" H 3150 7900 50  0001 C CNN
-F 3 "" H 3150 7900 50  0001 C CNN
-	1    3150 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR010
-U 1 1 62293FE7
-P 3450 7900
-F 0 "#PWR010" H 3450 7650 50  0001 C CNN
-F 1 "GND" H 3455 7727 50  0000 C CNN
-F 2 "" H 3450 7900 50  0001 C CNN
-F 3 "" H 3450 7900 50  0001 C CNN
-	1    3450 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR011
-U 1 1 62294317
-P 3750 7900
-F 0 "#PWR011" H 3750 7650 50  0001 C CNN
-F 1 "GND" H 3755 7727 50  0000 C CNN
-F 2 "" H 3750 7900 50  0001 C CNN
-F 3 "" H 3750 7900 50  0001 C CNN
-	1    3750 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR012
-U 1 1 62294637
-P 4050 7900
-F 0 "#PWR012" H 4050 7650 50  0001 C CNN
-F 1 "GND" H 4055 7727 50  0000 C CNN
-F 2 "" H 4050 7900 50  0001 C CNN
-F 3 "" H 4050 7900 50  0001 C CNN
-	1    4050 7900
+P 4000 7150
+F 0 "C7" H 4000 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 4000 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 4200 7350 60  0001 L CNN
+F 3 "" H 4000 7150 50  0001 C CNN
+F 4 "Murata" H 4200 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 4200 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 4000 7050 50  0000 L CNN "Val"
+	1    4000 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 7750 2850 7900
+	2800 7000 2800 6900
 Wire Wire Line
-	3150 7750 3150 7900
+	2800 6900 3100 6900
 Wire Wire Line
-	3450 7750 3450 7900
+	3100 6900 3100 7000
 Wire Wire Line
-	3750 7750 3750 7900
+	3100 6900 3400 6900
 Wire Wire Line
-	4050 7750 4050 7900
+	4000 6900 4000 7000
+Connection ~ 3100 6900
 Wire Wire Line
-	2850 7450 2850 7350
+	3700 7000 3700 6900
+Connection ~ 3700 6900
 Wire Wire Line
-	2850 7350 3150 7350
+	3700 6900 4000 6900
 Wire Wire Line
-	3150 7350 3150 7450
+	3400 7000 3400 6900
+Connection ~ 3400 6900
 Wire Wire Line
-	3150 7350 3450 7350
+	3400 6900 3700 6900
+Text GLabel 2650 6900 0    50   Input ~ 0
+VCC3V3_USB
 Wire Wire Line
-	4050 7350 4050 7450
-Connection ~ 3150 7350
-Wire Wire Line
-	3750 7450 3750 7350
-Connection ~ 3750 7350
-Wire Wire Line
-	3750 7350 4050 7350
-Wire Wire Line
-	3450 7450 3450 7350
-Connection ~ 3450 7350
-Wire Wire Line
-	3450 7350 3750 7350
-Text GLabel 2700 7350 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	2700 7350 2850 7350
-Connection ~ 2850 7350
+	2650 6900 2800 6900
+Connection ~ 2800 6900
 Text GLabel 5750 1500 1    50   Input ~ 0
 1V8_FT
 Wire Wire Line
@@ -682,7 +490,7 @@ Wire Wire Line
 Connection ~ 5750 1750
 Wire Wire Line
 	5400 2950 5750 2950
-Text Notes 3800 7100 0    118  ~ 0
+Text Notes 3750 6650 0    118  ~ 0
 Power Filtering\n
 Text Label 11000 2650 0    59   ~ 0
 USB_D+
@@ -708,28 +516,6 @@ Wire Wire Line
 	3000 2150 3400 2150
 Wire Wire Line
 	2750 1950 2950 1950
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR06
-U 1 1 622B7D3D
-P 2750 2250
-F 0 "#PWR06" H 2750 2000 50  0001 C CNN
-F 1 "GND" H 2755 2077 50  0000 C CNN
-F 2 "" H 2750 2250 50  0001 C CNN
-F 3 "" H 2750 2250 50  0001 C CNN
-	1    2750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR08
-U 1 1 622B7FD1
-P 3000 2250
-F 0 "#PWR08" H 3000 2000 50  0001 C CNN
-F 1 "GND" H 3005 2077 50  0000 C CNN
-F 2 "" H 3000 2250 50  0001 C CNN
-F 3 "" H 3000 2250 50  0001 C CNN
-	1    3000 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 2150 3000 2250
 Wire Wire Line
@@ -781,17 +567,6 @@ F 6 "100n" H 10750 1950 50  0000 L CNN "Val"
 	1    10750 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR024
-U 1 1 6234781D
-P 10750 2350
-F 0 "#PWR024" H 10750 2100 50  0001 C CNN
-F 1 "GND" H 10755 2177 50  0000 C CNN
-F 2 "" H 10750 2350 50  0001 C CNN
-F 3 "" H 10750 2350 50  0001 C CNN
-	1    10750 2350
-	1    0    0    -1  
-$EndComp
 Text GLabel 10750 1700 1    59   Input ~ 0
 VBUS
 Wire Wire Line
@@ -802,39 +577,6 @@ Wire Wire Line
 	10750 2200 10750 2350
 Text Label 11000 2550 0    59   ~ 0
 USB_D-
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR026
-U 1 1 623678AA
-P 11400 3400
-F 0 "#PWR026" H 11400 3150 50  0001 C CNN
-F 1 "GND" H 11405 3227 50  0000 C CNN
-F 2 "" H 11400 3400 50  0001 C CNN
-F 3 "" H 11400 3400 50  0001 C CNN
-	1    11400 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR028
-U 1 1 62367B2A
-P 12200 3400
-F 0 "#PWR028" H 12200 3150 50  0001 C CNN
-F 1 "GND" H 12205 3227 50  0000 C CNN
-F 2 "" H 12200 3400 50  0001 C CNN
-F 3 "" H 12200 3400 50  0001 C CNN
-	1    12200 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR032
-U 1 1 62367D53
-P 13650 3400
-F 0 "#PWR032" H 13650 3150 50  0001 C CNN
-F 1 "GND" H 13655 3227 50  0000 C CNN
-F 2 "" H 13650 3400 50  0001 C CNN
-F 3 "" H 13650 3400 50  0001 C CNN
-	1    13650 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12200 3400 12200 2850
 Wire Wire Line
@@ -878,204 +620,137 @@ Text Notes 11550 1100 0    118  ~ 0
 USB Connector\n
 Wire Notes Line
 	8950 4100 16050 4100
-Wire Notes Line
-	8950 550  8950 11200
 Text Notes 4250 1000 0    118  ~ 24
 FTDI
 Text GLabel 7550 2500 1    50   Input ~ 0
-VCC3V3
-Text Notes 10450 6950 0    118  ~ 0
+VCC3V3_USB
+Text Notes 10275 7675 0    118  ~ 0
 Power LED
-Text GLabel 10900 7450 1    50   Input ~ 0
-VCC3V3
+Text GLabel 10625 8325 1    59   Input ~ 0
+VCC3V3_USB
 $Comp
 L nuc-compute-cluster-power-breakout:KP-1608CGCK D2
 U 1 1 6246C2CB
-P 10900 8100
-F 0 "D2" V 10797 8278 60  0000 L CNN
-F 1 "KP-1608CGCK" V 10903 8278 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:LED_0603" H 11100 8300 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 11100 8400 60  0001 L CNN
-F 4 "KP-1608CGCK" H 11100 8600 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 11110 8720 60  0001 L CNN "Manufacturer"
-	1    10900 8100
+P 10625 8975
+F 0 "D2" V 10522 9153 60  0000 L CNN
+F 1 "KP-1608CGCK" V 10628 9153 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:LED_0603" H 10825 9175 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 10825 9275 60  0001 L CNN
+F 4 "KP-1608CGCK" H 10825 9475 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 10835 9595 60  0001 L CNN "Manufacturer"
+	1    10625 8975
 	0    1    1    0   
 $EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR029
-U 1 1 6246CD6F
-P 10900 8250
-F 0 "#PWR029" H 10900 8000 50  0001 C CNN
-F 1 "GND" H 10905 8077 50  0000 C CNN
-F 2 "" H 10900 8250 50  0001 C CNN
-F 3 "" H 10900 8250 50  0001 C CNN
-	1    10900 8250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10900 8250 10900 8200
+	10625 9125 10625 9075
 $Comp
 L nuc-compute-cluster-power-breakout:R_330R_0402 R7
 U 1 1 62472D4D
-P 10900 7650
-F 0 "R7" V 10855 7720 60  0000 L CNN
-F 1 "R_330R_0402" H 10900 7500 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 11100 7850 60  0001 L CNN
-F 3 "" H 10900 7650 50  0001 C CNN
-F 4 "MULTICOMP" H 11100 8050 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X3300FTL" H 11100 7950 60  0001 L CNN "MPN"
-F 6 "330R" V 10953 7720 50  0000 L CNN "Val"
-	1    10900 7650
+P 10625 8525
+F 0 "R7" V 10580 8595 60  0000 L CNN
+F 1 "R_330R_0402" H 10625 8375 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 10825 8725 60  0001 L CNN
+F 3 "" H 10625 8525 50  0001 C CNN
+F 4 "MULTICOMP" H 10825 8925 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 10825 8825 60  0001 L CNN "MPN"
+F 6 "330R" V 10678 8595 50  0000 L CNN "Val"
+	1    10625 8525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10900 7450 10900 7500
+	10625 8325 10625 8375
 Wire Wire Line
-	10900 7800 10900 7900
-Text Notes 13450 6950 0    118  ~ 0
+	10625 8675 10625 8775
+Text Notes 13650 7800 0    118  ~ 0
 Probes
-Text GLabel 13550 7800 1    50   Input ~ 0
+Text GLabel 13275 8675 1    59   Input ~ 0
 VCC3V3
 $Comp
 L nuc-compute-cluster-power-breakout:TP_SMD1MM 3V3
 U 1 1 6248DEA2
-P 13550 8250
-F 0 "3V3" H 13500 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 13550 8150 50  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 13750 8450 60  0001 L CNN
-F 3 "" H 13750 8550 60  0001 L CNN
-	1    13550 8250
+P 13275 9125
+F 0 "3V3" H 13225 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 13275 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 13475 9325 60  0001 L CNN
+F 3 "" H 13475 9425 60  0001 L CNN
+	1    13275 9125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13550 8150 13550 7800
-Text GLabel 5150 7350 0    50   Input ~ 0
+	13275 9025 13275 8675
+Text GLabel 4950 6900 0    50   Input ~ 0
 1V8_FT
 Wire Wire Line
-	6300 7450 6300 7350
+	6250 7000 6250 6900
 Wire Wire Line
-	6300 7750 6300 7900
+	5900 6900 6250 6900
+Connection ~ 5900 6900
 Wire Wire Line
-	5950 7350 6300 7350
-Connection ~ 5950 7350
+	5900 7000 5900 6900
 Wire Wire Line
-	5950 7450 5950 7350
+	5550 6900 5900 6900
+Connection ~ 5550 6900
 Wire Wire Line
-	5600 7350 5950 7350
-Connection ~ 5600 7350
-Wire Wire Line
-	5600 7450 5600 7350
-Wire Wire Line
-	5950 7750 5950 7900
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR019
-U 1 1 622FE012
-P 6300 7900
-F 0 "#PWR019" H 6300 7650 50  0001 C CNN
-F 1 "GND" H 6305 7727 50  0000 C CNN
-F 2 "" H 6300 7900 50  0001 C CNN
-F 3 "" H 6300 7900 50  0001 C CNN
-	1    6300 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR016
-U 1 1 622FDCE1
-P 5950 7900
-F 0 "#PWR016" H 5950 7650 50  0001 C CNN
-F 1 "GND" H 5955 7727 50  0000 C CNN
-F 2 "" H 5950 7900 50  0001 C CNN
-F 3 "" H 5950 7900 50  0001 C CNN
-	1    5950 7900
-	1    0    0    -1  
-$EndComp
+	5550 7000 5550 6900
 $Comp
 L nuc-compute-cluster-power-breakout:C_3u3_0402 C13
 U 1 1 622F4DA2
-P 6300 7600
-F 0 "C13" H 6100 7700 60  0000 L CNN
-F 1 "C_3u3_0402" H 6300 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 6500 7800 60  0001 L CNN
-F 3 "" H 6300 7600 50  0001 C CNN
-F 4 "TDK" H 6500 8000 60  0001 L CNN "Manufacturer"
-F 5 "C1005JB1A335K050BC" H 6500 7900 60  0001 L CNN "MPN"
-F 6 "3u3" H 6150 7500 50  0000 L CNN "Val"
-	1    6300 7600
+P 6250 7150
+F 0 "C13" H 6050 7250 60  0000 L CNN
+F 1 "C_3u3_0402" H 6250 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 6450 7350 60  0001 L CNN
+F 3 "" H 6250 7150 50  0001 C CNN
+F 4 "TDK" H 6450 7550 60  0001 L CNN "Manufacturer"
+F 5 "C1005JB1A335K050BC" H 6450 7450 60  0001 L CNN "MPN"
+F 6 "3u3" H 6100 7050 50  0000 L CNN "Val"
+	1    6250 7150
 	1    0    0    -1  
 $EndComp
+Connection ~ 5250 6900
 Wire Wire Line
-	5600 7750 5600 7900
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR015
-U 1 1 62266B9B
-P 5600 7900
-F 0 "#PWR015" H 5600 7650 50  0001 C CNN
-F 1 "GND" H 5605 7727 50  0000 C CNN
-F 2 "" H 5600 7900 50  0001 C CNN
-F 3 "" H 5600 7900 50  0001 C CNN
-	1    5600 7900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 7350
+	5250 6900 5550 6900
 Wire Wire Line
-	5150 7350 5300 7350
-Wire Wire Line
-	5300 7350 5600 7350
-Wire Wire Line
-	5300 7450 5300 7350
-Wire Wire Line
-	5300 7900 5300 7750
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR013
-U 1 1 6230846A
-P 5300 7900
-F 0 "#PWR013" H 5300 7650 50  0001 C CNN
-F 1 "GND" H 5305 7727 50  0000 C CNN
-F 2 "" H 5300 7900 50  0001 C CNN
-F 3 "" H 5300 7900 50  0001 C CNN
-	1    5300 7900
-	1    0    0    -1  
-$EndComp
+	5250 7000 5250 6900
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C8
 U 1 1 62307834
-P 5300 7600
-F 0 "C8" H 5150 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 5300 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 5500 7800 60  0001 L CNN
-F 3 "" H 5300 7600 50  0001 C CNN
-F 4 "Murata" H 5500 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 5500 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 5100 7500 50  0000 L CNN "Val"
-	1    5300 7600
+P 5250 7150
+F 0 "C8" H 5100 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 5250 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 5450 7350 60  0001 L CNN
+F 3 "" H 5250 7150 50  0001 C CNN
+F 4 "Murata" H 5450 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 5450 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 5050 7050 50  0000 L CNN "Val"
+	1    5250 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C9
 U 1 1 622BDB66
-P 5600 7600
-F 0 "C9" H 5450 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 5600 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 5800 7800 60  0001 L CNN
-F 3 "" H 5600 7600 50  0001 C CNN
-F 4 "Murata" H 5800 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 5800 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 5400 7500 50  0000 L CNN "Val"
-	1    5600 7600
+P 5550 7150
+F 0 "C9" H 5400 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 5550 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 5750 7350 60  0001 L CNN
+F 3 "" H 5550 7150 50  0001 C CNN
+F 4 "Murata" H 5750 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 5750 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 5350 7050 50  0000 L CNN "Val"
+	1    5550 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C10
 U 1 1 622BDEAB
-P 5950 7600
-F 0 "C10" H 5750 7700 60  0000 L CNN
-F 1 "C_100n_0402" H 5950 7450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 6150 7800 60  0001 L CNN
-F 3 "" H 5950 7600 50  0001 C CNN
-F 4 "Murata" H 6150 8000 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 6150 7900 60  0001 L CNN "MPN"
-F 6 "100n" H 5750 7500 50  0000 L CNN "Val"
-	1    5950 7600
+P 5900 7150
+F 0 "C10" H 5700 7250 60  0000 L CNN
+F 1 "C_100n_0402" H 5900 7000 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 6100 7350 60  0001 L CNN
+F 3 "" H 5900 7150 50  0001 C CNN
+F 4 "Murata" H 6100 7550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 6100 7450 60  0001 L CNN "MPN"
+F 6 "100n" H 5700 7050 50  0000 L CNN "Val"
+	1    5900 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1083,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 2650 11400 2650
 Text GLabel 5550 1500 1    50   Input ~ 0
-VCC3V3
+VCC3V3_USB
 Wire Wire Line
 	5550 2150 5550 1500
 Connection ~ 5550 2150
@@ -1092,283 +767,48 @@ USB_D+
 $Comp
 L nuc-compute-cluster-power-breakout:TP_SMD1MM SCL1
 U 1 1 628ECDC0
-P 14100 8250
-F 0 "SCL1" H 14050 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 14100 8150 50  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14300 8450 60  0001 L CNN
-F 3 "" H 14300 8550 60  0001 L CNN
-	1    14100 8250
+P 13825 9125
+F 0 "SCL1" H 13775 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 13825 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14025 9325 60  0001 L CNN
+F 3 "" H 14025 9425 60  0001 L CNN
+	1    13825 9125
 	1    0    0    -1  
 $EndComp
-Text GLabel 14100 7800 1    50   Input ~ 0
+Text GLabel 13825 8675 1    59   Input ~ 0
 SCL
-Text GLabel 14350 7800 1    50   Input ~ 0
+Text GLabel 14075 8675 1    59   Input ~ 0
 SDA
 $Comp
 L nuc-compute-cluster-power-breakout:TP_SMD1MM SDA1
 U 1 1 6295A452
-P 14350 8250
-F 0 "SDA1" H 14300 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 14350 8150 50  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14550 8450 60  0001 L CNN
-F 3 "" H 14550 8550 60  0001 L CNN
-	1    14350 8250
+P 14075 9125
+F 0 "SDA1" H 14025 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 14075 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14275 9325 60  0001 L CNN
+F 3 "" H 14275 9425 60  0001 L CNN
+	1    14075 9125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 7800 14100 8150
+	13825 8675 13825 9025
 Wire Wire Line
-	14350 7800 14350 8150
-Text Notes 11400 4500 0    118  ~ 0
-3V3 DC/DC Converter
-Text GLabel 14650 5150 2    50   Input ~ 0
-VCC3V3
-Text GLabel 9650 5000 0    59   Input ~ 0
-VCC12V0
-$Comp
-L nuc-compute-cluster-power-breakout:AP62301WU-7 U7
-U 1 1 62384E64
-P 12050 5350
-F 0 "U7" H 12050 5815 50  0000 C CNN
-F 1 "AP62301WU-7" H 12050 5724 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:TSOT23-6" H 12000 4700 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 12000 5000 50  0001 C CNN
-F 4 "AP62301WU-7" H 12000 4800 50  0001 C CNN "MPN"
-F 5 "Diodes Incorporated" H 12000 4900 50  0001 C CNN "Manufacturer"
-	1    12050 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:74437336033 L1
-U 1 1 623B9F9C
-P 13200 5150
-F 0 "L1" H 13200 5455 60  0000 C CNN
-F 1 "74437336033" H 13200 5349 60  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:WE_74437336033" H 14025 5500 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/74437336033.pdf" H 13255 5180 60  0001 C CNN
-F 4 "Wurth Elektronik" H 13500 5950 50  0001 C CNN "Manufacturer"
-F 5 "74437336033" H 13450 5875 50  0001 C CNN "MPN"
-F 6 "3.3u/4.1A" H 13200 5251 50  0000 C CNN "Val"
-F 7 "5.2x5.2" H 13325 5700 50  0001 C CNN "Size"
-F 8 "4.1A" H 13275 5800 50  0001 C CNN "MaxCur"
-	1    13200 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:C_100n_0402 C18
-U 1 1 623D4737
-P 12700 5350
-F 0 "C18" V 12600 5500 60  0000 C CNN
-F 1 "C_100n_0402" H 12700 5200 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-cap" H 12900 5550 60  0001 L CNN
-F 3 "" H 12700 5350 50  0001 C CNN
-F 4 "Murata" H 12900 5750 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 12900 5650 60  0001 L CNN "MPN"
-F 6 "100n" V 12800 5550 50  0000 C CNN "Val"
-	1    12700 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12550 5350 12450 5350
-Wire Wire Line
-	12450 5150 12950 5150
-Wire Wire Line
-	12850 5350 12950 5350
-Wire Wire Line
-	12950 5350 12950 5150
-Connection ~ 12950 5150
-$Comp
-L nuc-compute-cluster-power-breakout:R_31k6_0402 R11
-U 1 1 623EC73D
-P 13450 5350
-F 0 "R11" V 13405 5420 60  0000 L CNN
-F 1 "R_31k6_0402" H 13450 5200 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 13650 5550 60  0001 L CNN
-F 3 "" H 13450 5350 50  0001 C CNN
-F 4 "Vishay" H 13650 5750 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040231K6FKEDC" H 13650 5650 60  0001 L CNN "MPN"
-F 6 "31k6" V 13503 5420 50  0000 L CNN "Val"
-	1    13450 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12450 5550 13450 5550
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR038
-U 1 1 623F89B3
-P 13450 6000
-F 0 "#PWR038" H 13450 5750 50  0001 C CNN
-F 1 "GND" H 13455 5827 50  0000 C CNN
-F 2 "" H 13450 6000 50  0001 C CNN
-F 3 "" H 13450 6000 50  0001 C CNN
-	1    13450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:R_10k_0402 R12
-U 1 1 623FA5F5
-P 13450 5750
-F 0 "R12" V 13405 5820 60  0000 L CNN
-F 1 "R_10k_0402" H 13450 5600 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 13650 5950 60  0001 L CNN
-F 3 "" H 13450 5750 50  0001 C CNN
-F 4 "VISHAY" H 13650 6150 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 13650 6050 60  0001 L CNN "MPN"
-F 6 "10k" V 13503 5820 50  0000 L CNN "Val"
-	1    13450 5750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13450 5200 13450 5150
-Wire Wire Line
-	13450 5500 13450 5550
-Connection ~ 13450 5550
-Wire Wire Line
-	13450 5600 13450 5550
-Wire Wire Line
-	13450 6000 13450 5900
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR037
-U 1 1 6243A857
-P 11450 6000
-F 0 "#PWR037" H 11450 5750 50  0001 C CNN
-F 1 "GND" H 11455 5827 50  0000 C CNN
-F 2 "" H 11450 6000 50  0001 C CNN
-F 3 "" H 11450 6000 50  0001 C CNN
-	1    11450 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11450 6000 11450 5550
-Wire Wire Line
-	11450 5550 11650 5550
-$Comp
-L nuc-compute-cluster-power-breakout:C_22u_0603 C19
-U 1 1 624435BD
-P 13900 5550
-F 0 "C19" H 13925 5650 60  0000 L CNN
-F 1 "C_22u_0603" H 13900 5400 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 14100 5750 60  0001 L CNN
-F 3 "" H 13900 5550 50  0001 C CNN
-F 4 "MURATA" H 14100 5950 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J226MEA0D" H 14100 5850 60  0001 L CNN "MPN"
-F 6 "22u" H 14015 5497 50  0000 L CNN "Val"
-	1    13900 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:C_22u_0603 C20
-U 1 1 6244466C
-P 14250 5550
-F 0 "C20" H 14300 5650 60  0000 L CNN
-F 1 "C_22u_0603" H 14250 5400 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 14450 5750 60  0001 L CNN
-F 3 "" H 14250 5550 50  0001 C CNN
-F 4 "MURATA" H 14450 5950 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J226MEA0D" H 14450 5850 60  0001 L CNN "MPN"
-F 6 "22u" H 14365 5497 50  0000 L CNN "Val"
-	1    14250 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 5450 11100 5150
-Wire Wire Line
-	11100 5150 11650 5150
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR036
-U 1 1 6244B5A2
-P 11100 6000
-F 0 "#PWR036" H 11100 5750 50  0001 C CNN
-F 1 "GND" H 11105 5827 50  0000 C CNN
-F 2 "" H 11100 6000 50  0001 C CNN
-F 3 "" H 11100 6000 50  0001 C CNN
-	1    11100 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 6000 11100 5750
-Wire Wire Line
-	13450 5150 13900 5150
-Wire Wire Line
-	14250 5150 14250 5400
-Wire Wire Line
-	13900 5400 13900 5150
-Connection ~ 13900 5150
-Wire Wire Line
-	13900 5150 14250 5150
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR039
-U 1 1 62460D88
-P 13900 6000
-F 0 "#PWR039" H 13900 5750 50  0001 C CNN
-F 1 "GND" H 13905 5827 50  0000 C CNN
-F 2 "" H 13900 6000 50  0001 C CNN
-F 3 "" H 13900 6000 50  0001 C CNN
-	1    13900 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:GND #PWR040
-U 1 1 6246101E
-P 14250 6000
-F 0 "#PWR040" H 14250 5750 50  0001 C CNN
-F 1 "GND" H 14255 5827 50  0000 C CNN
-F 2 "" H 14250 6000 50  0001 C CNN
-F 3 "" H 14250 6000 50  0001 C CNN
-	1    14250 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14250 5700 14250 6000
-Wire Wire Line
-	13900 6000 13900 5700
-Wire Wire Line
-	11100 5150 10500 5150
-Wire Wire Line
-	10500 5150 10500 5300
-Connection ~ 11100 5150
-Wire Wire Line
-	10500 5150 10500 5000
-Connection ~ 10500 5150
-Wire Wire Line
-	14650 5150 14250 5150
-Connection ~ 14250 5150
-$Comp
-L nuc-compute-cluster-power-breakout:C_10u_16V_0603 C16
-U 1 1 62523BC7
-P 11100 5600
-F 0 "C16" H 10900 5700 60  0000 L CNN
-F 1 "C_10u_16V_0603" H 11100 5450 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0603-cap" H 11300 5800 60  0001 L CNN
-F 3 "" H 11100 5600 50  0001 C CNN
-F 4 "MURATA" H 11300 6000 60  0001 L CNN "Manufacturer"
-F 5 "GRM188C81C106MA73D" H 11300 5900 60  0001 L CNN "MPN"
-F 6 "10u/16V" H 10700 5500 50  0000 L CNN "Val"
-	1    11100 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 5150 13050 5150
-Wire Wire Line
-	13350 5150 13450 5150
-Connection ~ 13450 5150
-Text GLabel 13800 7800 1    59   Input ~ 0
+	14075 8675 14075 9025
+Text GLabel 13525 8675 1    59   Input ~ 0
 VCC5V0_USB
 $Comp
 L nuc-compute-cluster-power-breakout:TP_SMD1MM 5V_USB1
 U 1 1 62557EB5
-P 13800 8250
-F 0 "5V_USB1" H 13650 8150 50  0000 L CNN
-F 1 "TP_SMD1MM" H 13800 8150 50  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14000 8450 60  0001 L CNN
-F 3 "" H 14000 8550 60  0001 L CNN
-	1    13800 8250
+P 13525 9125
+F 0 "5V_USB1" H 13425 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 13525 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 13725 9325 60  0001 L CNN
+F 3 "" H 13725 9425 60  0001 L CNN
+	1    13525 9125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 8150 13800 7800
-Text GLabel 9650 5300 0    59   Input ~ 0
-VCC5V0_USB
+	13525 9025 13525 8675
 $Bitmap
 Pos 1500 10750
 Scale 0.400000
@@ -5245,41 +4685,6 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Comp
-L nuc-compute-cluster-power-breakout:MBRS330T3G D4
-U 1 1 623CE31B
-P 10000 5300
-F 0 "D4" H 10000 5200 50  0000 C CNN
-F 1 "MBRS330T3G" H 10000 5100 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:MBRS340T3" H 9950 5450 50  0001 L BNN
-F 3 "https://www.mouser.pl/datasheet/2/308/1/MBRS340T3_D-2315008.pdf" H 10000 5300 50  0001 L BNN
-F 4 "MBRS330T3G" H 10200 5450 50  0001 C CNN "MPN"
-F 5 "ON Semiconductor" H 10050 5400 50  0001 L BNN "Manufacturer"
-	1    10000 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:MBRS330T3G D3
-U 1 1 623D3546
-P 10000 5000
-F 0 "D3" H 10050 5200 50  0000 C CNN
-F 1 "MBRS330T3G" H 10050 5100 50  0000 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:MBRS340T3" H 9950 5150 50  0001 L BNN
-F 3 "https://www.mouser.pl/datasheet/2/308/1/MBRS340T3_D-2315008.pdf" H 10000 5000 50  0001 L BNN
-F 4 "MBRS330T3G" H 10200 5150 50  0001 C CNN "MPN"
-F 5 "ON Semiconductor" H 10050 5100 50  0001 L BNN "Manufacturer"
-	1    10000 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 5000 10500 5000
-Wire Wire Line
-	10200 5300 10500 5300
-Wire Wire Line
-	9650 5000 9800 5000
-Wire Wire Line
-	9800 5300 9650 5300
-NoConn ~ 11650 5350
-$Comp
 L nuc-compute-cluster-power-breakout:PESD5V0S2BQA D1
 U 1 1 62378AE2
 P 11700 2950
@@ -5306,54 +4711,841 @@ F 5 "Molex" H 12750 3750 60  0001 L CNN "Manufacturer"
 	1    12550 2650
 	-1   0    0    -1  
 $EndComp
+Wire Notes Line
+	475  7850 8950 7850
+Wire Notes Line
+	8950 550  8950 11200
 $Comp
-L nuc-compute-cluster-power-breakout:R_4k7_0402 R36
-U 1 1 6251E28E
-P 7900 5450
-F 0 "R36" V 7855 5520 60  0000 L CNN
-F 1 "R_4k7_0402" H 7900 5300 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 8100 5650 60  0001 L CNN
-F 3 "" H 7900 5450 50  0001 C CNN
-F 4 "VISHAY" H 8100 5850 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 8100 5750 60  0001 L CNN "MPN"
-F 6 "4k7" V 7953 5520 50  0000 L CNN "Val"
-	1    7900 5450
-	0    1    1    0   
+L antmicroOptoisolatorsLogicOutput:ISO1641 U2
+U 1 1 6256AE7A
+P 3100 9225
+F 0 "U2" H 3100 9665 50  0000 C CNN
+F 1 "ISO1641" H 3100 9574 50  0000 C CNN
+F 2 "antmicro-footprints:SOIC-8_W3.9mm" H 3100 9225 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/iso1641.pdf?ts=1649669035432&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FISO1641" H 3100 9225 50  0001 C CNN
+F 4 "ISO1641BDR" H 3100 9225 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 3100 9225 50  0001 C CNN "Manufacturer"
+	1    3100 9225
+	1    0    0    -1  
 $EndComp
-$Comp
-L nuc-compute-cluster-power-breakout:R_4k7_0402 R37
-U 1 1 6251FE62
-P 8200 5450
-F 0 "R37" V 8155 5520 60  0000 L CNN
-F 1 "R_4k7_0402" H 8200 5300 60  0001 C CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 8400 5650 60  0001 L CNN
-F 3 "" H 8200 5450 50  0001 C CNN
-F 4 "VISHAY" H 8400 5850 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 8400 5750 60  0001 L CNN "MPN"
-F 6 "4k7" V 8253 5520 50  0000 L CNN "Val"
-	1    8200 5450
-	0    1    1    0   
-$EndComp
-Text GLabel 7900 5050 1    50   Input ~ 0
-VCC3V3
-Text GLabel 8200 5050 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	7900 5300 7900 5050
-Wire Wire Line
-	8200 5300 8200 5050
-Text GLabel 7700 5800 0    50   Input ~ 0
-SCL
-Text GLabel 7700 6000 0    50   Input ~ 0
+Text GLabel 4100 9175 2    50   BiDi ~ 0
 SDA
+Text GLabel 4100 9275 2    50   BiDi ~ 0
+SCL
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR012
+U 1 1 6257ABC9
+P 3600 9600
+F 0 "#PWR012" H 3600 9350 50  0001 C CNN
+F 1 "GND" H 3605 9427 50  0000 C CNN
+F 2 "" H 3600 9600 50  0001 C CNN
+F 3 "" H 3600 9600 50  0001 C CNN
+	1    3600 9600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7700 5800 7900 5800
+	3600 9425 3600 9600
 Wire Wire Line
-	7900 5800 7900 5600
+	3500 9425 3600 9425
+Text GLabel 3425 8575 0    50   Input ~ 0
+VCC3V3
+Text GLabel 2100 9175 0    50   BiDi ~ 0
+SDA_FTDI
+Text GLabel 2100 9275 0    50   BiDi ~ 0
+SCL_FTDI
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C16
+U 1 1 625BE0B8
+P 6775 9250
+F 0 "C16" H 6575 9350 60  0000 L CNN
+F 1 "C_100n_0402" H 6775 9100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6975 9450 60  0001 L CNN
+F 3 "" H 6775 9250 50  0001 C CNN
+F 4 "Murata" H 6975 9650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 6975 9550 60  0001 L CNN "MPN"
+F 6 "100n" H 6550 9175 50  0000 L CNN "Val"
+	1    6775 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C18
+U 1 1 625BEE93
+P 7200 9250
+F 0 "C18" H 7225 9350 60  0000 L CNN
+F 1 "C_100n_0402" H 7200 9100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7400 9450 60  0001 L CNN
+F 3 "" H 7200 9250 50  0001 C CNN
+F 4 "Murata" H 7400 9650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7400 9550 60  0001 L CNN "MPN"
+F 6 "100n" H 7225 9175 50  0000 L CNN "Val"
+	1    7200 9250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7200 8950 1    50   Input ~ 0
+VCC3V3
+Text GLabel 2125 8575 0    50   Input ~ 0
+VCC3V3_USB
+$Comp
+L power:GNDD #PWR06
+U 1 1 625D2321
+P 2575 9625
+F 0 "#PWR06" H 2575 9375 50  0001 C CNN
+F 1 "GNDD" H 2575 9475 50  0000 C CNN
+F 2 "" H 2575 9625 50  0001 C CNN
+F 3 "" H 2575 9625 50  0001 C CNN
+	1    2575 9625
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7700 6000 8200 6000
+	2575 9625 2575 9425
 Wire Wire Line
-	8200 6000 8200 5600
-Text Notes 7700 4600 0    79   ~ 0
-I2C Pull-Ups
+	2575 9425 2700 9425
+Wire Wire Line
+	3600 9025 3500 9025
+Wire Wire Line
+	2100 9175 2300 9175
+Wire Wire Line
+	2100 9275 2400 9275
+$Comp
+L antmicroResistors0402:R_1k5_0402 R11
+U 1 1 62622E8A
+P 2300 8900
+F 0 "R11" V 2250 8675 60  0000 L CNN
+F 1 "R_1k5_0402" H 2300 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2500 9100 60  0001 L CNN
+F 3 "" H 2300 8900 50  0001 C CNN
+F 4 "Multicomp Pro" H 2500 9300 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 2500 9200 60  0001 L CNN "MPN"
+F 6 "1k5" V 2350 8700 50  0000 L CNN "Val"
+	1    2300 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_1k5_0402 R12
+U 1 1 62622622
+P 2400 8900
+F 0 "R12" V 2350 8950 60  0000 L CNN
+F 1 "R_1k5_0402" H 2400 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2600 9100 60  0001 L CNN
+F 3 "" H 2400 8900 50  0001 C CNN
+F 4 "Multicomp Pro" H 2600 9300 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 2600 9200 60  0001 L CNN "MPN"
+F 6 "1k5" V 2450 8950 50  0000 L CNN "Val"
+	1    2400 8900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2125 8575 2300 8575
+Wire Wire Line
+	2400 8750 2400 8575
+Connection ~ 2400 8575
+Wire Wire Line
+	2400 8575 2625 8575
+Wire Wire Line
+	2300 8750 2300 8575
+Connection ~ 2300 8575
+Wire Wire Line
+	2300 8575 2400 8575
+Wire Wire Line
+	2300 9050 2300 9175
+Connection ~ 2300 9175
+Wire Wire Line
+	2300 9175 2700 9175
+Wire Wire Line
+	2400 9050 2400 9275
+Connection ~ 2400 9275
+Wire Wire Line
+	2400 9275 2700 9275
+Wire Wire Line
+	3600 8575 3600 9025
+$Comp
+L antmicroResistors0402:R_1k5_0402 R37
+U 1 1 6266ECEE
+P 3975 8900
+F 0 "R37" V 3925 8975 60  0000 L CNN
+F 1 "R_1k5_0402" H 3975 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4175 9100 60  0001 L CNN
+F 3 "" H 3975 8900 50  0001 C CNN
+F 4 "Multicomp Pro" H 4175 9300 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 4175 9200 60  0001 L CNN "MPN"
+F 6 "1k5" V 4025 8950 50  0000 L CNN "Val"
+	1    3975 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_1k5_0402 R36
+U 1 1 6266F027
+P 3875 8900
+F 0 "R36" V 3825 8675 60  0000 L CNN
+F 1 "R_1k5_0402" H 3875 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4075 9100 60  0001 L CNN
+F 3 "" H 3875 8900 50  0001 C CNN
+F 4 "Multicomp Pro" H 4075 9300 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 4075 9200 60  0001 L CNN "MPN"
+F 6 "1k5" V 3925 8700 50  0000 L CNN "Val"
+	1    3875 8900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3875 8750 3875 8575
+Wire Wire Line
+	3875 8575 3600 8575
+Wire Wire Line
+	3975 8750 3975 8575
+Wire Wire Line
+	3975 8575 3875 8575
+Connection ~ 3875 8575
+Wire Wire Line
+	3500 9275 3875 9275
+Wire Wire Line
+	3875 9050 3875 9275
+Connection ~ 3875 9275
+Wire Wire Line
+	3875 9275 4100 9275
+Wire Wire Line
+	3500 9175 3975 9175
+Wire Wire Line
+	3975 9050 3975 9175
+Connection ~ 3975 9175
+Wire Wire Line
+	3975 9175 4100 9175
+Text GLabel 6775 8950 1    50   Input ~ 0
+VCC3V3_USB
+Wire Wire Line
+	6775 8950 6775 9100
+Wire Wire Line
+	7200 8950 7200 9100
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR032
+U 1 1 626C2AF1
+P 7200 9550
+F 0 "#PWR032" H 7200 9300 50  0001 C CNN
+F 1 "GND" H 7205 9377 50  0000 C CNN
+F 2 "" H 7200 9550 50  0001 C CNN
+F 3 "" H 7200 9550 50  0001 C CNN
+	1    7200 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR028
+U 1 1 626C30A0
+P 6775 9550
+F 0 "#PWR028" H 6775 9300 50  0001 C CNN
+F 1 "GNDD" H 6775 9375 50  0000 C CNN
+F 2 "" H 6775 9550 50  0001 C CNN
+F 3 "" H 6775 9550 50  0001 C CNN
+	1    6775 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 9550 6775 9400
+Wire Wire Line
+	7200 9550 7200 9400
+$Comp
+L power:GNDD #PWR021
+U 1 1 62712903
+P 6250 7575
+F 0 "#PWR021" H 6250 7325 50  0001 C CNN
+F 1 "GNDD" H 6250 7425 50  0000 C CNN
+F 2 "" H 6250 7575 50  0001 C CNN
+F 3 "" H 6250 7575 50  0001 C CNN
+	1    6250 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR018
+U 1 1 627139AC
+P 5900 7575
+F 0 "#PWR018" H 5900 7325 50  0001 C CNN
+F 1 "GNDD" H 5900 7425 50  0000 C CNN
+F 2 "" H 5900 7575 50  0001 C CNN
+F 3 "" H 5900 7575 50  0001 C CNN
+	1    5900 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR017
+U 1 1 62713DC5
+P 5550 7575
+F 0 "#PWR017" H 5550 7325 50  0001 C CNN
+F 1 "GNDD" H 5550 7425 50  0000 C CNN
+F 2 "" H 5550 7575 50  0001 C CNN
+F 3 "" H 5550 7575 50  0001 C CNN
+	1    5550 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR015
+U 1 1 62714060
+P 5250 7575
+F 0 "#PWR015" H 5250 7325 50  0001 C CNN
+F 1 "GNDD" H 5250 7425 50  0000 C CNN
+F 2 "" H 5250 7575 50  0001 C CNN
+F 3 "" H 5250 7575 50  0001 C CNN
+	1    5250 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7300 5250 7575
+Wire Wire Line
+	5550 7300 5550 7575
+Wire Wire Line
+	5900 7300 5900 7575
+Wire Wire Line
+	6250 7300 6250 7575
+$Comp
+L power:GNDD #PWR014
+U 1 1 6273E00B
+P 4000 7575
+F 0 "#PWR014" H 4000 7325 50  0001 C CNN
+F 1 "GNDD" H 4000 7425 50  0000 C CNN
+F 2 "" H 4000 7575 50  0001 C CNN
+F 3 "" H 4000 7575 50  0001 C CNN
+	1    4000 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR013
+U 1 1 6273E42F
+P 3700 7575
+F 0 "#PWR013" H 3700 7325 50  0001 C CNN
+F 1 "GNDD" H 3700 7425 50  0000 C CNN
+F 2 "" H 3700 7575 50  0001 C CNN
+F 3 "" H 3700 7575 50  0001 C CNN
+	1    3700 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR011
+U 1 1 6273E961
+P 3400 7575
+F 0 "#PWR011" H 3400 7325 50  0001 C CNN
+F 1 "GNDD" H 3400 7425 50  0000 C CNN
+F 2 "" H 3400 7575 50  0001 C CNN
+F 3 "" H 3400 7575 50  0001 C CNN
+	1    3400 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR010
+U 1 1 6273EC83
+P 3100 7575
+F 0 "#PWR010" H 3100 7325 50  0001 C CNN
+F 1 "GNDD" H 3100 7425 50  0000 C CNN
+F 2 "" H 3100 7575 50  0001 C CNN
+F 3 "" H 3100 7575 50  0001 C CNN
+	1    3100 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR08
+U 1 1 6273EF38
+P 2800 7575
+F 0 "#PWR08" H 2800 7325 50  0001 C CNN
+F 1 "GNDD" H 2800 7425 50  0000 C CNN
+F 2 "" H 2800 7575 50  0001 C CNN
+F 3 "" H 2800 7575 50  0001 C CNN
+	1    2800 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7300 2800 7575
+Wire Wire Line
+	3100 7300 3100 7575
+Wire Wire Line
+	3400 7300 3400 7575
+Wire Wire Line
+	3700 7300 3700 7575
+Wire Wire Line
+	4000 7300 4000 7575
+$Comp
+L power:GNDD #PWR016
+U 1 1 62774F8D
+P 5550 6175
+F 0 "#PWR016" H 5550 5925 50  0001 C CNN
+F 1 "GNDD" H 5550 6025 50  0000 C CNN
+F 2 "" H 5550 6175 50  0001 C CNN
+F 3 "" H 5550 6175 50  0001 C CNN
+	1    5550 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5950 5550 6175
+$Comp
+L power:GNDD #PWR024
+U 1 1 6278D604
+P 6400 5025
+F 0 "#PWR024" H 6400 4775 50  0001 C CNN
+F 1 "GNDD" H 6400 4875 50  0000 C CNN
+F 2 "" H 6400 5025 50  0001 C CNN
+F 3 "" H 6400 5025 50  0001 C CNN
+	1    6400 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4800 6400 5025
+$Comp
+L power:GNDD #PWR039
+U 1 1 628153AF
+P 11400 3400
+F 0 "#PWR039" H 11400 3150 50  0001 C CNN
+F 1 "GNDD" H 11400 3250 50  0000 C CNN
+F 2 "" H 11400 3400 50  0001 C CNN
+F 3 "" H 11400 3400 50  0001 C CNN
+	1    11400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR072
+U 1 1 628171AE
+P 12200 3400
+F 0 "#PWR072" H 12200 3150 50  0001 C CNN
+F 1 "GNDD" H 12200 3250 50  0000 C CNN
+F 2 "" H 12200 3400 50  0001 C CNN
+F 3 "" H 12200 3400 50  0001 C CNN
+	1    12200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR078
+U 1 1 628174B3
+P 13650 3400
+F 0 "#PWR078" H 13650 3150 50  0001 C CNN
+F 1 "GNDD" H 13650 3250 50  0000 C CNN
+F 2 "" H 13650 3400 50  0001 C CNN
+F 3 "" H 13650 3400 50  0001 C CNN
+	1    13650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR038
+U 1 1 628183E7
+P 10750 2350
+F 0 "#PWR038" H 10750 2100 50  0001 C CNN
+F 1 "GNDD" H 10750 2200 50  0000 C CNN
+F 2 "" H 10750 2350 50  0001 C CNN
+F 3 "" H 10750 2350 50  0001 C CNN
+	1    10750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR02
+U 1 1 62824B74
+P 1950 4950
+F 0 "#PWR02" H 1950 4700 50  0001 C CNN
+F 1 "GNDD" H 1950 4800 50  0000 C CNN
+F 2 "" H 1950 4950 50  0001 C CNN
+F 3 "" H 1950 4950 50  0001 C CNN
+	1    1950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR03
+U 1 1 62825BEB
+P 2250 4950
+F 0 "#PWR03" H 2250 4700 50  0001 C CNN
+F 1 "GNDD" H 2250 4800 50  0000 C CNN
+F 2 "" H 2250 4950 50  0001 C CNN
+F 3 "" H 2250 4950 50  0001 C CNN
+	1    2250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR05
+U 1 1 62825E96
+P 2550 4950
+F 0 "#PWR05" H 2550 4700 50  0001 C CNN
+F 1 "GNDD" H 2550 4800 50  0000 C CNN
+F 2 "" H 2550 4950 50  0001 C CNN
+F 3 "" H 2550 4950 50  0001 C CNN
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR07
+U 1 1 628275CD
+P 2750 2250
+F 0 "#PWR07" H 2750 2000 50  0001 C CNN
+F 1 "GNDD" H 2750 2100 50  0000 C CNN
+F 2 "" H 2750 2250 50  0001 C CNN
+F 3 "" H 2750 2250 50  0001 C CNN
+	1    2750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR04
+U 1 1 6282A8E7
+P 2450 2250
+F 0 "#PWR04" H 2450 2000 50  0001 C CNN
+F 1 "GNDD" H 2450 2100 50  0000 C CNN
+F 2 "" H 2450 2250 50  0001 C CNN
+F 3 "" H 2450 2250 50  0001 C CNN
+	1    2450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR09
+U 1 1 6282ABD3
+P 3000 2250
+F 0 "#PWR09" H 3000 2000 50  0001 C CNN
+F 1 "GNDD" H 3000 2100 50  0000 C CNN
+F 2 "" H 3000 2250 50  0001 C CNN
+F 3 "" H 3000 2250 50  0001 C CNN
+	1    3000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR037
+U 1 1 6282B906
+P 10625 9125
+F 0 "#PWR037" H 10625 8875 50  0001 C CNN
+F 1 "GNDD" H 10625 8975 50  0000 C CNN
+F 2 "" H 10625 9125 50  0001 C CNN
+F 3 "" H 10625 9125 50  0001 C CNN
+	1    10625 9125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3150 6000 3250
+$Comp
+L power:GNDD #PWR019
+U 1 1 62838EB1
+P 6000 3250
+F 0 "#PWR019" H 6000 3000 50  0001 C CNN
+F 1 "GNDD" H 5950 3100 50  0000 C CNN
+F 2 "" H 6000 3250 50  0001 C CNN
+F 3 "" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR020
+U 1 1 62839261
+P 6200 3250
+F 0 "#PWR020" H 6200 3000 50  0001 C CNN
+F 1 "GNDD" H 6200 3100 50  0000 C CNN
+F 2 "" H 6200 3250 50  0001 C CNN
+F 3 "" H 6200 3250 50  0001 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR022
+U 1 1 6283968A
+P 6400 3250
+F 0 "#PWR022" H 6400 3000 50  0001 C CNN
+F 1 "GNDD" H 6425 3100 50  0000 C CNN
+F 2 "" H 6400 3250 50  0001 C CNN
+F 3 "" H 6400 3250 50  0001 C CNN
+	1    6400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR026
+U 1 1 62839A67
+P 6600 3250
+F 0 "#PWR026" H 6600 3000 50  0001 C CNN
+F 1 "GNDD" H 6675 3100 50  0000 C CNN
+F 2 "" H 6600 3250 50  0001 C CNN
+F 3 "" H 6600 3250 50  0001 C CNN
+	1    6600 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 8250 0    118  ~ 0
+Filtration
+Text Notes 1725 8250 0    118  ~ 0
+Transmission Lines Separation\n
+$Comp
+L nuc-compute-cluster-power-breakout:TP_SMD1MM SCL_FTDI1
+U 1 1 62886E49
+P 14375 9125
+F 0 "SCL_FTDI1" H 14275 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 14375 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14575 9325 60  0001 L CNN
+F 3 "" H 14575 9425 60  0001 L CNN
+	1    14375 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:TP_SMD1MM SDA_FTDI1
+U 1 1 628871AA
+P 14775 9125
+F 0 "SDA_FTDI1" H 14650 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 14775 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 14975 9325 60  0001 L CNN
+F 3 "" H 14975 9425 60  0001 L CNN
+	1    14775 9125
+	1    0    0    -1  
+$EndComp
+Text GLabel 14775 8675 1    59   Input ~ 0
+SDA_FTDI
+Text GLabel 14375 8675 1    59   Input ~ 0
+SCL_FTDI
+Wire Wire Line
+	14375 8675 14375 9025
+Wire Wire Line
+	14775 9025 14775 8675
+$Comp
+L nuc-compute-cluster-power-breakout:TP_SMD1MM 3V3_USB1
+U 1 1 628ADC8C
+P 13075 9125
+F 0 "3V3_USB1" H 12875 9025 50  0000 L CNN
+F 1 "TP_SMD1MM" H 13075 9025 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 13275 9325 60  0001 L CNN
+F 3 "" H 13275 9425 60  0001 L CNN
+	1    13075 9125
+	1    0    0    -1  
+$EndComp
+Text GLabel 13075 8675 1    59   Input ~ 0
+VCC3V3_USB
+Wire Wire Line
+	13075 8675 13075 9025
+Text GLabel 6825 10225 0    50   BiDi ~ 0
+SDA_FTDI
+Text GLabel 6825 10325 0    50   BiDi ~ 0
+SCL_FTDI
+Text GLabel 7225 10225 2    50   BiDi ~ 0
+SDA
+Text GLabel 7225 10325 2    50   BiDi ~ 0
+SCL
+$Comp
+L nuc-compute-cluster-power-breakout:GND #PWR036
+U 1 1 628E76CC
+P 7275 10575
+F 0 "#PWR036" H 7275 10325 50  0001 C CNN
+F 1 "GND" H 7280 10402 50  0000 C CNN
+F 2 "" H 7275 10575 50  0001 C CNN
+F 3 "" H 7275 10575 50  0001 C CNN
+	1    7275 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR029
+U 1 1 628E793A
+P 6775 10575
+F 0 "#PWR029" H 6775 10325 50  0001 C CNN
+F 1 "GNDD" H 6775 10425 50  0000 C CNN
+F 2 "" H 6775 10575 50  0001 C CNN
+F 3 "" H 6775 10575 50  0001 C CNN
+	1    6775 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:R_0R_0603 R38
+U 1 1 628E9C4D
+P 7025 10225
+F 0 "R38" H 6950 10325 60  0000 C CNN
+F 1 "R_0R_0603" H 7025 10075 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-res" H 7225 10425 60  0001 L CNN
+F 3 "" H 7025 10225 50  0001 C CNN
+F 4 "BOURNS" H 7225 10625 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 7225 10525 60  0001 L CNN "MPN"
+F 6 "0R" H 7100 10325 50  0000 C CNN "Val"
+F 7 "DNP" H 7025 10225 50  0000 C CNN "DNP"
+	1    7025 10225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 10225 6875 10225
+Wire Wire Line
+	7175 10225 7225 10225
+$Comp
+L nuc-compute-cluster-power-breakout:R_0R_0603 R39
+U 1 1 628FC0B3
+P 7025 10325
+F 0 "R39" H 6950 10225 60  0000 C CNN
+F 1 "R_0R_0603" H 7025 10175 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-res" H 7225 10525 60  0001 L CNN
+F 3 "" H 7025 10325 50  0001 C CNN
+F 4 "BOURNS" H 7225 10725 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 7225 10625 60  0001 L CNN "MPN"
+F 6 "0R" H 7100 10225 50  0000 C CNN "Val"
+F 7 "DNP" H 7025 10325 50  0000 C CNN "DNP"
+	1    7025 10325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 10325 6875 10325
+Wire Wire Line
+	7175 10325 7225 10325
+$Comp
+L nuc-compute-cluster-power-breakout:R_0R_0603 R42
+U 1 1 62915EBA
+P 7025 10525
+F 0 "R42" H 6950 10425 60  0000 C CNN
+F 1 "R_0R_0603" H 7025 10375 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0603-res" H 7225 10725 60  0001 L CNN
+F 3 "" H 7025 10525 50  0001 C CNN
+F 4 "BOURNS" H 7225 10925 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 7225 10825 60  0001 L CNN "MPN"
+F 6 "0R" H 7100 10425 50  0000 C CNN "Val"
+F 7 "DNP" H 7025 10525 50  0000 C CNN "DNP"
+	1    7025 10525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 10575 6775 10525
+Wire Wire Line
+	6775 10525 6875 10525
+Wire Wire Line
+	7175 10525 7275 10525
+Wire Wire Line
+	7275 10525 7275 10575
+Wire Wire Line
+	2700 9025 2625 9025
+Wire Wire Line
+	2625 9025 2625 8575
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:NCP163ASN330T1G U3
+U 1 1 629428B6
+P 12775 5200
+F 0 "U3" H 12775 5499 50  0000 C CNN
+F 1 "NCP163ASN330T1G" H 12775 5416 39  0000 C CNN
+F 2 "antmicro-footprints:SOT-23-5" H 12775 4950 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/308/1/NCP163_D-2317108.pdf" H 12875 5550 50  0001 C CNN
+F 4 "NCP163ASN330T1G" H 12625 5500 50  0001 C CNN "MPN"
+F 5 "Onsemi" H 12725 5600 50  0001 C CNN "Manufacturer"
+	1    12775 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C19
+U 1 1 6294BBE2
+P 11925 5400
+F 0 "C19" H 11700 5500 60  0000 L CNN
+F 1 "C_1u_0402" H 11925 5250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 12125 5600 60  0001 L CNN
+F 3 "" H 11925 5400 50  0001 C CNN
+F 4 "TDK" H 12125 5800 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 12125 5700 60  0001 L CNN "MPN"
+F 6 "1u" H 11750 5325 50  0000 L CNN "Val"
+	1    11925 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 5150 0    59   Input ~ 0
+VCC5V0_USB
+$Comp
+L power:GNDD #PWR040
+U 1 1 6294E801
+P 11925 5650
+F 0 "#PWR040" H 11925 5400 50  0001 C CNN
+F 1 "GNDD" H 11925 5500 50  0000 C CNN
+F 2 "" H 11925 5650 50  0001 C CNN
+F 3 "" H 11925 5650 50  0001 C CNN
+	1    11925 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11925 5250 11925 5150
+Wire Wire Line
+	11925 5150 12325 5150
+Wire Wire Line
+	11650 5150 11925 5150
+Connection ~ 11925 5150
+Wire Wire Line
+	12325 5150 12325 5250
+Wire Wire Line
+	12325 5250 12375 5250
+Connection ~ 12325 5150
+Wire Wire Line
+	12325 5150 12375 5150
+Wire Wire Line
+	11925 5650 11925 5550
+$Comp
+L power:GNDD #PWR076
+U 1 1 62985896
+P 13225 5625
+F 0 "#PWR076" H 13225 5375 50  0001 C CNN
+F 1 "GNDD" H 13200 5475 50  0000 C CNN
+F 2 "" H 13225 5625 50  0001 C CNN
+F 3 "" H 13225 5625 50  0001 C CNN
+	1    13225 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13175 5250 13225 5250
+Text GLabel 13750 5150 2    59   Output ~ 0
+VCC3V3_USB
+Wire Wire Line
+	13175 5150 13425 5150
+Text Notes 12400 4550 0    118  ~ 0
+3V3 LDO\n
+Wire Wire Line
+	13225 5625 13225 5250
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C20
+U 1 1 629C5142
+P 13425 5375
+F 0 "C20" H 13475 5475 60  0000 L CNN
+F 1 "C_1u_0402" H 13425 5225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 13625 5575 60  0001 L CNN
+F 3 "" H 13425 5375 50  0001 C CNN
+F 4 "TDK" H 13625 5775 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 13625 5675 60  0001 L CNN "MPN"
+F 6 "1u" H 13475 5275 50  0000 L CNN "Val"
+	1    13425 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13425 5225 13425 5150
+Connection ~ 13425 5150
+$Comp
+L power:GNDD #PWR077
+U 1 1 629CEF0E
+P 13425 5625
+F 0 "#PWR077" H 13425 5375 50  0001 C CNN
+F 1 "GNDD" H 13450 5475 50  0000 C CNN
+F 2 "" H 13425 5625 50  0001 C CNN
+F 3 "" H 13425 5625 50  0001 C CNN
+	1    13425 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13425 5625 13425 5525
+Wire Wire Line
+	13425 5150 13750 5150
+$Comp
+L power:GNDD #PWR?
+U 1 1 62A019D8
+P 1950 3900
+F 0 "#PWR?" H 1950 3650 50  0001 C CNN
+F 1 "GNDD" H 1950 3750 50  0000 C CNN
+F 2 "" H 1950 3900 50  0001 C CNN
+F 3 "" H 1950 3900 50  0001 C CNN
+	1    1950 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 5150
+NoConn ~ 3400 5050
+NoConn ~ 3400 4950
+NoConn ~ 3400 4850
+NoConn ~ 3400 4750
+NoConn ~ 3400 4650
+NoConn ~ 3400 4550
+NoConn ~ 3400 4450
+NoConn ~ 3400 4250
+NoConn ~ 3400 4150
+NoConn ~ 3400 4050
+NoConn ~ 3400 3950
+NoConn ~ 3400 3850
+NoConn ~ 3400 3750
+NoConn ~ 3400 3650
+NoConn ~ 3400 3550
+NoConn ~ 5400 4850
+NoConn ~ 5400 4750
+NoConn ~ 5400 4650
+NoConn ~ 5400 4550
+NoConn ~ 5400 3950
+NoConn ~ 5400 3850
+NoConn ~ 5400 3750
+NoConn ~ 5400 3650
+NoConn ~ 5400 3550
+NoConn ~ 5400 3450
+NoConn ~ 5400 3350
+NoConn ~ 5400 3250
+Wire Wire Line
+	3600 8575 3425 8575
+Connection ~ 3600 8575
+Wire Wire Line
+	4950 6900 5250 6900
 $EndSCHEMATC
