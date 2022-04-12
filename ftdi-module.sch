@@ -373,10 +373,10 @@ Wire Wire Line
 	6050 4250 6000 4250
 Wire Wire Line
 	5900 4450 5400 4450
-Text GLabel 6650 4150 2    50   Input ~ 0
-SDA
-Text GLabel 6650 4350 2    50   Input ~ 0
-SCL
+Text GLabel 6650 4150 2    50   BiDi ~ 0
+SDA_FTDI
+Text GLabel 6650 4350 2    50   Output ~ 0
+SCL_FTDI
 Connection ~ 6050 4350
 Text GLabel 6650 4450 2    50   Input ~ 0
 WP
@@ -5505,10 +5505,10 @@ Wire Wire Line
 Wire Wire Line
 	13425 5150 13750 5150
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0103
 U 1 1 62A019D8
 P 1950 3900
-F 0 "#PWR?" H 1950 3650 50  0001 C CNN
+F 0 "#PWR0103" H 1950 3650 50  0001 C CNN
 F 1 "GNDD" H 1950 3750 50  0000 C CNN
 F 2 "" H 1950 3900 50  0001 C CNN
 F 3 "" H 1950 3900 50  0001 C CNN
