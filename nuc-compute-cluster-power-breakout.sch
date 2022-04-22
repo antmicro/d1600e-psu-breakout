@@ -4336,8 +4336,8 @@ $Comp
 L nuc-compute-cluster-power-breakout:MSS3-V-T_R S1
 U 1 1 6270AED7
 P 5400 1750
-F 0 "S1" H 5150 1600 50  0000 C CNN
-F 1 "MSS3-V-T_R" H 5125 1500 50  0000 C CNN
+F 0 "S1" H 4600 2075 50  0000 C CNN
+F 1 "MSS3-V-T_R" H 4800 1975 50  0000 C CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Switch_Slide_MSS3" H 5600 1950 50  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 5600 2050 60  0001 L CNN
 F 4 "MSS3-V-T/R" H 5600 2250 60  0001 L CNN "MPN"
@@ -4440,14 +4440,14 @@ F 5 "OSRAM Opto Semiconductors Inc." H 6400 2950 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5000 1750 5125 1750
+	5000 1750 5100 1750
 Wire Wire Line
 	5675 1850 5600 1850
 Wire Wire Line
-	5125 1750 5125 1400
-Connection ~ 5125 1750
+	5100 1750 5100 1400
+Connection ~ 5100 1750
 Wire Wire Line
-	5125 1750 5200 1750
+	5100 1750 5200 1750
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR071
 U 1 1 625A3A14
@@ -4482,7 +4482,7 @@ F 6 "10k" H 5550 1285 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5125 1400 5400 1400
+	5100 1400 5400 1400
 Wire Wire Line
 	5700 1400 5900 1400
 $Comp
@@ -4500,7 +4500,7 @@ F 6 "680R" V 6253 2220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5675 1850 5675 2350
+	5675 1850 5675 2175
 $Comp
 L nuc-compute-cluster-power-breakout:BC856,215 Q11
 U 1 1 625D60DF
@@ -4948,4 +4948,28 @@ F 3 "" H 6075 7250 50  0001 C CNN
 	1    6075 7250
 	1    0    0    -1  
 $EndComp
+$Comp
+L nuc-compute-cluster-power-breakout:R_0R_0402 R45
+U 1 1 6263D1AF
+P 5350 2175
+F 0 "R45" H 5350 2000 60  0000 L CNN
+F 1 "R_0R_0402" H 5350 2025 60  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:0402-res" H 5550 2375 60  0001 L CNN
+F 3 "" H 5350 2175 50  0001 C CNN
+F 4 "PANASONIC" H 5550 2575 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5550 2475 60  0001 L CNN "MPN"
+F 6 "0R" H 5350 2075 50  0000 L CNN "Val"
+F 7 "DNP" H 5350 2175 50  0000 C CNN "DNP"
+	1    5350 2175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2175 5675 2175
+Connection ~ 5675 2175
+Wire Wire Line
+	5675 2175 5675 2350
+Wire Wire Line
+	5200 2175 5100 2175
+Wire Wire Line
+	5100 2175 5100 1750
 $EndSCHEMATC
