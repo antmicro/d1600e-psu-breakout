@@ -4611,100 +4611,100 @@ F 3 "" H 3175 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S24
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S24
 U 1 1 62502D2B
 P 6650 4300
 F 0 "TP_S24" V 6650 4250 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 4500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 4500 60  0001 L CNN
 F 3 "" H 6850 4600 60  0001 L CNN
 	1    6650 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S23
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S23
 U 1 1 62505C89
 P 6650 4400
 F 0 "TP_S23" V 6650 4350 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 4600 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 4600 60  0001 L CNN
 F 3 "" H 6850 4700 60  0001 L CNN
 	1    6650 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S22
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S22
 U 1 1 62505ED0
 P 6650 4500
 F 0 "TP_S22" V 6650 4450 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 4700 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 4700 60  0001 L CNN
 F 3 "" H 6850 4800 60  0001 L CNN
 	1    6650 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S21
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S21
 U 1 1 625060ED
 P 6650 4600
 F 0 "TP_S21" V 6650 4550 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 4800 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 4800 60  0001 L CNN
 F 3 "" H 6850 4900 60  0001 L CNN
 	1    6650 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S20
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S20
 U 1 1 6250630E
 P 6650 4700
 F 0 "TP_S20" V 6650 4650 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 4900 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 4900 60  0001 L CNN
 F 3 "" H 6850 5000 60  0001 L CNN
 	1    6650 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S19
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S19
 U 1 1 625064C2
 P 6650 4800
 F 0 "TP_S19" V 6650 4750 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 5000 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 5000 60  0001 L CNN
 F 3 "" H 6850 5100 60  0001 L CNN
 	1    6650 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S18
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S18
 U 1 1 625066C8
 P 6650 4900
 F 0 "TP_S18" V 6650 4850 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 5100 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 5100 60  0001 L CNN
 F 3 "" H 6850 5200 60  0001 L CNN
 	1    6650 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S17
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S17
 U 1 1 62506920
 P 6650 5000
 F 0 "TP_S17" V 6650 4950 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 4900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 5200 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 5200 60  0001 L CNN
 F 3 "" H 6850 5300 60  0001 L CNN
 	1    6650 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S16
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S16
 U 1 1 62506B7D
 P 6650 5100
 F 0 "TP_S16" V 6650 5050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6650 5000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6850 5300 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6850 5300 60  0001 L CNN
 F 3 "" H 6850 5400 60  0001 L CNN
 	1    6650 5100
 	0    -1   -1   0   
@@ -4728,12 +4728,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 4700 6450 4700
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S1
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S1
 U 1 1 625309FA
 P 5075 4300
 F 0 "TP_S1" V 5075 4150 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 4500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 4500 60  0001 L CNN
 F 3 "" H 5275 4600 60  0001 L CNN
 	1    5075 4300
 	0    1    1    0   
@@ -4755,122 +4755,122 @@ Wire Wire Line
 	4700 4175 4700 4100
 Connection ~ 4700 4100
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S2
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S2
 U 1 1 6255EF9C
 P 5075 4400
 F 0 "TP_S2" V 5075 4250 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 4600 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 4600 60  0001 L CNN
 F 3 "" H 5275 4700 60  0001 L CNN
 	1    5075 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S3
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S3
 U 1 1 6255F259
 P 5075 4500
 F 0 "TP_S3" V 5075 4350 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 4700 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 4700 60  0001 L CNN
 F 3 "" H 5275 4800 60  0001 L CNN
 	1    5075 4500
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S4
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S4
 U 1 1 6255F5D6
 P 5075 4600
 F 0 "TP_S4" V 5075 4450 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 4800 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 4800 60  0001 L CNN
 F 3 "" H 5275 4900 60  0001 L CNN
 	1    5075 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S5
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S5
 U 1 1 6255F945
 P 5075 4700
 F 0 "TP_S5" V 5075 4550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 4900 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 4900 60  0001 L CNN
 F 3 "" H 5275 5000 60  0001 L CNN
 	1    5075 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S6
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S6
 U 1 1 6255FC50
 P 5075 4800
 F 0 "TP_S6" V 5075 4650 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5000 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5000 60  0001 L CNN
 F 3 "" H 5275 5100 60  0001 L CNN
 	1    5075 4800
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S7
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S7
 U 1 1 625606F4
 P 5075 4900
 F 0 "TP_S7" V 5075 4750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5100 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5100 60  0001 L CNN
 F 3 "" H 5275 5200 60  0001 L CNN
 	1    5075 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S8
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S8
 U 1 1 625609D0
 P 5075 5000
 F 0 "TP_S8" V 5075 4850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 4900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5200 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5200 60  0001 L CNN
 F 3 "" H 5275 5300 60  0001 L CNN
 	1    5075 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S9
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S9
 U 1 1 62560CBC
 P 5075 5100
 F 0 "TP_S9" V 5075 4950 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 5000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5300 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5300 60  0001 L CNN
 F 3 "" H 5275 5400 60  0001 L CNN
 	1    5075 5100
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S10
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S10
 U 1 1 62560FFD
 P 5075 5200
 F 0 "TP_S10" V 5075 5025 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 5100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5400 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5400 60  0001 L CNN
 F 3 "" H 5275 5500 60  0001 L CNN
 	1    5075 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S11
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S11
 U 1 1 6256284B
 P 5075 5300
 F 0 "TP_S11" V 5075 5125 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 5200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5500 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5500 60  0001 L CNN
 F 3 "" H 5275 5600 60  0001 L CNN
 	1    5075 5300
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S12
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S12
 U 1 1 62562B3C
 P 5075 5400
 F 0 "TP_S12" V 5075 5225 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5075 5300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 5600 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 5275 5600 60  0001 L CNN
 F 3 "" H 5275 5700 60  0001 L CNN
 	1    5075 5400
 	0    1    1    0   
@@ -4898,12 +4898,12 @@ Wire Wire Line
 Wire Wire Line
 	5175 5400 5300 5400
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP_S_ON1
+L nuc-compute-cluster-power-breakout:TP_SMD1MM TP_S_ON1
 U 1 1 625B2FF0
 P 6725 5400
 F 0 "TP_S_ON1" H 6775 5400 50  0000 L CNN
 F 1 "TP_SMD1MM" H 6725 5300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6925 5600 60  0001 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm" H 6925 5600 60  0001 L CNN
 F 3 "" H 6925 5700 60  0001 L CNN
 	1    6725 5400
 	1    0    0    -1  
@@ -4927,23 +4927,23 @@ $EndComp
 Wire Wire Line
 	8875 5575 8875 5375
 $Comp
-L antmicroMechanicalParts:antmicro_logo N2
+L nuc-compute-cluster-power-breakout:antmicro_logo N2
 U 1 1 62508F0C
 P 6075 7100
 F 0 "N2" H 6289 7193 50  0000 L CNN
 F 1 "antmicro_logo" H 6289 7102 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_20mm_mask" H 5975 7350 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:antmicro-logo_scaled_20mm_mask" H 5975 7350 50  0001 C CNN
 F 3 "" H 6075 7450 50  0001 C CNN
 	1    6075 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:oshw_logo N1
+L nuc-compute-cluster-power-breakout:oshw_logo N1
 U 1 1 6250A4B1
 P 6075 7250
 F 0 "N1" H 6269 7253 50  0000 L CNN
 F 1 "oshw_logo" H 6269 7162 50  0000 L CNN
-F 2 "antmicro-footprints:OSHW-Logo_7.5x8mm_Mask" H 6095 7010 50  0001 C CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:OSHW-Logo_7.5x8mm_Mask" H 6095 7010 50  0001 C CNN
 F 3 "" H 6075 7250 50  0001 C CNN
 	1    6075 7250
 	1    0    0    -1  
