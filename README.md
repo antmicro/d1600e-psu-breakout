@@ -5,7 +5,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 ![Baseboard visualization](img/nuc-compute-cluster-power-breakout-top-ray.png)
 
 
-## Overwiev
+## Overview
 
 This repostitory contains open hardware design files for [Dell D1600E-S0 PSU](https://www.dell.com/en-us/work/shop/dell-power-supply-ac-1600-watt-psu-io/apd/450-ahuc/computer-chassis-components) server breakout board. 
 
