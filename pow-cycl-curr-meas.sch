@@ -26,13 +26,13 @@ L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q7
 U 1 1 62306CC0
 P 9900 7850
 F 0 "Q7" V 10050 7650 60  0000 L CNN
-F 1 "SQS401EN-T1_BE3" V 9750 6850 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 9725 8025 60  0000 L CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 10100 8050 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 10100 8150 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 10100 8350 60  0001 L CNN "MPN"
 F 5 "Vishay" H 10100 8950 60  0001 L CNN "Manufacturer"
 	1    9900 7850
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 9200 7850 0    50   Input ~ 0
 VCC12V0
@@ -53,32 +53,25 @@ $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR053
 U 1 1 62306CD8
-P 10000 9100
-F 0 "#PWR053" H 10000 8850 50  0001 C CNN
-F 1 "GND" H 10005 8927 50  0000 C CNN
-F 2 "" H 10000 9100 50  0001 C CNN
-F 3 "" H 10000 9100 50  0001 C CNN
-	1    10000 9100
+P 9800 9000
+F 0 "#PWR053" H 9800 8750 50  0001 C CNN
+F 1 "GND" H 9805 8827 50  0000 C CNN
+F 2 "" H 9800 9000 50  0001 C CNN
+F 3 "" H 9800 9000 50  0001 C CNN
+	1    9800 9000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 8250 10000 8250
-Connection ~ 10000 8250
-Wire Wire Line
-	10000 8250 10000 8150
-Wire Wire Line
-	10000 8300 10000 8250
 $Comp
 L nuc-compute-cluster-power-breakout:SSM3K15ACT Q9
 U 1 1 62306CE6
-P 10000 8500
-F 0 "Q9" H 10108 8553 60  0000 L CNN
-F 1 "SSM3K15ACT" H 10108 8447 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9550 8700 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8850 9000 60  0001 C CNN
-F 4 "SSM3K15ACT,L3F " H 10000 8500 50  0001 C CNN "MPN"
-F 5 "Toshiba" H 10000 8500 50  0001 C CNN "Manufacturer"
-	1    10000 8500
+P 9800 8500
+F 0 "Q9" H 9908 8553 60  0000 L CNN
+F 1 "SSM3K15ACT" H 9908 8447 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9350 8700 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8650 9000 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 9800 8500 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 9800 8500 50  0001 C CNN "Manufacturer"
+	1    9800 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -103,35 +96,28 @@ Wire Wire Line
 	9700 6200 9700 6250
 Wire Wire Line
 	9300 5850 9700 5850
-Connection ~ 10100 6250
-Wire Wire Line
-	10100 6300 10100 6250
 $Comp
 L nuc-compute-cluster-power-breakout:SSM3K15ACT Q10
 U 1 1 622E95A8
-P 10100 6500
-F 0 "Q10" H 10208 6553 60  0000 L CNN
-F 1 "SSM3K15ACT" H 10208 6447 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9650 6700 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8950 7000 60  0001 C CNN
-F 4 "SSM3K15ACT,L3F " H 10100 6500 50  0001 C CNN "MPN"
-F 5 "Toshiba" H 10100 6500 50  0001 C CNN "Manufacturer"
-	1    10100 6500
+P 9900 6500
+F 0 "Q10" H 10008 6553 60  0000 L CNN
+F 1 "SSM3K15ACT" H 10008 6447 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 9450 6700 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 8750 7000 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 9900 6500 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 9900 6500 50  0001 C CNN "Manufacturer"
+	1    9900 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 6250 10100 6150
-Wire Wire Line
-	9700 6250 10100 6250
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR054
 U 1 1 622E959A
-P 10100 7050
-F 0 "#PWR054" H 10100 6800 50  0001 C CNN
-F 1 "GND" H 10105 6877 50  0000 C CNN
-F 2 "" H 10100 7050 50  0001 C CNN
-F 3 "" H 10100 7050 50  0001 C CNN
-	1    10100 7050
+P 9900 6950
+F 0 "#PWR054" H 9900 6700 50  0001 C CNN
+F 1 "GND" H 9905 6777 50  0000 C CNN
+F 2 "" H 9900 6950 50  0001 C CNN
+F 3 "" H 9900 6950 50  0001 C CNN
+	1    9900 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -155,23 +141,23 @@ L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q8
 U 1 1 622E9582
 P 10000 5850
 F 0 "Q8" V 10150 5650 60  0000 L CNN
-F 1 "SQS401EN-T1_BE3" V 9850 4850 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 9850 6000 60  0000 L CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 10200 6050 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 10200 6150 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 10200 6350 60  0001 L CNN "MPN"
 F 5 "Vishay" H 10200 6950 60  0001 L CNN "Manufacturer"
 	1    10000 5850
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR050
 U 1 1 622D4C17
-P 6550 9100
-F 0 "#PWR050" H 6550 8850 50  0001 C CNN
-F 1 "GND" H 6555 8927 50  0000 C CNN
-F 2 "" H 6550 9100 50  0001 C CNN
-F 3 "" H 6550 9100 50  0001 C CNN
-	1    6550 9100
+P 6350 8950
+F 0 "#PWR050" H 6350 8700 50  0001 C CNN
+F 1 "GND" H 6355 8777 50  0000 C CNN
+F 2 "" H 6350 8950 50  0001 C CNN
+F 3 "" H 6350 8950 50  0001 C CNN
+	1    6350 8950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -207,32 +193,25 @@ $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR052
 U 1 1 622C8CC8
-P 8300 10850
-F 0 "#PWR052" H 8300 10600 50  0001 C CNN
-F 1 "GND" H 8305 10677 50  0000 C CNN
-F 2 "" H 8300 10850 50  0001 C CNN
-F 3 "" H 8300 10850 50  0001 C CNN
-	1    8300 10850
+P 8100 10750
+F 0 "#PWR052" H 8100 10500 50  0001 C CNN
+F 1 "GND" H 8105 10577 50  0000 C CNN
+F 2 "" H 8100 10750 50  0001 C CNN
+F 3 "" H 8100 10750 50  0001 C CNN
+	1    8100 10750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 10050 8300 10050
-Connection ~ 8300 10050
-Wire Wire Line
-	8300 10050 8300 9950
-Wire Wire Line
-	8300 10100 8300 10050
 $Comp
 L nuc-compute-cluster-power-breakout:SSM3K15ACT Q6
 U 1 1 622C8CD8
-P 8300 10300
-F 0 "Q6" H 8408 10353 60  0000 L CNN
-F 1 "SSM3K15ACT" H 8408 10247 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 7850 10500 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 7150 10800 60  0001 C CNN
-F 4 "SSM3K15ACT,L3F " H 8300 10300 50  0001 C CNN "MPN"
-F 5 "Toshiba" H 8300 10300 50  0001 C CNN "Manufacturer"
-	1    8300 10300
+P 8100 10300
+F 0 "Q6" H 8208 10353 60  0000 L CNN
+F 1 "SSM3K15ACT" H 8208 10247 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 7650 10500 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 6950 10800 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 8100 10300 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 8100 10300 50  0001 C CNN "Manufacturer"
+	1    8100 10300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -251,13 +230,13 @@ L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q5
 U 1 1 622C8CB0
 P 8200 9650
 F 0 "Q5" V 8350 9450 60  0000 L CNN
-F 1 "SQS401EN-T1_BE3" V 8050 8650 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 8025 9825 60  0000 L CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 8400 9850 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 8400 9950 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 8400 10150 60  0001 L CNN "MPN"
 F 5 "Vishay" H 8400 10750 60  0001 L CNN "Manufacturer"
 	1    8200 9650
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 2650 7000 0    50   Input ~ 0
 SCL
@@ -2952,13 +2931,13 @@ L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q1
 U 1 1 6227AD63
 P 6400 5900
 F 0 "Q1" V 6550 5700 60  0000 L CNN
-F 1 "SQS401EN-T1_BE3" V 6250 4900 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 6200 6025 60  0000 L CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 6600 6100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 6600 6200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 6600 6400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 6600 7000 60  0001 L CNN "Manufacturer"
 	1    6400 5900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 5700 5900 0    50   Input ~ 0
 VCC12V0
@@ -2979,34 +2958,27 @@ $EndComp
 $Comp
 L nuc-compute-cluster-power-breakout:GND #PWR049
 U 1 1 622A6837
-P 6500 7050
-F 0 "#PWR049" H 6500 6800 50  0001 C CNN
-F 1 "GND" H 6505 6877 50  0000 C CNN
-F 2 "" H 6500 7050 50  0001 C CNN
-F 3 "" H 6500 7050 50  0001 C CNN
-	1    6500 7050
+P 6300 6975
+F 0 "#PWR049" H 6300 6725 50  0001 C CNN
+F 1 "GND" H 6305 6802 50  0000 C CNN
+F 2 "" H 6300 6975 50  0001 C CNN
+F 3 "" H 6300 6975 50  0001 C CNN
+	1    6300 6975
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 6300 6500 6300
-Wire Wire Line
-	6500 6300 6500 6200
 $Comp
 L nuc-compute-cluster-power-breakout:SSM3K15ACT Q3
 U 1 1 622965C1
-P 6500 6550
-F 0 "Q3" H 6608 6603 60  0000 L CNN
-F 1 "SSM3K15ACT" H 6608 6497 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 6050 6750 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5350 7050 60  0001 C CNN
-F 4 "SSM3K15ACT,L3F " H 6500 6550 50  0001 C CNN "MPN"
-F 5 "Toshiba" H 6500 6550 50  0001 C CNN "Manufacturer"
-	1    6500 6550
+P 6300 6550
+F 0 "Q3" H 6408 6603 60  0000 L CNN
+F 1 "SSM3K15ACT" H 6408 6497 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 5850 6750 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5150 7050 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 6300 6550 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 6300 6550 50  0001 C CNN "Manufacturer"
+	1    6300 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 6350 6500 6300
-Connection ~ 6500 6300
 Wire Wire Line
 	5700 5900 6100 5900
 Wire Wire Line
@@ -3025,13 +2997,13 @@ L nuc-compute-cluster-power-breakout:SQS401EN-T1_BE3 Q2
 U 1 1 622D4BFF
 P 6450 7900
 F 0 "Q2" V 6600 7700 60  0000 L CNN
-F 1 "SQS401EN-T1_BE3" V 6300 6900 60  0000 L CNN
+F 1 "SQS401EN-T1_BE3" V 6175 7925 60  0000 L CNN
 F 2 "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single" H 6650 8100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 6650 8200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 6650 8400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 6650 9000 60  0001 L CNN "Manufacturer"
 	1    6450 7900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 5750 7900 0    50   Input ~ 0
 VCC12V0
@@ -3049,26 +3021,19 @@ F 6 "4k7" V 6200 7850 50  0000 L CNN "Val"
 	1    6150 8100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6150 8300 6550 8300
-Wire Wire Line
-	6550 8300 6550 8200
 $Comp
 L nuc-compute-cluster-power-breakout:SSM3K15ACT Q4
 U 1 1 622D4C25
-P 6550 8550
-F 0 "Q4" H 6658 8603 60  0000 L CNN
-F 1 "SSM3K15ACT" H 6658 8497 60  0000 L CNN
-F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 6100 8750 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5400 9050 60  0001 C CNN
-F 4 "SSM3K15ACT,L3F " H 6550 8550 50  0001 C CNN "MPN"
-F 5 "Toshiba" H 6550 8550 50  0001 C CNN "Manufacturer"
-	1    6550 8550
+P 6350 8550
+F 0 "Q4" H 6458 8603 60  0000 L CNN
+F 1 "SSM3K15ACT" H 6458 8497 60  0000 L CNN
+F 2 "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT" H 5900 8750 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/408/SSM3K15ACT_datasheet_en_20140301-1144185.pdf" H 5200 9050 60  0001 C CNN
+F 4 "SSM3K15ACT,L3F " H 6350 8550 50  0001 C CNN "MPN"
+F 5 "Toshiba" H 6350 8550 50  0001 C CNN "Manufacturer"
+	1    6350 8550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 8350 6550 8300
-Connection ~ 6550 8300
 Wire Wire Line
 	5750 7900 6150 7900
 Wire Wire Line
@@ -3100,7 +3065,6 @@ Wire Wire Line
 	7300 9850 7300 10000
 Wire Wire Line
 	7300 10300 7300 10400
-Connection ~ 7300 10400
 $Comp
 L nuc-compute-cluster-power-breakout:C_100n_0402 C23
 U 1 1 6269F66B
@@ -3204,7 +3168,6 @@ Wire Wire Line
 	5250 8650 5650 8650
 Wire Wire Line
 	5650 8500 5650 8650
-Connection ~ 5650 8650
 Wire Wire Line
 	5200 8050 5650 8050
 Wire Wire Line
@@ -3229,7 +3192,6 @@ F 6 "10k" V 5653 6370 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	5600 6450 5600 6650
-Connection ~ 5600 6650
 Wire Wire Line
 	5600 6150 5600 6050
 Wire Wire Line
@@ -3260,7 +3222,6 @@ Wire Wire Line
 	9000 8150 9000 8000
 Wire Wire Line
 	9000 8450 9000 8600
-Connection ~ 9000 8600
 Wire Wire Line
 	11250 2600 11250 1750
 Wire Wire Line
@@ -3325,7 +3286,6 @@ Wire Wire Line
 	9100 6000 9100 6150
 Wire Wire Line
 	9100 6450 9100 6600
-Connection ~ 9100 6600
 $Bitmap
 Pos 10500 4400
 Scale 1.000000
@@ -3810,26 +3770,6 @@ Wire Wire Line
 	5200 6650 5600 6650
 Wire Wire Line
 	8700 6000 9100 6000
-Wire Wire Line
-	7300 10400 8000 10400
-Wire Wire Line
-	5650 8650 6250 8650
-Wire Wire Line
-	5600 6650 6200 6650
-Wire Wire Line
-	9100 6600 9800 6600
-Wire Wire Line
-	9000 8600 9700 8600
-Wire Wire Line
-	6500 6750 6500 7050
-Wire Wire Line
-	10100 7050 10100 6700
-Wire Wire Line
-	6550 9100 6550 8750
-Wire Wire Line
-	10000 9100 10000 8700
-Wire Wire Line
-	8300 10850 8300 10500
 Text GLabel 8700 6000 0    50   Input ~ 0
 VCC3V3
 Text GLabel 5200 8050 0    50   Input ~ 0
@@ -8422,4 +8362,64 @@ Wire Wire Line
 	13750 4100 14300 4100
 Text Notes 13850 4450 0    79   ~ 0
 ADC inputs TPs
+Wire Wire Line
+	6300 6350 6300 6300
+Wire Wire Line
+	5600 6650 6000 6650
+Connection ~ 5600 6650
+Wire Wire Line
+	6100 6300 6300 6300
+Connection ~ 6300 6300
+Wire Wire Line
+	6300 6300 6300 6200
+Wire Wire Line
+	6300 6975 6300 6750
+Wire Wire Line
+	6150 8300 6350 8300
+Wire Wire Line
+	6350 8200 6350 8300
+Connection ~ 6350 8300
+Wire Wire Line
+	6350 8300 6350 8350
+Wire Wire Line
+	5650 8650 6050 8650
+Connection ~ 5650 8650
+Wire Wire Line
+	6350 8950 6350 8750
+Wire Wire Line
+	8100 10100 8100 10050
+Wire Wire Line
+	7900 10050 8100 10050
+Connection ~ 8100 10050
+Wire Wire Line
+	8100 10050 8100 9950
+Wire Wire Line
+	7300 10400 7800 10400
+Connection ~ 7300 10400
+Wire Wire Line
+	8100 10750 8100 10500
+Wire Wire Line
+	9800 9000 9800 8700
+Wire Wire Line
+	9600 8250 9800 8250
+Wire Wire Line
+	9800 8150 9800 8250
+Connection ~ 9800 8250
+Wire Wire Line
+	9800 8250 9800 8300
+Wire Wire Line
+	9500 8600 9000 8600
+Connection ~ 9000 8600
+Wire Wire Line
+	9700 6250 9900 6250
+Wire Wire Line
+	9900 6250 9900 6300
+Wire Wire Line
+	9900 6150 9900 6250
+Connection ~ 9900 6250
+Wire Wire Line
+	9100 6600 9600 6600
+Connection ~ 9100 6600
+Wire Wire Line
+	9900 6700 9900 6950
 $EndSCHEMATC
