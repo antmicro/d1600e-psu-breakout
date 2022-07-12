@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 4
 Title "Power Cycling & Current Measurement Module"
 Date "2022-03-07"
-Rev "1.0"
+Rev "1.1"
 Comp "Antmicro LTD"
 Comment1 ""
 Comment2 ""
