@@ -373,9 +373,9 @@ Wire Wire Line
 	6050 4250 6000 4250
 Wire Wire Line
 	5900 4450 5400 4450
-Text GLabel 6650 4150 2    50   BiDi ~ 0
+Text GLabel 6650 4350 2    50   BiDi ~ 0
 SDA_FTDI
-Text GLabel 6650 4350 2    50   Output ~ 0
+Text GLabel 6650 4150 2    50   Output ~ 0
 SCL_FTDI
 Connection ~ 6050 4350
 Text GLabel 6650 4450 2    50   Input ~ 0
