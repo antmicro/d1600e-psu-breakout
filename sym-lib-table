@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name rdimm-breakout-cache)(type Legacy)(uri /home/pawf/KiCAD_proj/antmicro-rdimm-breakout-hw/rdimm-breakout-cache.lib)(options "")(descr ""))
-  (lib (name nuc-compute-cluster-power-breakout)(type Legacy)(uri ${KIPRJMOD}/lib/nuc-compute-cluster-power-breakout.lib)(options "")(descr ""))
+  (lib (name "nuc-compute-cluster-power-breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/nuc-compute-cluster-power-breakout.kicad_sym")(options "")(descr ""))
 )
