@@ -5282,9 +5282,6 @@
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000626a4c27"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000626a4f78"
-      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000623923f9/00000000-0000-0000-0000-0000625167f0"
       (reference "#PWR061") (unit 1) (value "GND") (footprint "")
     )
@@ -5375,6 +5372,9 @@
     (path "/00000000-0000-0000-0000-0000623923f9/8f4e6bb5-9418-406a-83cf-9c4831562a5e"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/0c083fde-68c8-441d-9456-a0a6b8d8bdd9"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006248dea2"
       (reference "3V3") (unit 1) (value "TP_SMD1MM") (footprint "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm")
     )
@@ -5450,9 +5450,6 @@
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000626a4815"
       (reference "C22") (unit 1) (value "C_1u_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-00006269f66b"
-      (reference "C23") (unit 1) (value "C_100n_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
-    )
     (path "/00000000-0000-0000-0000-0000623923f9/00000000-0000-0000-0000-00006252106d"
       (reference "C24") (unit 1) (value "C_10u_16V_0603") (footprint "nuc-compute-cluster-power-breakout-footprints:0603-cap")
     )
@@ -5492,6 +5489,9 @@
     (path "/00000000-0000-0000-0000-0000623923f9/00000000-0000-0000-0000-0000627f27c5"
       (reference "C36") (unit 1) (value "C_22u_0603") (footprint "nuc-compute-cluster-power-breakout-footprints:0603-cap")
     )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/f7de10b3-c706-4337-b5c4-3ee9ca98d077"
+      (reference "C37") (unit 1) (value "C_100n_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062378ae2"
       (reference "D1") (unit 1) (value "PESD5V0S2BQA") (footprint "nuc-compute-cluster-power-breakout-footprints:TPD2E009DRTR")
     )
@@ -5509,6 +5509,9 @@
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062388cce"
       (reference "FB3") (unit 1) (value "BLM18AG601SN1D") (footprint "nuc-compute-cluster-power-breakout-footprints:0603")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/1bd6c8ef-2eb3-42bf-aad6-0842ef5f5f67"
+      (reference "FB4") (unit 1) (value "BLM18AG601SN1D") (footprint "nuc-compute-cluster-power-breakout-footprints:0603")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000624c6e54"
       (reference "J1") (unit 1) (value "USB3106-30-0230-A") (footprint "nuc-compute-cluster-power-breakout-footprints:usb3106-30-0230")
