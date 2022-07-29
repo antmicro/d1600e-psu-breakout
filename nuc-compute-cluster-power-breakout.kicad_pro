@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|100550000|150000000|ba545296-b033-4e8f-b763-38c6f60f2b45|6a2d71d5-bb43-4a2b-9e85-096c83f0d801",
+        "silk_over_copper|179200000|150000000|917ce360-4e8a-4c87-84bb-0f4973964d6a|c0425c12-e712-44e4-bdc9-0f656b0c8c62"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -106,7 +109,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.125,
         "min_copper_edge_clearance": 0.049999999999999996,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -114,9 +117,9 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_track_width": 0.125,
+        "min_via_annular_width": 0.175,
+        "min_via_diameter": 0.6,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
@@ -135,12 +138,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.2
-        },
-        {
           "diameter": 0.6,
-          "drill": 0.3
+          "drill": 0.25
         },
         {
           "diameter": 0.8,
@@ -381,6 +380,43 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "C_MEAS_1",
+          "C_MEAS_2",
+          "C_MEAS_3",
+          "C_MEAS_4",
+          "C_MEAS_5",
+          "GND",
+          "GNDD",
+          "LOAD_1",
+          "LOAD_2",
+          "LOAD_3",
+          "LOAD_4",
+          "LOAD_5",
+          "VBUS",
+          "VCC12V0",
+          "VCC3V3",
+          "VCC3V3_USB",
+          "VCC5V0",
+          "VCC5V0_USB"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
