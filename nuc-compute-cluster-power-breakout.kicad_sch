@@ -5578,16 +5578,16 @@
       (reference "Q2") (unit 1) (value "SQS401EN-T1_BE3") (footprint "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622965c1"
-      (reference "Q3") (unit 1) (value "SSM3K15ACT") (footprint "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT")
+      (reference "Q3") (unit 1) (value "2N7002") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622d4c25"
-      (reference "Q4") (unit 1) (value "SSM3K15ACT") (footprint "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT")
+      (reference "Q4") (unit 1) (value "2N7002") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cb0"
       (reference "Q5") (unit 1) (value "SQS401EN-T1_BE3") (footprint "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cd8"
-      (reference "Q6") (unit 1) (value "SSM3K15ACT") (footprint "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT")
+      (reference "Q6") (unit 1) (value "2N7002") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-000062306cc0"
       (reference "Q7") (unit 1) (value "SQS401EN-T1_BE3") (footprint "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single")
@@ -5596,10 +5596,10 @@
       (reference "Q8") (unit 1) (value "SQS401EN-T1_BE3") (footprint "nuc-compute-cluster-power-breakout-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-000062306ce6"
-      (reference "Q9") (unit 1) (value "SSM3K15ACT") (footprint "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT")
+      (reference "Q9") (unit 1) (value "2N7002") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622e95a8"
-      (reference "Q10") (unit 1) (value "SSM3K15ACT") (footprint "nuc-compute-cluster-power-breakout-footprints:SSM3K15ACT")
+      (reference "Q10") (unit 1) (value "2N7002") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000625d60df"
       (reference "Q11") (unit 1) (value "BC856,215") (footprint "nuc-compute-cluster-power-breakout-footprints:SOT-23-3")
