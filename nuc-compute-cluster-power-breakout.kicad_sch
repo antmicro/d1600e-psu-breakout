@@ -5130,9 +5130,6 @@
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006273ec83"
       (reference "#PWR010") (unit 1) (value "GNDD") (footprint "nuc-compute-cluster-power-breakout-footprints:")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006273e961"
-      (reference "#PWR011") (unit 1) (value "GNDD") (footprint "nuc-compute-cluster-power-breakout-footprints:")
-    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006257abc9"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "nuc-compute-cluster-power-breakout-footprints:")
     )
@@ -5405,9 +5402,6 @@
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000622924b1"
       (reference "C4") (unit 1) (value "C_100n_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
-    )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062292856"
-      (reference "C5") (unit 1) (value "C_100n_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062292e47"
       (reference "C6") (unit 1) (value "C_100n_0402") (footprint "nuc-compute-cluster-power-breakout-footprints:0402-cap")
@@ -5769,9 +5763,6 @@
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000628871aa"
       (reference "SDA_FTDI1") (unit 1) (value "TP_SMD1MM") (footprint "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/c1e33550-fdb3-47b5-a1fd-fc3b31cc9572"
-      (reference "TP1") (unit 1) (value "TP") (footprint "antmicro-footprints:TP-R-1.5")
-    )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000625e59a0"
       (reference "TP_ADC1") (unit 1) (value "TP_SMD1MM") (footprint "nuc-compute-cluster-power-breakout-footprints:Testpoint_smd_1mm")
     )
@@ -5903,6 +5894,9 @@
     )
     (path "/00000000-0000-0000-0000-0000623923f9/00000000-0000-0000-0000-00006251678c"
       (reference "U15") (unit 1) (value "AP62301WU-7") (footprint "nuc-compute-cluster-power-breakout-footprints:TSOT23-6")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/98101a9c-8992-4d7d-a945-f06549cd6f03"
+      (reference "WP1") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000622238b7"
       (reference "Y1") (unit 1) (value "KX-7_12,MHz") (footprint "nuc-compute-cluster-power-breakout-footprints:KX-7")
