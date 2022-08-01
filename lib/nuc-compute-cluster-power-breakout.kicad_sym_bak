@@ -615,7 +615,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:0603-cap" 
+        (property "Footprint" "antmicro-footprints:0603-cap" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -875,7 +875,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:0402-res" 
+        (property "Footprint" "antmicro-footprints:0402-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -955,7 +955,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:MOLEX_39281103" 
+        (property "Footprint" "antmicro-footprints:MOLEX_39281103" 
             (id 2) 
             (at 0 -22.86 0) 
             (effects 
@@ -3561,7 +3561,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:0402-cap" 
+        (property "Footprint" "antmicro-footprints:0402-cap" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -3655,7 +3655,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:0402-res" 
+        (property "Footprint" "antmicro-footprints:0402-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -6323,7 +6323,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "nuc-compute-cluster-power-breakout-footprints:MOLEX_39288080" 
+        (property "Footprint" "antmicro-footprints:MOLEX_39288080" 
             (id 2) 
             (at 0 -16.51 0) 
             (effects 
