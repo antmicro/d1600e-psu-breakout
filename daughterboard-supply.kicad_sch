@@ -6,8 +6,8 @@
 
   (title_block
     (title "NUC Computer Cluster Power Breakout HW")
-    (date "2022-07-29")
-    (rev "1.3.0")
+    (date "2022-08-02")
+    (rev "1.3.1")
   )
 
   (lib_symbols
