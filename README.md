@@ -1,4 +1,4 @@
-# Antmicro's open source D1600E PSU Breakout
+# Antmicro's open source D1600E PSU Breakout Board
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
