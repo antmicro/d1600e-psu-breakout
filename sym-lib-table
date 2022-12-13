@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "d1600e-psu-breakout-board")(type "KiCad")(uri "${KIPRJMOD}/lib/d1600e-psu-breakout-board.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4145-03-0070-C_REVA")(type "KiCad")(uri "/home/lnowarkiewicz/Documents/Kicad downloads/USB4145-03-0070-C_REVA.kicad_sym")(options "")(descr ""))
 )

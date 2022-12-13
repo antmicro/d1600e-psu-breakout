@@ -6203,6 +6203,9 @@
     (path "/1ba3caec-f607-4372-91c6-8eb1fee900db"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
     )
+    (path "/00000000-0000-0000-0000-000062220f27/e8103b8d-e8cd-4e94-be56-cf4248e26829"
+      (reference "#PWR0125") (unit 1) (value "GNDD") (footprint "d1600e-psu-breakout-board-footprints:")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006248dea2"
       (reference "3V3") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
@@ -6361,9 +6364,6 @@
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/1bd6c8ef-2eb3-42bf-aad6-0842ef5f5f67"
       (reference "FB4") (unit 1) (value "BLM18AG601SN1D") (footprint "d1600e-psu-breakout-board-footprints:0603")
-    )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000624c6e54"
-      (reference "J1") (unit 1) (value "USB3106-30-0230-A") (footprint "d1600e-psu-breakout-board-footprints:usb3106-30-0230")
     )
     (path "/00000000-0000-0000-0000-00006231f410"
       (reference "J2") (unit 1) (value "BM04B-SRSS-TB-LF-SN") (footprint "d1600e-psu-breakout-board-footprints:BM04B-SRSS-TB-LF-SN")
@@ -6632,6 +6632,18 @@
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000628871aa"
       (reference "SDA_FTDI1") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
+    (path "/00000000-0000-0000-0000-000062220f27/1ee9ce04-68a2-4a18-95b9-789a68484d38"
+      (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/707d701d-c98b-4207-9040-95df24abae48"
+      (reference "TP2") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/926f0d17-c8bf-435a-ac35-7c669f82786f"
+      (reference "TP3") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/2d6b1de1-b8f2-4828-aa19-89d0ab139436"
+      (reference "TP4") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
+    )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000625e59a0"
       (reference "TP_ADC1") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
@@ -6727,6 +6739,9 @@
     )
     (path "/00000000-0000-0000-0000-0000625b2ff0"
       (reference "TP_S_ON1") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/25813932-e388-4ba2-8d28-a95bd71ae894"
+      (reference "U1") (unit 1) (value "USB4145-03-0070-c_REVA2") (footprint "antmicro-footprints:GCT_USB4145-03-0070-C_REVA")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006256ae7a"
       (reference "U2") (unit 1) (value "ISO1641") (footprint "d1600e-psu-breakout-board-footprints:SOIC-8_W3.9mm")
