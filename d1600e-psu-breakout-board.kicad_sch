@@ -686,6 +686,71 @@
         )
       )
     )
+    (symbol "d1600e-psu-breakout-board:PESD5V0S2BQA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (id 0) (at -7.62 -12.7 0)
+        (effects (font (size 1.524 1.524)) (justify left bottom))
+      )
+      (property "Value" "PESD5V0S2BQA" (id 1) (at -7.62 -15.24 90)
+        (effects (font (size 1.524 1.524)) (justify left bottom) hide)
+      )
+      (property "Footprint" "d1600e-psu-breakout-board-footprints:TPD2E009DRTR" (id 2) (at 1.27 5.08 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "MPN" "PESD5V0S2BQA" (id 4) (at -7.62 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Manufacturer" "Nexperia" (id 5) (at -7.62 10.16 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "PESD5V0S2BQA_0_1"
+        (polyline
+          (pts
+            (xy 7.874 -0.254)
+            (xy 7.874 -5.842)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.112 -2.54)
+            (xy 8.636 -2.54)
+            (xy 8.636 -2.794)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 -4.064)
+            (xy 7.874 -2.54)
+            (xy 6.858 -4.064)
+            (xy 8.89 -4.064)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (rectangle (start 10.16 -7.62) (end 0 2.54)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 5.08)
+          (name "IO1" (effects (font (size 1.778 1.778))))
+          (number "1" (effects (font (size 1.778 1.778))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 5.08)
+          (name "IO2" (effects (font (size 1.778 1.778))))
+          (number "2" (effects (font (size 1.778 1.778))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 5.08)
+          (name "GND" (effects (font (size 1.778 1.778))))
+          (number "3" (effects (font (size 1.778 1.778))))
+        )
+      )
+    )
     (symbol "d1600e-psu-breakout-board:R_0R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at -1.397 3.429 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1218,6 +1283,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 20aa87b9-711a-49bb-a23c-e19779c4905d)
   )
+  (wire (pts (xy 97.155 99.695) (xy 97.155 100.965))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 218bc671-15de-466a-bb03-2d5a7baa9445)
+  )
   (wire (pts (xy 176.53 133.35) (xy 175.26 133.35))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 22c84f53-5ae9-4c95-91bd-1c314b6d39c8)
@@ -1346,6 +1415,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 43437e13-6033-48b1-9df3-a46a57a1c48f)
   )
+  (wire (pts (xy 59.055 97.79) (xy 56.515 97.79))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 4384fc1d-7639-4a3e-aae9-98779f026759)
+  )
   (wire (pts (xy 93.345 161.925) (xy 94.615 161.925))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 439128fd-029e-4f4d-bab0-4484c0aada6f)
@@ -1369,6 +1442,10 @@
   (wire (pts (xy 37.465 231.14) (xy 40.005 231.14))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 477a4ddc-2398-4ec5-a328-75b7d4eb2e46)
+  )
+  (wire (pts (xy 56.515 92.71) (xy 59.055 92.71))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 492a7ad5-80f2-4adb-9958-2d5135df7c39)
   )
   (wire (pts (xy 94.615 164.465) (xy 94.615 167.005))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1461,6 +1538,10 @@
   (wire (pts (xy 123.19 245.11) (xy 123.19 246.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 671f63ac-1779-449a-8d6c-57672f186e01)
+  )
+  (wire (pts (xy 97.155 94.615) (xy 99.695 94.615))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 6935b3f4-27c5-4122-b352-6ef4f15de53f)
   )
   (wire (pts (xy 209.55 171.45) (xy 215.265 171.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1605,6 +1686,10 @@
   (wire (pts (xy 148.59 254) (xy 148.59 255.27))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8b933157-0917-40cb-add3-3de91ade894d)
+  )
+  (wire (pts (xy 56.515 95.25) (xy 59.055 95.25))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8c179df8-3c73-4282-9b7e-f2eb857e3a21)
   )
   (wire (pts (xy 161.29 245.11) (xy 161.29 246.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1862,6 +1947,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d97d5509-526c-4ef3-a58c-1859998906ea)
   )
+  (wire (pts (xy 97.155 97.155) (xy 99.695 97.155))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d98a5e89-eea9-4753-a117-1a60e126adec)
+  )
   (wire (pts (xy 377.19 215.9) (xy 377.19 220.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e0a077c3-e9f8-4a50-9cb8-bc42fab9e20c)
@@ -1946,6 +2035,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f7d1af22-f1fd-402f-a14b-876de6d7161a)
   )
+  (wire (pts (xy 56.515 97.79) (xy 56.515 99.06))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f83ab6f4-6f94-4a06-a7f6-ad3bd35ffa2f)
+  )
   (wire (pts (xy 93.345 137.795) (xy 94.615 137.795))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f87b7247-8204-4eae-8961-448908badaff)
@@ -1973,6 +2066,10 @@
   (wire (pts (xy 55.245 140.335) (xy 55.245 142.875))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fdda9d4e-057a-45c0-9af9-56e622b3b586)
+  )
+  (wire (pts (xy 99.695 99.695) (xy 97.155 99.695))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ff254da0-47f3-4f60-8f2f-19d9d1ae1432)
   )
   (wire (pts (xy 38.735 167.005) (xy 38.735 164.465))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4330,6 +4427,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SDA" (shape bidirectional) (at 56.515 95.25 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9abf9da1-073a-49e3-a5d2-26651421bf93)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 160.655 328.295 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (global_label "LOAD_4" (shape input) (at 161.29 237.49 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a7badfb0-168f-4d4d-8ec8-54c0fb00c2b8)
@@ -4379,10 +4483,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SCL" (shape bidirectional) (at 56.515 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid cfd7c4b6-4f69-475f-964d-7d0e660bf1a6)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 160.655 328.295 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (global_label "SCL" (shape input) (at 58.42 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d35cc468-7a4f-41ce-933a-a9a38b738256)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 22.225 19.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SCL" (shape bidirectional) (at 97.155 94.615 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d39a226c-8b74-4c4b-879a-3d70c75cff2d)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 201.295 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4411,6 +4529,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e16a4500-88fe-4a43-abd8-d6cb1662be75)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -2.54 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA" (shape bidirectional) (at 97.155 97.155 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e55c0149-f75a-4c8e-87f5-8aaa01ab2168)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 201.295 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -6042,6 +6167,22 @@
     (pin "2" (uuid 1ed292a2-8016-4ed6-89ed-6564667f140b))
   )
 
+  (symbol (lib_id "d1600e-psu-breakout-board:GND") (at 56.515 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid a442385a-4322-4893-b9a8-b80b005332c1)
+    (property "Reference" "#PWR0129" (id 0) (at 56.515 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 56.642 103.4542 0))
+    (property "Footprint" "d1600e-psu-breakout-board-footprints:" (id 2) (at 56.515 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 56.515 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62992762-c26a-4494-91a4-f933a87aaf23))
+  )
+
   (symbol (lib_id "d1600e-psu-breakout-board:GND") (at 135.89 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a47d0170-5498-415d-b1a0-f8c951441af2)
@@ -6249,6 +6390,32 @@
     (pin "2" (uuid 75090d4e-e12d-4439-a8f8-d6188387015b))
   )
 
+  (symbol (lib_id "d1600e-psu-breakout-board:PESD5V0S2BQA") (at 104.775 94.615 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid cf6eac14-18e2-4239-a30b-79cdcc43d247)
+    (property "Reference" "D13" (id 0) (at 104.775 90.805 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "PESD5V0S2BQA" (id 1) (at 97.155 109.855 90)
+      (effects (font (size 1.524 1.524)) (justify left bottom) hide)
+    )
+    (property "Footprint" "d1600e-psu-breakout-board-footprints:TPD2E009DRTR" (id 2) (at 106.045 89.535 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 104.775 94.615 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "MPN" "PESD5V0S2BQA" (id 4) (at 100.965 103.505 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Manufacturer" "Nexperia" (id 5) (at 106.045 106.045 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid cc786a2c-610c-4b4f-97d5-91026f5e74dc))
+    (pin "2" (uuid b391db8e-8262-45f3-b037-5037a9a4ddf3))
+    (pin "3" (uuid 8a6d1d69-c3e3-4116-8c01-979d683afb5f))
+  )
+
   (symbol (lib_id "d1600e-psu-breakout-board:LG_L29K-G2J1-24-Z") (at 198.12 251.46 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d5e94837-a25a-4613-900a-2637c32c9b32)
@@ -6288,6 +6455,32 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d63d7e83-b122-4699-b774-8595404a049c))
+  )
+
+  (symbol (lib_id "d1600e-psu-breakout-board:PESD5V0S2BQA") (at 64.135 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d8dd5367-07ac-4b78-ad2e-3c64eba1342e)
+    (property "Reference" "D12" (id 0) (at 64.135 88.9 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "PESD5V0S2BQA" (id 1) (at 56.515 107.95 90)
+      (effects (font (size 1.524 1.524)) (justify left bottom) hide)
+    )
+    (property "Footprint" "d1600e-psu-breakout-board-footprints:TPD2E009DRTR" (id 2) (at 65.405 87.63 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 64.135 92.71 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "MPN" "PESD5V0S2BQA" (id 4) (at 60.325 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Manufacturer" "Nexperia" (id 5) (at 65.405 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 787ee8a0-9b28-433b-86f8-d1f18c516376))
+    (pin "2" (uuid b646bc31-7ba8-4dd3-993b-713195a8da5d))
+    (pin "3" (uuid 28008532-8db7-4e0b-9f30-567271c63294))
   )
 
   (symbol (lib_id "antmicroRectangularConnectorsHeadersMalePins:4PIN-22-27-2041") (at 43.815 212.725 0) (unit 1)
@@ -6353,6 +6546,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b4eb79e2-86f3-45e9-b3bd-2d5903a9ffdd))
+  )
+
+  (symbol (lib_id "d1600e-psu-breakout-board:GND") (at 97.155 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid f142049d-29b5-441e-bb38-460ab66eebbf)
+    (property "Reference" "#PWR0128" (id 0) (at 97.155 107.315 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 97.282 105.3592 0))
+    (property "Footprint" "d1600e-psu-breakout-board-footprints:" (id 2) (at 97.155 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 97.155 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47b5502f-7174-49eb-b1aa-d85ab9244716))
   )
 
   (sheet (at 271.78 24.13) (size 115.57 49.53) (fields_autoplaced)
@@ -6702,10 +6911,10 @@
     (path "/00000000-0000-0000-0000-000062220f27/abeb3839-5642-444c-88a6-0e2f5cfed617"
       (reference "#PWR0127") (unit 1) (value "GNDD") (footprint "d1600e-psu-breakout-board-footprints:")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/0349186d-2bd0-4fbb-8439-31551ea26fb3"
+    (path "/f142049d-29b5-441e-bb38-460ab66eebbf"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/f2c734d5-d8ca-4393-b599-b283e67b5a13"
+    (path "/a442385a-4322-4893-b9a8-b80b005332c1"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
     )
     (path "/0de760c5-fb68-4982-ab06-4d0ff42583dc"
@@ -6726,6 +6935,9 @@
     (path "/00000000-0000-0000-0000-0000623923f9/281a96d7-185b-4f9e-81a4-6a77631a1f17"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
     )
+    (path "/00000000-0000-0000-0000-000062220f27/6cb6c56b-96a1-4031-a669-e669199f2988"
+      (reference "#PWR0136") (unit 1) (value "GNDD") (footprint "d1600e-psu-breakout-board-footprints:")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006248dea2"
       (reference "3V3") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
@@ -6735,11 +6947,11 @@
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062557eb5"
       (reference "5V_USB1") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062223e8e"
-      (reference "C1") (unit 1) (value "C_27p_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-cap")
+    (path "/00000000-0000-0000-0000-000062220f27/099c5777-61fb-4a86-b722-7b9dae01b6db"
+      (reference "C1") (unit 1) (value "C_18p_0402") (footprint "antmicro-footprints:0402-cap")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006222430a"
-      (reference "C2") (unit 1) (value "C_27p_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-cap")
+    (path "/00000000-0000-0000-0000-000062220f27/accafdbc-bb8f-4db8-bcf3-29e372b5bfd9"
+      (reference "C2") (unit 1) (value "C_18p_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062291e98"
       (reference "C3") (unit 1) (value "C_100n_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-cap")
@@ -6873,11 +7085,14 @@
     (path "/a317b7bf-48a3-4c59-b0a1-e15f8f2e9c47"
       (reference "D11") (unit 1) (value "LG_L29K-G2J1-24-Z") (footprint "d1600e-psu-breakout-board-footprints:LED_0603")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/83ead44b-f9fd-47eb-83f3-863d33b2f758"
+    (path "/d8dd5367-07ac-4b78-ad2e-3c64eba1342e"
       (reference "D12") (unit 1) (value "PESD5V0S2BQA") (footprint "d1600e-psu-breakout-board-footprints:TPD2E009DRTR")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/6b3197c2-c55d-45ff-a1f9-a08a5bcd4795"
+    (path "/cf6eac14-18e2-4239-a30b-79cdcc43d247"
       (reference "D13") (unit 1) (value "PESD5V0S2BQA") (footprint "d1600e-psu-breakout-board-footprints:TPD2E009DRTR")
+    )
+    (path "/00000000-0000-0000-0000-000062220f27/fe16df0a-a3f6-443a-b54f-ed962f9e853e"
+      (reference "D14") (unit 1) (value "PESD5V0S2BQA") (footprint "d1600e-psu-breakout-board-footprints:TPD2E009DRTR")
     )
     (path "/00000000-0000-0000-0000-000062220f27/05411370-c044-44f2-abc9-40556036a1cc"
       (reference "FB1") (unit 1) (value "BLM18AG601SN1D") (footprint "d1600e-psu-breakout-board-footprints:0603")
@@ -6957,38 +7172,53 @@
     (path "/00000000-0000-0000-0000-000062508f0c"
       (reference "N2") (unit 1) (value "antmicro_logo") (footprint "d1600e-psu-breakout-board-footprints:antmicro-logo_scaled_20mm_mask")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-00006227ad63"
-      (reference "Q1") (unit 1) (value "SQS401EN-T1_BE3") (footprint "d1600e-psu-breakout-board-footprints:Vishay_PowerPAK_1212-8_Single")
-    )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622d4bff"
-      (reference "Q2") (unit 1) (value "SQS401EN-T1_BE3") (footprint "d1600e-psu-breakout-board-footprints:Vishay_PowerPAK_1212-8_Single")
-    )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622965c1"
-      (reference "Q3") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
-    )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622d4c25"
-      (reference "Q4") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
-    )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cb0"
-      (reference "Q5") (unit 1) (value "SQS401EN-T1_BE3") (footprint "d1600e-psu-breakout-board-footprints:Vishay_PowerPAK_1212-8_Single")
-    )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cd8"
       (reference "Q6") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-000062306cc0"
-      (reference "Q7") (unit 1) (value "SQS401EN-T1_BE3") (footprint "d1600e-psu-breakout-board-footprints:Vishay_PowerPAK_1212-8_Single")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622d4c25"
+      (reference "Q7") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622e9582"
-      (reference "Q8") (unit 1) (value "SQS401EN-T1_BE3") (footprint "d1600e-psu-breakout-board-footprints:Vishay_PowerPAK_1212-8_Single")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622e95a8"
+      (reference "Q8") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-000062306ce6"
       (reference "Q9") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622e95a8"
+    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cd8"
       (reference "Q10") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000625d60df"
       (reference "Q11") (unit 1) (value "BC856,215") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/5cfaa6a1-fd86-4171-ac49-d895f049ce96"
+      (reference "QA1") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/c88cb5d4-792b-4e34-9e47-53a9534d78b2"
+      (reference "QA2") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/74f5c79c-9498-4c46-807e-06c6db573037"
+      (reference "QA3") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/b2cacb41-f431-4991-9423-89fe9dec16f8"
+      (reference "QA4") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/5cb7f6df-a1b7-4c38-89dc-6ae9b53e171a"
+      (reference "QA5") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/38ea0a7d-6247-4723-9ec2-f45ae1a1ac44"
+      (reference "QB1") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/832bbfa8-1f9e-4a63-b733-e09c196f49c4"
+      (reference "QB2") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/2ec0f140-5cea-4b7d-91ab-af4011764cb2"
+      (reference "QB3") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/8e17c7cc-aff7-4a42-8dd9-a49895e32924"
+      (reference "QB4") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/f3263d89-158c-4eae-9e7f-852cd1539e82"
+      (reference "QB5") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-000062220f27/1ff98b0b-9c97-4ad0-8a8f-3e8364c0deb6"
       (reference "R1") (unit 1) (value "R_1k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
@@ -7002,11 +7232,11 @@
     (path "/00000000-0000-0000-0000-000062220f27/39978e0b-7fc6-4ad7-b132-95ef7ac544be"
       (reference "R4") (unit 1) (value "R_0R_0603") (footprint "d1600e-psu-breakout-board-footprints:0603-res")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/13bfecf8-8953-4765-8d90-63afd9494a06"
-      (reference "R5") (unit 1) (value "R_1k5_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000062220f27/dba28d6e-d53f-4600-aa41-b6a2687bb2e3"
+      (reference "R5") (unit 1) (value "R_4k7_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/1d13339e-956b-4c69-8a76-bc05f89fa957"
-      (reference "R6") (unit 1) (value "R_1k5_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000062220f27/9ad34575-1028-4643-83e2-afe0810eb4b9"
+      (reference "R6") (unit 1) (value "R_4k7_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-000062472d4d"
       (reference "R7") (unit 1) (value "R_330R_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
@@ -7095,11 +7325,11 @@
     (path "/00000000-0000-0000-0000-0000623923f9/00000000-0000-0000-0000-0000625167bf"
       (reference "R35") (unit 1) (value "R_10k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006266f027"
-      (reference "R36") (unit 1) (value "R_1k5_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000062220f27/e367f91f-78cb-4714-9868-39ff27eee16b"
+      (reference "R36") (unit 1) (value "R_4k7_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006266ecee"
-      (reference "R37") (unit 1) (value "R_1k5_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000062220f27/d69ea33a-cefb-4951-baa3-d4c0f7857eb2"
+      (reference "R37") (unit 1) (value "R_4k7_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000628e9c4d"
       (reference "R38") (unit 1) (value "R_0R_0603") (footprint "d1600e-psu-breakout-board-footprints:0603-res")
