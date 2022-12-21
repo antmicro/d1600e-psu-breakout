@@ -7223,9 +7223,6 @@
     (path "/00000000-0000-0000-0000-000062220f27/1ff98b0b-9c97-4ad0-8a8f-3e8364c0deb6"
       (reference "R1") (unit 1) (value "R_1k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000623923f9/07c97fe3-e56b-45f3-93f4-4d3965a67ea2"
-      (reference "R2") (unit 1) (value "R_0R_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
-    )
     (path "/00000000-0000-0000-0000-000062220f27/be2027c0-feeb-4ed5-a11f-21acb2c0654f"
       (reference "R3") (unit 1) (value "R_12k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
     )
@@ -7394,8 +7391,35 @@
     (path "/00000000-0000-0000-0000-000062220f27/40a9ce35-3444-4b4f-a7b9-0d8fdc745dd9"
       (reference "R58") (unit 1) (value "R_5k1_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000623923f9/780914c4-e34b-4821-9855-1615468370f4"
-      (reference "R59") (unit 1) (value "R_0R_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/1fb95473-dff1-4c52-a208-c44cea008067"
+      (reference "R60") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/07dd2074-ab72-4a61-b1a4-c5b0ddd29686"
+      (reference "R61") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/89bb3d90-22df-45d8-b6aa-d7ca3994f6af"
+      (reference "R62") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/a3a968cc-403a-49a2-bf03-6811305ad3c5"
+      (reference "R63") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/24afa913-fe1c-4786-8ec0-6ecf99fe77f2"
+      (reference "R64") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/3b07500d-508e-41a4-b7f3-85151d40bd50"
+      (reference "R65") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/b1fe9efc-5721-49e3-9382-596998fa0eb7"
+      (reference "R66") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/bae3d48a-7adb-4304-835b-bace4d4a1917"
+      (reference "R67") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/a43830b8-0188-4cfb-8f27-e116cf96edc2"
+      (reference "R68") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/78077137-47de-4a37-a520-2625b81d9f83"
+      (reference "R69") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-00006270aed7"
       (reference "S1") (unit 1) (value "MSS3-V-T_R") (footprint "d1600e-psu-breakout-board-footprints:Switch_Slide_MSS3")
@@ -7411,6 +7435,9 @@
     )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-0000628871aa"
       (reference "SDA_FTDI1") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000623923f9/4a5bc3e8-55c5-4e83-bb56-4251d6506cbd"
+      (reference "SW1") (unit 1) (value "1X03") (footprint "antmicro-footprints:MH_1X03_2.54")
     )
     (path "/00000000-0000-0000-0000-000062220f27/1ee9ce04-68a2-4a18-95b9-789a68484d38"
       (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "antmicro-footprints:Testpoint_smd_1mm")
