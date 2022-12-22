@@ -7094,6 +7094,21 @@
     (path "/00000000-0000-0000-0000-000062220f27/fe16df0a-a3f6-443a-b54f-ed962f9e853e"
       (reference "D14") (unit 1) (value "PESD5V0S2BQA") (footprint "d1600e-psu-breakout-board-footprints:TPD2E009DRTR")
     )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/be237b39-4635-4b00-abfa-b0449cf95ed3"
+      (reference "D15") (unit 1) (value "BZT52B15SV-T") (footprint "antmicro-footprints:SOD-323")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/2a70fc99-44ff-47b2-a58f-4b046db75905"
+      (reference "D16") (unit 1) (value "BZT52B15SV-T") (footprint "antmicro-footprints:SOD-323")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/03f9ed01-bf91-4512-9e60-f7ef6ced69ed"
+      (reference "D17") (unit 1) (value "BZT52B15SV-T") (footprint "antmicro-footprints:SOD-323")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/b2ecf49f-d769-48ba-9d02-090d6ead53a3"
+      (reference "D18") (unit 1) (value "BZT52B15SV-T") (footprint "antmicro-footprints:SOD-323")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/5e6e08f6-1e6e-41a1-9e00-9cb96d653eb3"
+      (reference "D19") (unit 1) (value "BZT52B15SV-T") (footprint "antmicro-footprints:SOD-323")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/05411370-c044-44f2-abc9-40556036a1cc"
       (reference "FB1") (unit 1) (value "BLM18AG601SN1D") (footprint "d1600e-psu-breakout-board-footprints:0603")
     )
@@ -7172,20 +7187,20 @@
     (path "/00000000-0000-0000-0000-000062508f0c"
       (reference "N2") (unit 1) (value "antmicro_logo") (footprint "d1600e-psu-breakout-board-footprints:antmicro-logo_scaled_20mm_mask")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622965c1"
-      (reference "Q6") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/c30a3beb-ecf0-432f-86c2-9a77e836d42e"
+      (reference "Q6") (unit 1) (value "2N7002K-T1-E3") (footprint "antmicro-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622d4c25"
-      (reference "Q7") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/b95237c4-2ad3-4995-995a-9aa1f42c4ce0"
+      (reference "Q7") (unit 1) (value "2N7002K-T1-E3") (footprint "antmicro-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622e95a8"
-      (reference "Q8") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/909326f5-bd4b-4355-b76e-dbe8f223b4a0"
+      (reference "Q8") (unit 1) (value "2N7002K-T1-E3") (footprint "antmicro-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-000062306ce6"
-      (reference "Q9") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/4f0b35e3-56ff-4d25-8e35-3414fb05e8cc"
+      (reference "Q9") (unit 1) (value "2N7002K-T1-E3") (footprint "antmicro-footprints:SOT-23-3")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/00000000-0000-0000-0000-0000622c8cd8"
-      (reference "Q10") (unit 1) (value "2N7002") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/5dcc4c87-ee7f-49ba-ae77-d97093b41527"
+      (reference "Q10") (unit 1) (value "2N7002K-T1-E3") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-0000625d60df"
       (reference "Q11") (unit 1) (value "BC856,215") (footprint "d1600e-psu-breakout-board-footprints:SOT-23-3")
