@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name "d1600e-psu-breakout-board-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/d1600e-psu-breakout-board-footprints")(options "")(descr ""))
-  (lib (name "Kicad downloads")(type "KiCad")(uri "/home/lnowarkiewicz/Documents/Kicad downloads")(options "")(descr ""))
 )
