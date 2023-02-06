@@ -6938,6 +6938,12 @@
     (path "/00000000-0000-0000-0000-000062220f27/6cb6c56b-96a1-4031-a669-e669199f2988"
       (reference "#PWR0136") (unit 1) (value "GNDD") (footprint "d1600e-psu-breakout-board-footprints:")
     )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/4086682c-d958-4af5-8a68-752deeb0c457"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/89342734-13f7-4aab-845f-9e7a4281d09f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "d1600e-psu-breakout-board-footprints:")
+    )
     (path "/00000000-0000-0000-0000-000062220f27/00000000-0000-0000-0000-00006248dea2"
       (reference "3V3") (unit 1) (value "TP_SMD1MM") (footprint "d1600e-psu-breakout-board-footprints:Testpoint_smd_1mm")
     )
@@ -7435,6 +7441,9 @@
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/78077137-47de-4a37-a520-2625b81d9f83"
       (reference "R69") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622e8aaf/2414a755-8c3c-4364-927b-cadc1ac48507"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-00006270aed7"
       (reference "S1") (unit 1) (value "MSS3-V-T_R") (footprint "d1600e-psu-breakout-board-footprints:Switch_Slide_MSS3")
