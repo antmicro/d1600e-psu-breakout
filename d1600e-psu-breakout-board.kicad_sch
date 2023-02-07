@@ -7418,8 +7418,8 @@
     (path "/00000000-0000-0000-0000-000062220f27/40a9ce35-3444-4b4f-a7b9-0d8fdc745dd9"
       (reference "R58") (unit 1) (value "R_5k1_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000622e8aaf/cc3d1d4b-1cde-4c88-8478-c3bf038655af"
-      (reference "R59") (unit 1) (value "R_20k_0.1%_0402") (footprint "antmicro-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-0000622e8aaf/462c0b8f-fb62-4b0b-a386-05bd3cd57149"
+      (reference "R59") (unit 1) (value "R_15k4_0.1%_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/1fb95473-dff1-4c52-a208-c44cea008067"
       (reference "R60") (unit 1) (value "R_2R_0402") (footprint "antmicro-footprints:0402-res")
