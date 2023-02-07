@@ -7248,7 +7248,7 @@
       (reference "R1") (unit 1) (value "R_1k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000622e8aaf/36e6bde6-694f-4493-bc78-d339d7ae7fcb"
-      (reference "R2") (unit 1) (value "R_100k_0.1%_0402") (footprint "antmicro-footprints:0402")
+      (reference "R2") (unit 1) (value "R_100k_0.1%_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000062220f27/be2027c0-feeb-4ed5-a11f-21acb2c0654f"
       (reference "R3") (unit 1) (value "R_12k_0402") (footprint "d1600e-psu-breakout-board-footprints:0402-res")
