@@ -7032,7 +7032,7 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9534.pdf" (id 3) (at 86.36 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "TCA9534ADWR" (id 4) (at 83.82 185.42 0)
+    (property "MPN" "TCA9534PWR" (id 4) (at 83.82 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Texas Instruments" (id 5) (at 83.82 185.42 0)
