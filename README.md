@@ -1,17 +1,19 @@
 # Antmicro's open source D1600E PSU Breakout Board
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+
+[![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/d1600e-psu-breakout)
 
 ![Baseboard visualization](img/d1600e-psu-breakout.png)
 
 ## Overview
 
-This repository contains open hardware design files for a Power Supply Unit (PSU) breakout board compatible with [Dell D1600E-S0 PSU](https://www.dell.com/en-us/work/shop/dell-power-supply-ac-1600-watt-psu-io/apd/450-ahuc/computer-chassis-components). 
+This project contains open hardware design files for a Power Supply Unit (PSU) breakout board compatible with [Dell D1600E-S0 PSU](https://www.dell.com/en-us/work/shop/dell-power-supply-ac-1600-watt-psu-io/apd/450-ahuc/computer-chassis-components). 
 The design files were prepared in KiCad.
 
-## Repository structure
+## Project structure
 
-The main repository directory contains KiCAD PCB project files, a LICENSE and README. The remaining files are stored in the following directories:
+The main directory contains KiCAD PCB project files, a LICENSE and README. The remaining files are stored in the following directories:
 - `lib` - contains the component libraries
 - `img` - contains graphics for this README
 
@@ -26,4 +28,4 @@ The main repository directory contains KiCAD PCB project files, a LICENSE and RE
 
 ## License
 
-[Apache-2.0](LICENSE)
+This project is published under the [Apache-2.0](LICENSE) license.
