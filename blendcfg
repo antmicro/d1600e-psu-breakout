@@ -15,8 +15,8 @@ COORDS = 0,0,0
 ROTATION = 0,0,0
 
 [CYCLES]
-TOP = True, White
-BOTTOM = False, Black
+TOP = True, SeeThrough
+BOTTOM = True, SeeThrough
 ORTHO = True
 ISO = False
 PERSP = False
