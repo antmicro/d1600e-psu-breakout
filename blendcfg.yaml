@@ -1,0 +1,73 @@
+default: &default
+  SCENE:
+    LIGHTS_COLOR: FFFFFF
+    LIGHTS_INTENSITY: 20000
+    WIDTH: 1920
+    HEIGHT: 1920
+    CYCLES_SAMPLES: 32
+
+  EFFECTS:
+    DEPTH_OF_FIELD: True
+    STACK_UP: True
+    FREESTYLE: False
+    SHOW_MECHANICAL: False
+
+  OUTPUT:
+    RENDERS: True
+    FREESTYLE: False
+    ANIMATIONS: False
+    HW_PORTAL: False
+
+  CUSTOM_CAM:
+    COORDS: 0,0,0
+    ROTATION: 0,0,0
+
+  CYCLES:
+    TOP: True, SeeThrough
+    BOTTOM: True, SeeThrough
+    ORTHO: False
+    ISO: True
+    PERSP: False
+    CUSTOM: False
+    FRONT: False
+    LEFT: False
+    RIGHT: False
+    PHOTO: True
+    COMP_ONLY: False, False, False, False, False, False, False, False
+
+  ANIMATION:
+    KEEP_PNGS: False
+    WIDTH: 1920
+    HEIGHT: 1920
+    FPS: 30
+    CAMERA360: False
+    CAMERA180: False
+    CAMERA_OVAL: False
+    COMP_RAIN: False
+    COMP_PLACE: False
+    STACK_UP_EXPLODE: False
+    LED_ON: False
+
+  HARDWARE_PORTAL:
+    KEEP_PNGS: False
+    RENDER_WIDTH: 1920
+    RENDER_HEIGHT: 1920
+    WEBM_WIDTH: 740
+    WEBM_HEIGHT: 740
+    THUMBNAIL_WIDTH: 320
+    THUMBNAIL_HEIGHT: 320
+    WEBSITE_FPS: 25
+    WEBSITE_HOTAREAS: False
+    WEBSITE_CAMERAS: True
+    STACK_UP_WEBSITE: True
+
+
+hardware_portal:
+  <<: *default
+  OUTPUT:
+    RENDERS: False
+    FREESTYLE: False
+    SVG_EXPORTER: False
+    ANIMATIONS: False
+    HW_PORTAL: True
+  
