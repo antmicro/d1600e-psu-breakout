@@ -6,8 +6,8 @@
 
   (title_block
     (title "D1600E PSU Breakout Board")
-    (date "2022-12-22")
-    (rev "1.4.0")
+    (date "2023-10-18")
+    (rev "1.4.2")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
