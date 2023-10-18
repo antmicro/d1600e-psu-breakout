@@ -7,7 +7,7 @@
   (title_block
     (title "D1600E PSU Breakout Board")
     (date "2023-10-18")
-    (rev "1.4.2")
+    (rev "1.4.3")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -5825,6 +5825,7 @@
     (property "Manufacturer" "Texas Instruments" (id 5) (at 78.74 234.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "DNP" (id 6) (at 78.74 242.57 0))
     (pin "1" (uuid f188f123-8122-4f81-b906-7b5e7a367f68))
     (pin "2" (uuid fc37a853-06c0-4023-afdf-49bd98490933))
     (pin "3" (uuid b5e05c2f-c625-4c7e-bffb-944ce8164a98))
