@@ -11,11 +11,14 @@ Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 This project contains open hardware design files for a Power Supply Unit (PSU) breakout board compatible with [Dell D1600E-S0 PSU](https://www.dell.com/en-us/work/shop/dell-power-supply-ac-1600-watt-psu-io/apd/450-ahuc/computer-chassis-components). 
 The design files were prepared in KiCad.
 
-## Project structure
+### Project structure:
 
-The main directory contains KiCAD PCB project files, a LICENSE and README. The remaining files are stored in the following directories:
-- `lib` - contains the component libraries
-- `img` - contains graphics for this README
+The main directory contains the KiCad design files, LICENSE and README.
+The remaining files are stored in the following directories:
+
+* ``img`` - contains graphics for this README
+* ``doc`` - contains generated schematics and other documentation
+* ``assets`` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/d1600e-psu-breakout) and [Antmicro Designer](https://designer.antmicro.com/hardware/devices/d1600e-psu-breakout).
 
 ## Key features
 
